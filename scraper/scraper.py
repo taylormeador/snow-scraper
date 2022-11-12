@@ -10,6 +10,7 @@ soup = BeautifulSoup(page.content, "html.parser")
 content = soup.find(id="sppb-addon-1572032128072")
 
 resorts = content.find_all('div', class_='resort-conditions')
+print('[')
 for resort_row in resorts:
     resort = resort_row.find('a', class_='resortcol-title').text
     resort_name = resort.split(',')[0].strip()
@@ -23,5 +24,6 @@ for resort_row in resorts:
             if words[0] == 'Snow':
                 continue
             amount = int(words[0][:-1]) if words[2] == '24' else 0
-    print(resort_name + ',', resort_state, amount)
 
+    print("'" + resort_name + "',")
+print(']')
