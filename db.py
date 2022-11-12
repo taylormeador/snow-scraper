@@ -19,3 +19,6 @@ class DB:
         if result:
             return result[0]
         return None
+
+    def snow_fall_entry_exists(date, resorts_key):
+        pass

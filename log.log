@@ -1,0 +1,95 @@
+DEBUG:root:test
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.snocountry.com:443
+DEBUG:urllib3.connectionpool:https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+INFO:root:snocountry_scraper script starting
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.snocountry.com:443
+DEBUG:urllib3.connectionpool:https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-11 20:19:36,660 snocountry_scraper script starting
+2022-11-11 20:19:37,178 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-11 20:19:38,651 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-11 20:19:38,721 
+2022-11-11 20:22:47,053 snocountry_scraper script starting
+2022-11-11 20:22:47,564 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-11 20:22:49,118 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-11 20:22:56,420 snocountry_scraper script starting
+2022-11-11 20:22:56,929 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-11 20:22:58,537 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-11 20:22:58,608 failed to collect content
+2022-11-12 07:56:51,411 snocountry_scraper script starting
+2022-11-12 07:56:51,979 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 07:56:53,632 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 07:56:53,699 failed to collect page content. exiting
+2022-11-12 07:57:04,529 snocountry_scraper script starting
+2022-11-12 07:57:05,123 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 07:57:06,564 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 07:58:53,811 Starting snocountry_scraper script
+2022-11-12 07:58:54,566 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 07:58:56,306 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 12:49:40,825 Starting snocountry_scraper script
+2022-11-12 12:49:41,460 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 12:49:43,022 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 12:56:44,293 Starting snocountry_scraper script
+2022-11-12 12:56:44,789 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 12:56:47,153 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 12:57:13,380 Starting snocountry_scraper script
+2022-11-12 12:57:13,848 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 12:57:15,397 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 12:57:32,989 Starting snocountry_scraper script
+2022-11-12 12:57:33,530 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 12:57:35,018 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 12:57:45,488 Starting snocountry_scraper script
+2022-11-12 12:57:46,024 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 12:57:47,510 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 12:58:44,811 Starting snocountry_scraper script
+2022-11-12 12:58:45,514 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 12:58:46,931 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 13:02:56,196 Starting snocountry_scraper script
+2022-11-12 13:02:56,730 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 13:02:58,315 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 13:03:24,341 Starting snocountry_scraper script
+2022-11-12 13:03:24,832 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 13:03:26,199 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 13:03:46,317 Starting snocountry_scraper script
+2022-11-12 13:03:46,804 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 13:03:48,325 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 13:19:23,943 Starting snocountry_scraper script
+2022-11-12 13:19:24,437 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 13:19:26,276 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 13:19:26,537 Upserting data 31, Arapahoe Basin, CO, 0
+2022-11-12 13:20:08,308 Starting snocountry_scraper script
+2022-11-12 13:20:08,960 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 13:20:10,510 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 13:20:10,741 Upserting data 31, Arapahoe Basin, CO, 0
+2022-11-12 13:22:15,802 Starting snocountry_scraper script
+2022-11-12 13:22:16,353 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-12 13:22:17,955 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-12 13:22:18,149 Upserting data 31, Arapahoe Basin, CO, 0
+2022-11-12 13:22:18,301 Upserting data 32, Aspen Highlands, CO, 0
+2022-11-12 13:22:18,416 Upserting data 33, Aspen Mountain, CO, 0
+2022-11-12 13:22:18,536 Upserting data 34, Beaver Creek, CO, 0
+2022-11-12 13:22:18,658 Upserting data 35, Bluebird Backcountry, CO, 0
+2022-11-12 13:22:18,775 Upserting data 36, Breckenridge, CO, 0
+2022-11-12 13:22:18,906 Upserting data 37, Buttermilk, CO, 0
+2022-11-12 13:22:19,033 Upserting data 38, Cooper, CO, 0
+2022-11-12 13:22:19,154 Upserting data 39, Copper Mountain, CO, 0
+2022-11-12 13:22:19,272 Upserting data 40, Crested Butte, CO, 0
+2022-11-12 13:22:19,393 Upserting data 41, Echo Mountain, CO, 0
+2022-11-12 13:22:19,523 Upserting data 42, Eldora, CO, 0
+2022-11-12 13:22:19,644 Upserting data 43, Granby Ranch, CO, 0
+2022-11-12 13:22:19,767 Upserting data 44, Hesperus Ski Area, CO, 0
+2022-11-12 13:22:19,891 Upserting data 45, Howelsen Hill, CO, 0
+2022-11-12 13:22:20,008 Upserting data 46, Irwin, CO, 0
+2022-11-12 13:22:20,124 Upserting data 47, Kendall Mountain, CO, 0
+2022-11-12 13:22:20,248 Upserting data 48, Keystone, CO, 0
+2022-11-12 13:22:20,375 Upserting data 49, Loveland, CO, 0
+2022-11-12 13:22:20,497 Upserting data 50, Monarch, CO, 0
+2022-11-12 13:22:20,616 Upserting data 51, Powderhorn, CO, 0
+2022-11-12 13:22:20,732 Upserting data 52, Purgatory, CO, 0
+2022-11-12 13:22:20,853 Upserting data 53, Silverton Mountain, CO, 0
+2022-11-12 13:22:20,988 Upserting data 54, Snowmass, CO, 0
+2022-11-12 13:22:21,111 Upserting data 55, Steamboat, CO, 0
+2022-11-12 13:22:21,231 Upserting data 56, Sunlight, CO, 0
+2022-11-12 13:22:21,355 Upserting data 57, Telluride, CO, 0
+2022-11-12 13:22:21,475 Upserting data 58, Vail, CO, 0
+2022-11-12 13:22:21,593 Upserting data 59, Winter Park, CO, 0
+2022-11-12 13:22:21,710 Upserting data 60, Wolf Creek, CO, 0

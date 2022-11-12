@@ -1,1 +1,4 @@
 /config.py
+__pycache__/
+mwaa_public_network.yaml
+tutorial.py
