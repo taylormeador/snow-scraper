@@ -45,19 +45,21 @@ def get_snow_fall_info(resort_row):
                 amount = int(words[0][:-1])
     return resort_name, resort_state, amount
 
-date = date.today()
-for resort_row in resorts:
-    resort_name, resort_state, amount = get_snow_fall_info(resort_row)
-    resorts_key = db.get_resorts_key(resort_name, resort_state)
-    if resorts_key:
-        logging.info('Upserting data %d, %s, %s, %d', resorts_key, resort_name, resort_state, amount)
-        db.cur.execute("""
-        INSERT INTO snow_fall (date, resorts_key, amount_inches) 
-        VALUES (%s, %s, %s) 
-        ON CONFLICT (date, resorts_key) 
-        DO UPDATE SET amount_inches = EXCLUDED.amount_inches;
-        """, (date, resorts_key, amount))
-    else:
-        logging.warning('Failed to find resorts_key for %s, %s', resort_name, resort_state)
-db.conn.commit()
+def driver():
+    date = date.today()
+    for resort_row in resorts:
+        resort_name, resort_state, amount = get_snow_fall_info(resort_row)
+        resorts_key = db.get_resorts_key(resort_name, resort_state)
+        if resorts_key:
+            logging.info('Upserting data %d, %s, %s, %d', resorts_key, resort_name, resort_state, amount)
+            db.cur.execute("""
+            INSERT INTO snow_fall (date, resorts_key, amount_inches) 
+            VALUES (%s, %s, %s) 
+            ON CONFLICT (date, resorts_key) 
+            DO UPDATE SET amount_inches = EXCLUDED.amount_inches;
+            """, (date, resorts_key, amount))
+        else:
+            logging.warning('Failed to find resorts_key for %s, %s', resort_name, resort_state)
+    db.conn.commit()
 
+driver()

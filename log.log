@@ -93,3 +93,681 @@ DEBUG:urllib3.connectionpool:https://www.snocountry.com:443 "GET /snow-reports/u
 2022-11-12 13:22:21,475 Upserting data 58, Vail, CO, 0
 2022-11-12 13:22:21,593 Upserting data 59, Winter Park, CO, 0
 2022-11-12 13:22:21,710 Upserting data 60, Wolf Creek, CO, 0
+2022-11-13 08:20:30,567 Starting snocountry_scraper script
+2022-11-13 08:20:31,325 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-13 08:20:32,911 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-13 08:20:33,117 Upserting data 31, Arapahoe Basin, CO, 0
+2022-11-13 08:20:33,263 Upserting data 32, Aspen Highlands, CO, 0
+2022-11-13 08:20:33,382 Upserting data 33, Aspen Mountain, CO, 0
+2022-11-13 08:20:33,508 Upserting data 34, Beaver Creek, CO, 0
+2022-11-13 08:20:33,630 Upserting data 35, Bluebird Backcountry, CO, 0
+2022-11-13 08:20:33,752 Upserting data 36, Breckenridge, CO, 0
+2022-11-13 08:20:33,869 Upserting data 37, Buttermilk, CO, 0
+2022-11-13 08:20:33,999 Upserting data 38, Cooper, CO, 0
+2022-11-13 08:20:34,119 Upserting data 39, Copper Mountain, CO, 0
+2022-11-13 08:20:34,243 Upserting data 40, Crested Butte, CO, 0
+2022-11-13 08:20:34,367 Upserting data 41, Echo Mountain, CO, 0
+2022-11-13 08:20:34,497 Upserting data 42, Eldora, CO, 0
+2022-11-13 08:20:34,619 Upserting data 43, Granby Ranch, CO, 0
+2022-11-13 08:20:34,739 Upserting data 44, Hesperus Ski Area, CO, 0
+2022-11-13 08:20:34,864 Upserting data 45, Howelsen Hill, CO, 0
+2022-11-13 08:20:34,993 Upserting data 46, Irwin, CO, 0
+2022-11-13 08:20:35,114 Upserting data 47, Kendall Mountain, CO, 0
+2022-11-13 08:20:35,241 Upserting data 48, Keystone, CO, 0
+2022-11-13 08:20:35,373 Upserting data 49, Loveland, CO, 0
+2022-11-13 08:20:35,496 Upserting data 50, Monarch, CO, 0
+2022-11-13 08:20:35,648 Upserting data 51, Powderhorn, CO, 0
+2022-11-13 08:20:35,794 Upserting data 52, Purgatory, CO, 0
+2022-11-13 08:20:35,939 Upserting data 53, Silverton Mountain, CO, 0
+2022-11-13 08:20:36,063 Upserting data 54, Snowmass, CO, 0
+2022-11-13 08:20:36,184 Upserting data 55, Steamboat, CO, 0
+2022-11-13 08:20:36,341 Upserting data 56, Sunlight, CO, 0
+2022-11-13 08:20:36,487 Upserting data 57, Telluride, CO, 0
+2022-11-13 08:20:36,607 Upserting data 58, Vail, CO, 0
+2022-11-13 08:20:36,726 Upserting data 59, Winter Park, CO, 0
+2022-11-13 08:20:36,857 Upserting data 60, Wolf Creek, CO, 0
+2022-11-13 14:53:14,870 Starting snocountry_scraper script
+2022-11-13 14:53:14,872 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:53:15,086 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:53:15,097 Importing BlpImagePlugin
+2022-11-13 14:53:15,098 Importing BmpImagePlugin
+2022-11-13 14:53:15,098 Importing BufrStubImagePlugin
+2022-11-13 14:53:15,098 Importing CurImagePlugin
+2022-11-13 14:53:15,098 Importing DcxImagePlugin
+2022-11-13 14:53:15,099 Importing DdsImagePlugin
+2022-11-13 14:53:15,099 Importing EpsImagePlugin
+2022-11-13 14:53:15,100 Importing FitsStubImagePlugin
+2022-11-13 14:53:15,100 Importing FliImagePlugin
+2022-11-13 14:53:15,101 Importing FpxImagePlugin
+2022-11-13 14:53:15,102 Importing FtexImagePlugin
+2022-11-13 14:53:15,102 Importing GbrImagePlugin
+2022-11-13 14:53:15,102 Importing GifImagePlugin
+2022-11-13 14:53:15,103 Importing GribStubImagePlugin
+2022-11-13 14:53:15,103 Importing Hdf5StubImagePlugin
+2022-11-13 14:53:15,103 Importing IcnsImagePlugin
+2022-11-13 14:53:15,104 Importing IcoImagePlugin
+2022-11-13 14:53:15,104 Importing ImImagePlugin
+2022-11-13 14:53:15,105 Importing ImtImagePlugin
+2022-11-13 14:53:15,106 Importing IptcImagePlugin
+2022-11-13 14:53:15,106 Importing JpegImagePlugin
+2022-11-13 14:53:15,106 Importing Jpeg2KImagePlugin
+2022-11-13 14:53:15,106 Importing McIdasImagePlugin
+2022-11-13 14:53:15,106 Importing MicImagePlugin
+2022-11-13 14:53:15,107 Importing MpegImagePlugin
+2022-11-13 14:53:15,107 Importing MpoImagePlugin
+2022-11-13 14:53:15,107 Importing MspImagePlugin
+2022-11-13 14:53:15,108 Importing PalmImagePlugin
+2022-11-13 14:53:15,109 Importing PcdImagePlugin
+2022-11-13 14:53:15,109 Importing PcxImagePlugin
+2022-11-13 14:53:15,109 Importing PdfImagePlugin
+2022-11-13 14:53:15,115 Importing PixarImagePlugin
+2022-11-13 14:53:15,115 Importing PngImagePlugin
+2022-11-13 14:53:15,115 Importing PpmImagePlugin
+2022-11-13 14:53:15,115 Importing PsdImagePlugin
+2022-11-13 14:53:15,116 Importing SgiImagePlugin
+2022-11-13 14:53:15,116 Importing SpiderImagePlugin
+2022-11-13 14:53:15,116 Importing SunImagePlugin
+2022-11-13 14:53:15,117 Importing TgaImagePlugin
+2022-11-13 14:53:15,117 Importing TiffImagePlugin
+2022-11-13 14:53:15,117 Importing WebPImagePlugin
+2022-11-13 14:53:15,118 Importing WmfImagePlugin
+2022-11-13 14:53:15,118 Importing XbmImagePlugin
+2022-11-13 14:53:15,119 Importing XpmImagePlugin
+2022-11-13 14:53:15,119 Importing XVThumbImagePlugin
+2022-11-13 14:53:15,123 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:53:15,370 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:53:15,374 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:53:15,601 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:53:15,605 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:53:15,822 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:53:15,826 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-13 14:53:16,059 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:54:07,783 Starting snocountry_scraper script
+2022-11-13 14:54:07,786 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:54:08,018 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:54:08,029 Importing BlpImagePlugin
+2022-11-13 14:54:08,029 Importing BmpImagePlugin
+2022-11-13 14:54:08,029 Importing BufrStubImagePlugin
+2022-11-13 14:54:08,030 Importing CurImagePlugin
+2022-11-13 14:54:08,030 Importing DcxImagePlugin
+2022-11-13 14:54:08,030 Importing DdsImagePlugin
+2022-11-13 14:54:08,031 Importing EpsImagePlugin
+2022-11-13 14:54:08,032 Importing FitsStubImagePlugin
+2022-11-13 14:54:08,032 Importing FliImagePlugin
+2022-11-13 14:54:08,032 Importing FpxImagePlugin
+2022-11-13 14:54:08,034 Importing FtexImagePlugin
+2022-11-13 14:54:08,034 Importing GbrImagePlugin
+2022-11-13 14:54:08,034 Importing GifImagePlugin
+2022-11-13 14:54:08,034 Importing GribStubImagePlugin
+2022-11-13 14:54:08,035 Importing Hdf5StubImagePlugin
+2022-11-13 14:54:08,035 Importing IcnsImagePlugin
+2022-11-13 14:54:08,036 Importing IcoImagePlugin
+2022-11-13 14:54:08,036 Importing ImImagePlugin
+2022-11-13 14:54:08,037 Importing ImtImagePlugin
+2022-11-13 14:54:08,037 Importing IptcImagePlugin
+2022-11-13 14:54:08,038 Importing JpegImagePlugin
+2022-11-13 14:54:08,038 Importing Jpeg2KImagePlugin
+2022-11-13 14:54:08,038 Importing McIdasImagePlugin
+2022-11-13 14:54:08,038 Importing MicImagePlugin
+2022-11-13 14:54:08,039 Importing MpegImagePlugin
+2022-11-13 14:54:08,039 Importing MpoImagePlugin
+2022-11-13 14:54:08,039 Importing MspImagePlugin
+2022-11-13 14:54:08,040 Importing PalmImagePlugin
+2022-11-13 14:54:08,041 Importing PcdImagePlugin
+2022-11-13 14:54:08,041 Importing PcxImagePlugin
+2022-11-13 14:54:08,041 Importing PdfImagePlugin
+2022-11-13 14:54:08,047 Importing PixarImagePlugin
+2022-11-13 14:54:08,047 Importing PngImagePlugin
+2022-11-13 14:54:08,047 Importing PpmImagePlugin
+2022-11-13 14:54:08,048 Importing PsdImagePlugin
+2022-11-13 14:54:08,048 Importing SgiImagePlugin
+2022-11-13 14:54:08,048 Importing SpiderImagePlugin
+2022-11-13 14:54:08,049 Importing SunImagePlugin
+2022-11-13 14:54:08,049 Importing TgaImagePlugin
+2022-11-13 14:54:08,049 Importing TiffImagePlugin
+2022-11-13 14:54:08,049 Importing WebPImagePlugin
+2022-11-13 14:54:08,050 Importing WmfImagePlugin
+2022-11-13 14:54:08,051 Importing XbmImagePlugin
+2022-11-13 14:54:08,052 Importing XpmImagePlugin
+2022-11-13 14:54:08,053 Importing XVThumbImagePlugin
+2022-11-13 14:54:08,057 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:54:08,291 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:54:08,295 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:54:08,521 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:54:08,527 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:54:08,762 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:54:08,766 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-13 14:54:09,001 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:54:33,527 Starting snocountry_scraper script
+2022-11-13 14:54:33,530 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:54:33,747 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:54:33,758 Importing BlpImagePlugin
+2022-11-13 14:54:33,758 Importing BmpImagePlugin
+2022-11-13 14:54:33,758 Importing BufrStubImagePlugin
+2022-11-13 14:54:33,759 Importing CurImagePlugin
+2022-11-13 14:54:33,759 Importing DcxImagePlugin
+2022-11-13 14:54:33,759 Importing DdsImagePlugin
+2022-11-13 14:54:33,760 Importing EpsImagePlugin
+2022-11-13 14:54:33,761 Importing FitsStubImagePlugin
+2022-11-13 14:54:33,761 Importing FliImagePlugin
+2022-11-13 14:54:33,761 Importing FpxImagePlugin
+2022-11-13 14:54:33,763 Importing FtexImagePlugin
+2022-11-13 14:54:33,763 Importing GbrImagePlugin
+2022-11-13 14:54:33,763 Importing GifImagePlugin
+2022-11-13 14:54:33,763 Importing GribStubImagePlugin
+2022-11-13 14:54:33,764 Importing Hdf5StubImagePlugin
+2022-11-13 14:54:33,764 Importing IcnsImagePlugin
+2022-11-13 14:54:33,765 Importing IcoImagePlugin
+2022-11-13 14:54:33,765 Importing ImImagePlugin
+2022-11-13 14:54:33,766 Importing ImtImagePlugin
+2022-11-13 14:54:33,766 Importing IptcImagePlugin
+2022-11-13 14:54:33,767 Importing JpegImagePlugin
+2022-11-13 14:54:33,767 Importing Jpeg2KImagePlugin
+2022-11-13 14:54:33,767 Importing McIdasImagePlugin
+2022-11-13 14:54:33,767 Importing MicImagePlugin
+2022-11-13 14:54:33,768 Importing MpegImagePlugin
+2022-11-13 14:54:33,768 Importing MpoImagePlugin
+2022-11-13 14:54:33,768 Importing MspImagePlugin
+2022-11-13 14:54:33,769 Importing PalmImagePlugin
+2022-11-13 14:54:33,770 Importing PcdImagePlugin
+2022-11-13 14:54:33,770 Importing PcxImagePlugin
+2022-11-13 14:54:33,770 Importing PdfImagePlugin
+2022-11-13 14:54:33,776 Importing PixarImagePlugin
+2022-11-13 14:54:33,776 Importing PngImagePlugin
+2022-11-13 14:54:33,776 Importing PpmImagePlugin
+2022-11-13 14:54:33,776 Importing PsdImagePlugin
+2022-11-13 14:54:33,777 Importing SgiImagePlugin
+2022-11-13 14:54:33,777 Importing SpiderImagePlugin
+2022-11-13 14:54:33,778 Importing SunImagePlugin
+2022-11-13 14:54:33,778 Importing TgaImagePlugin
+2022-11-13 14:54:33,778 Importing TiffImagePlugin
+2022-11-13 14:54:33,778 Importing WebPImagePlugin
+2022-11-13 14:54:33,779 Importing WmfImagePlugin
+2022-11-13 14:54:33,779 Importing XbmImagePlugin
+2022-11-13 14:54:33,781 Importing XpmImagePlugin
+2022-11-13 14:54:33,782 Importing XVThumbImagePlugin
+2022-11-13 14:54:33,785 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:54:34,000 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:54:34,004 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:54:34,234 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:54:34,237 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:54:34,458 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:54:34,462 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-13 14:54:34,677 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:55:08,065 Starting snocountry_scraper script
+2022-11-13 14:55:08,068 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:55:08,287 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:55:08,297 Importing BlpImagePlugin
+2022-11-13 14:55:08,298 Importing BmpImagePlugin
+2022-11-13 14:55:08,298 Importing BufrStubImagePlugin
+2022-11-13 14:55:08,298 Importing CurImagePlugin
+2022-11-13 14:55:08,299 Importing DcxImagePlugin
+2022-11-13 14:55:08,299 Importing DdsImagePlugin
+2022-11-13 14:55:08,300 Importing EpsImagePlugin
+2022-11-13 14:55:08,300 Importing FitsStubImagePlugin
+2022-11-13 14:55:08,301 Importing FliImagePlugin
+2022-11-13 14:55:08,301 Importing FpxImagePlugin
+2022-11-13 14:55:08,302 Importing FtexImagePlugin
+2022-11-13 14:55:08,303 Importing GbrImagePlugin
+2022-11-13 14:55:08,303 Importing GifImagePlugin
+2022-11-13 14:55:08,303 Importing GribStubImagePlugin
+2022-11-13 14:55:08,304 Importing Hdf5StubImagePlugin
+2022-11-13 14:55:08,304 Importing IcnsImagePlugin
+2022-11-13 14:55:08,305 Importing IcoImagePlugin
+2022-11-13 14:55:08,306 Importing ImImagePlugin
+2022-11-13 14:55:08,306 Importing ImtImagePlugin
+2022-11-13 14:55:08,307 Importing IptcImagePlugin
+2022-11-13 14:55:08,307 Importing JpegImagePlugin
+2022-11-13 14:55:08,307 Importing Jpeg2KImagePlugin
+2022-11-13 14:55:08,307 Importing McIdasImagePlugin
+2022-11-13 14:55:08,307 Importing MicImagePlugin
+2022-11-13 14:55:08,308 Importing MpegImagePlugin
+2022-11-13 14:55:08,308 Importing MpoImagePlugin
+2022-11-13 14:55:08,308 Importing MspImagePlugin
+2022-11-13 14:55:08,309 Importing PalmImagePlugin
+2022-11-13 14:55:08,310 Importing PcdImagePlugin
+2022-11-13 14:55:08,310 Importing PcxImagePlugin
+2022-11-13 14:55:08,310 Importing PdfImagePlugin
+2022-11-13 14:55:08,316 Importing PixarImagePlugin
+2022-11-13 14:55:08,316 Importing PngImagePlugin
+2022-11-13 14:55:08,316 Importing PpmImagePlugin
+2022-11-13 14:55:08,316 Importing PsdImagePlugin
+2022-11-13 14:55:08,317 Importing SgiImagePlugin
+2022-11-13 14:55:08,317 Importing SpiderImagePlugin
+2022-11-13 14:55:08,317 Importing SunImagePlugin
+2022-11-13 14:55:08,318 Importing TgaImagePlugin
+2022-11-13 14:55:08,318 Importing TiffImagePlugin
+2022-11-13 14:55:08,318 Importing WebPImagePlugin
+2022-11-13 14:55:08,319 Importing WmfImagePlugin
+2022-11-13 14:55:08,319 Importing XbmImagePlugin
+2022-11-13 14:55:08,320 Importing XpmImagePlugin
+2022-11-13 14:55:08,320 Importing XVThumbImagePlugin
+2022-11-13 14:55:17,410 Starting snocountry_scraper script
+2022-11-13 14:55:17,412 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:55:17,637 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:55:17,648 Importing BlpImagePlugin
+2022-11-13 14:55:17,649 Importing BmpImagePlugin
+2022-11-13 14:55:17,649 Importing BufrStubImagePlugin
+2022-11-13 14:55:17,649 Importing CurImagePlugin
+2022-11-13 14:55:17,649 Importing DcxImagePlugin
+2022-11-13 14:55:17,650 Importing DdsImagePlugin
+2022-11-13 14:55:17,650 Importing EpsImagePlugin
+2022-11-13 14:55:17,651 Importing FitsStubImagePlugin
+2022-11-13 14:55:17,651 Importing FliImagePlugin
+2022-11-13 14:55:17,652 Importing FpxImagePlugin
+2022-11-13 14:55:17,653 Importing FtexImagePlugin
+2022-11-13 14:55:17,653 Importing GbrImagePlugin
+2022-11-13 14:55:17,654 Importing GifImagePlugin
+2022-11-13 14:55:17,654 Importing GribStubImagePlugin
+2022-11-13 14:55:17,654 Importing Hdf5StubImagePlugin
+2022-11-13 14:55:17,654 Importing IcnsImagePlugin
+2022-11-13 14:55:17,656 Importing IcoImagePlugin
+2022-11-13 14:55:17,656 Importing ImImagePlugin
+2022-11-13 14:55:17,657 Importing ImtImagePlugin
+2022-11-13 14:55:17,657 Importing IptcImagePlugin
+2022-11-13 14:55:17,658 Importing JpegImagePlugin
+2022-11-13 14:55:17,658 Importing Jpeg2KImagePlugin
+2022-11-13 14:55:17,658 Importing McIdasImagePlugin
+2022-11-13 14:55:17,658 Importing MicImagePlugin
+2022-11-13 14:55:17,659 Importing MpegImagePlugin
+2022-11-13 14:55:17,659 Importing MpoImagePlugin
+2022-11-13 14:55:17,659 Importing MspImagePlugin
+2022-11-13 14:55:17,660 Importing PalmImagePlugin
+2022-11-13 14:55:17,661 Importing PcdImagePlugin
+2022-11-13 14:55:17,661 Importing PcxImagePlugin
+2022-11-13 14:55:17,661 Importing PdfImagePlugin
+2022-11-13 14:55:17,668 Importing PixarImagePlugin
+2022-11-13 14:55:17,668 Importing PngImagePlugin
+2022-11-13 14:55:17,668 Importing PpmImagePlugin
+2022-11-13 14:55:17,668 Importing PsdImagePlugin
+2022-11-13 14:55:17,669 Importing SgiImagePlugin
+2022-11-13 14:55:17,669 Importing SpiderImagePlugin
+2022-11-13 14:55:17,670 Importing SunImagePlugin
+2022-11-13 14:55:17,670 Importing TgaImagePlugin
+2022-11-13 14:55:17,670 Importing TiffImagePlugin
+2022-11-13 14:55:17,670 Importing WebPImagePlugin
+2022-11-13 14:55:17,671 Importing WmfImagePlugin
+2022-11-13 14:55:17,672 Importing XbmImagePlugin
+2022-11-13 14:55:17,673 Importing XpmImagePlugin
+2022-11-13 14:55:17,673 Importing XVThumbImagePlugin
+2022-11-13 14:55:17,674 Couldn't get image for breck:
+2022-11-13 14:55:17,676 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:55:17,893 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:55:17,895 Couldn't get image for vail:
+2022-11-13 14:55:17,897 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:55:18,120 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:55:18,122 Couldn't get image for beaver_creek:
+2022-11-13 14:55:18,124 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:55:18,345 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:55:18,346 Couldn't get image for crested_butte:
+2022-11-13 14:55:18,348 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-13 14:55:18,565 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:55:18,567 Couldn't get image for keystone:
+2022-11-13 14:56:40,638 Starting snocountry_scraper script
+2022-11-13 14:56:40,641 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:56:40,890 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:56:40,901 Importing BlpImagePlugin
+2022-11-13 14:56:40,901 Importing BmpImagePlugin
+2022-11-13 14:56:40,901 Importing BufrStubImagePlugin
+2022-11-13 14:56:40,902 Importing CurImagePlugin
+2022-11-13 14:56:40,902 Importing DcxImagePlugin
+2022-11-13 14:56:40,902 Importing DdsImagePlugin
+2022-11-13 14:56:40,903 Importing EpsImagePlugin
+2022-11-13 14:56:40,904 Importing FitsStubImagePlugin
+2022-11-13 14:56:40,904 Importing FliImagePlugin
+2022-11-13 14:56:40,904 Importing FpxImagePlugin
+2022-11-13 14:56:40,906 Importing FtexImagePlugin
+2022-11-13 14:56:40,906 Importing GbrImagePlugin
+2022-11-13 14:56:40,906 Importing GifImagePlugin
+2022-11-13 14:56:40,906 Importing GribStubImagePlugin
+2022-11-13 14:56:40,907 Importing Hdf5StubImagePlugin
+2022-11-13 14:56:40,907 Importing IcnsImagePlugin
+2022-11-13 14:56:40,908 Importing IcoImagePlugin
+2022-11-13 14:56:40,908 Importing ImImagePlugin
+2022-11-13 14:56:40,909 Importing ImtImagePlugin
+2022-11-13 14:56:40,909 Importing IptcImagePlugin
+2022-11-13 14:56:40,910 Importing JpegImagePlugin
+2022-11-13 14:56:40,910 Importing Jpeg2KImagePlugin
+2022-11-13 14:56:40,910 Importing McIdasImagePlugin
+2022-11-13 14:56:40,910 Importing MicImagePlugin
+2022-11-13 14:56:40,911 Importing MpegImagePlugin
+2022-11-13 14:56:40,911 Importing MpoImagePlugin
+2022-11-13 14:56:40,911 Importing MspImagePlugin
+2022-11-13 14:56:40,912 Importing PalmImagePlugin
+2022-11-13 14:56:40,913 Importing PcdImagePlugin
+2022-11-13 14:56:40,913 Importing PcxImagePlugin
+2022-11-13 14:56:40,913 Importing PdfImagePlugin
+2022-11-13 14:56:40,921 Importing PixarImagePlugin
+2022-11-13 14:56:40,921 Importing PngImagePlugin
+2022-11-13 14:56:40,921 Importing PpmImagePlugin
+2022-11-13 14:56:40,921 Importing PsdImagePlugin
+2022-11-13 14:56:40,922 Importing SgiImagePlugin
+2022-11-13 14:56:40,922 Importing SpiderImagePlugin
+2022-11-13 14:56:40,922 Importing SunImagePlugin
+2022-11-13 14:56:40,923 Importing TgaImagePlugin
+2022-11-13 14:56:40,923 Importing TiffImagePlugin
+2022-11-13 14:56:40,923 Importing WebPImagePlugin
+2022-11-13 14:56:40,924 Importing WmfImagePlugin
+2022-11-13 14:56:40,924 Importing XbmImagePlugin
+2022-11-13 14:56:40,925 Importing XpmImagePlugin
+2022-11-13 14:56:40,926 Importing XVThumbImagePlugin
+2022-11-13 14:56:40,929 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:56:41,187 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:56:41,191 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:56:41,434 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:56:41,438 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:56:41,682 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:56:41,686 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-13 14:56:41,905 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:19,497 Starting snocountry_scraper script
+2022-11-13 14:57:19,499 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:19,707 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:19,718 Importing BlpImagePlugin
+2022-11-13 14:57:19,719 Importing BmpImagePlugin
+2022-11-13 14:57:19,719 Importing BufrStubImagePlugin
+2022-11-13 14:57:19,719 Importing CurImagePlugin
+2022-11-13 14:57:19,719 Importing DcxImagePlugin
+2022-11-13 14:57:19,720 Importing DdsImagePlugin
+2022-11-13 14:57:19,720 Importing EpsImagePlugin
+2022-11-13 14:57:19,721 Importing FitsStubImagePlugin
+2022-11-13 14:57:19,721 Importing FliImagePlugin
+2022-11-13 14:57:19,722 Importing FpxImagePlugin
+2022-11-13 14:57:19,723 Importing FtexImagePlugin
+2022-11-13 14:57:19,723 Importing GbrImagePlugin
+2022-11-13 14:57:19,723 Importing GifImagePlugin
+2022-11-13 14:57:19,724 Importing GribStubImagePlugin
+2022-11-13 14:57:19,724 Importing Hdf5StubImagePlugin
+2022-11-13 14:57:19,724 Importing IcnsImagePlugin
+2022-11-13 14:57:19,725 Importing IcoImagePlugin
+2022-11-13 14:57:19,726 Importing ImImagePlugin
+2022-11-13 14:57:19,726 Importing ImtImagePlugin
+2022-11-13 14:57:19,727 Importing IptcImagePlugin
+2022-11-13 14:57:19,727 Importing JpegImagePlugin
+2022-11-13 14:57:19,727 Importing Jpeg2KImagePlugin
+2022-11-13 14:57:19,727 Importing McIdasImagePlugin
+2022-11-13 14:57:19,727 Importing MicImagePlugin
+2022-11-13 14:57:19,728 Importing MpegImagePlugin
+2022-11-13 14:57:19,728 Importing MpoImagePlugin
+2022-11-13 14:57:19,728 Importing MspImagePlugin
+2022-11-13 14:57:19,729 Importing PalmImagePlugin
+2022-11-13 14:57:19,730 Importing PcdImagePlugin
+2022-11-13 14:57:19,730 Importing PcxImagePlugin
+2022-11-13 14:57:19,730 Importing PdfImagePlugin
+2022-11-13 14:57:19,736 Importing PixarImagePlugin
+2022-11-13 14:57:19,736 Importing PngImagePlugin
+2022-11-13 14:57:19,736 Importing PpmImagePlugin
+2022-11-13 14:57:19,736 Importing PsdImagePlugin
+2022-11-13 14:57:19,737 Importing SgiImagePlugin
+2022-11-13 14:57:19,737 Importing SpiderImagePlugin
+2022-11-13 14:57:19,738 Importing SunImagePlugin
+2022-11-13 14:57:19,738 Importing TgaImagePlugin
+2022-11-13 14:57:19,738 Importing TiffImagePlugin
+2022-11-13 14:57:19,738 Importing WebPImagePlugin
+2022-11-13 14:57:19,739 Importing WmfImagePlugin
+2022-11-13 14:57:19,739 Importing XbmImagePlugin
+2022-11-13 14:57:19,740 Importing XpmImagePlugin
+2022-11-13 14:57:19,741 Importing XVThumbImagePlugin
+2022-11-13 14:57:19,745 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:19,965 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:19,968 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:20,179 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:20,183 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:20,401 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:20,405 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-13 14:57:20,638 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:42,265 Starting snocountry_scraper script
+2022-11-13 14:57:42,267 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:42,500 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:42,510 Importing BlpImagePlugin
+2022-11-13 14:57:42,511 Importing BmpImagePlugin
+2022-11-13 14:57:42,511 Importing BufrStubImagePlugin
+2022-11-13 14:57:42,511 Importing CurImagePlugin
+2022-11-13 14:57:42,511 Importing DcxImagePlugin
+2022-11-13 14:57:42,512 Importing DdsImagePlugin
+2022-11-13 14:57:42,512 Importing EpsImagePlugin
+2022-11-13 14:57:42,513 Importing FitsStubImagePlugin
+2022-11-13 14:57:42,513 Importing FliImagePlugin
+2022-11-13 14:57:42,514 Importing FpxImagePlugin
+2022-11-13 14:57:42,515 Importing FtexImagePlugin
+2022-11-13 14:57:42,515 Importing GbrImagePlugin
+2022-11-13 14:57:42,515 Importing GifImagePlugin
+2022-11-13 14:57:42,515 Importing GribStubImagePlugin
+2022-11-13 14:57:42,516 Importing Hdf5StubImagePlugin
+2022-11-13 14:57:42,516 Importing IcnsImagePlugin
+2022-11-13 14:57:42,517 Importing IcoImagePlugin
+2022-11-13 14:57:42,517 Importing ImImagePlugin
+2022-11-13 14:57:42,518 Importing ImtImagePlugin
+2022-11-13 14:57:42,519 Importing IptcImagePlugin
+2022-11-13 14:57:42,519 Importing JpegImagePlugin
+2022-11-13 14:57:42,519 Importing Jpeg2KImagePlugin
+2022-11-13 14:57:42,519 Importing McIdasImagePlugin
+2022-11-13 14:57:42,519 Importing MicImagePlugin
+2022-11-13 14:57:42,520 Importing MpegImagePlugin
+2022-11-13 14:57:42,520 Importing MpoImagePlugin
+2022-11-13 14:57:42,520 Importing MspImagePlugin
+2022-11-13 14:57:42,521 Importing PalmImagePlugin
+2022-11-13 14:57:42,522 Importing PcdImagePlugin
+2022-11-13 14:57:42,522 Importing PcxImagePlugin
+2022-11-13 14:57:42,522 Importing PdfImagePlugin
+2022-11-13 14:57:42,528 Importing PixarImagePlugin
+2022-11-13 14:57:42,528 Importing PngImagePlugin
+2022-11-13 14:57:42,528 Importing PpmImagePlugin
+2022-11-13 14:57:42,528 Importing PsdImagePlugin
+2022-11-13 14:57:42,529 Importing SgiImagePlugin
+2022-11-13 14:57:42,529 Importing SpiderImagePlugin
+2022-11-13 14:57:42,529 Importing SunImagePlugin
+2022-11-13 14:57:42,530 Importing TgaImagePlugin
+2022-11-13 14:57:42,530 Importing TiffImagePlugin
+2022-11-13 14:57:42,530 Importing WebPImagePlugin
+2022-11-13 14:57:42,531 Importing WmfImagePlugin
+2022-11-13 14:57:42,531 Importing XbmImagePlugin
+2022-11-13 14:57:42,533 Importing XpmImagePlugin
+2022-11-13 14:57:42,533 Importing XVThumbImagePlugin
+2022-11-13 14:57:42,538 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:42,756 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:42,760 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:42,975 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:42,978 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:43,202 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:43,205 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-13 14:57:43,428 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:51,679 Starting snocountry_scraper script
+2022-11-13 14:57:51,682 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:51,895 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:51,906 Importing BlpImagePlugin
+2022-11-13 14:57:51,906 Importing BmpImagePlugin
+2022-11-13 14:57:51,906 Importing BufrStubImagePlugin
+2022-11-13 14:57:51,906 Importing CurImagePlugin
+2022-11-13 14:57:51,907 Importing DcxImagePlugin
+2022-11-13 14:57:51,907 Importing DdsImagePlugin
+2022-11-13 14:57:51,908 Importing EpsImagePlugin
+2022-11-13 14:57:51,908 Importing FitsStubImagePlugin
+2022-11-13 14:57:51,909 Importing FliImagePlugin
+2022-11-13 14:57:51,909 Importing FpxImagePlugin
+2022-11-13 14:57:51,910 Importing FtexImagePlugin
+2022-11-13 14:57:51,910 Importing GbrImagePlugin
+2022-11-13 14:57:51,911 Importing GifImagePlugin
+2022-11-13 14:57:51,911 Importing GribStubImagePlugin
+2022-11-13 14:57:51,911 Importing Hdf5StubImagePlugin
+2022-11-13 14:57:51,911 Importing IcnsImagePlugin
+2022-11-13 14:57:51,912 Importing IcoImagePlugin
+2022-11-13 14:57:51,913 Importing ImImagePlugin
+2022-11-13 14:57:51,913 Importing ImtImagePlugin
+2022-11-13 14:57:51,914 Importing IptcImagePlugin
+2022-11-13 14:57:51,914 Importing JpegImagePlugin
+2022-11-13 14:57:51,914 Importing Jpeg2KImagePlugin
+2022-11-13 14:57:51,914 Importing McIdasImagePlugin
+2022-11-13 14:57:51,914 Importing MicImagePlugin
+2022-11-13 14:57:51,915 Importing MpegImagePlugin
+2022-11-13 14:57:51,915 Importing MpoImagePlugin
+2022-11-13 14:57:51,915 Importing MspImagePlugin
+2022-11-13 14:57:51,916 Importing PalmImagePlugin
+2022-11-13 14:57:51,917 Importing PcdImagePlugin
+2022-11-13 14:57:51,917 Importing PcxImagePlugin
+2022-11-13 14:57:51,917 Importing PdfImagePlugin
+2022-11-13 14:57:51,923 Importing PixarImagePlugin
+2022-11-13 14:57:51,923 Importing PngImagePlugin
+2022-11-13 14:57:51,923 Importing PpmImagePlugin
+2022-11-13 14:57:51,923 Importing PsdImagePlugin
+2022-11-13 14:57:51,924 Importing SgiImagePlugin
+2022-11-13 14:57:51,924 Importing SpiderImagePlugin
+2022-11-13 14:57:51,924 Importing SunImagePlugin
+2022-11-13 14:57:51,925 Importing TgaImagePlugin
+2022-11-13 14:57:51,925 Importing TiffImagePlugin
+2022-11-13 14:57:51,925 Importing WebPImagePlugin
+2022-11-13 14:57:51,926 Importing WmfImagePlugin
+2022-11-13 14:57:51,926 Importing XbmImagePlugin
+2022-11-13 14:57:51,927 Importing XpmImagePlugin
+2022-11-13 14:57:51,928 Importing XVThumbImagePlugin
+2022-11-13 14:57:51,929 Couldn't get image for breck:
+2022-11-13 14:57:51,930 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:52,149 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:52,151 Couldn't get image for vail:
+2022-11-13 14:57:52,152 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:52,365 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:52,366 Couldn't get image for beaver_creek:
+2022-11-13 14:57:52,368 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:57:52,580 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:52,582 Couldn't get image for crested_butte:
+2022-11-13 14:57:52,583 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-13 14:57:52,811 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:57:52,813 Couldn't get image for keystone:
+2022-11-13 14:58:12,981 Starting snocountry_scraper script
+2022-11-13 14:58:12,983 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:58:13,234 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:58:13,244 Importing BlpImagePlugin
+2022-11-13 14:58:13,245 Importing BmpImagePlugin
+2022-11-13 14:58:13,245 Importing BufrStubImagePlugin
+2022-11-13 14:58:13,245 Importing CurImagePlugin
+2022-11-13 14:58:13,246 Importing DcxImagePlugin
+2022-11-13 14:58:13,246 Importing DdsImagePlugin
+2022-11-13 14:58:13,247 Importing EpsImagePlugin
+2022-11-13 14:58:13,247 Importing FitsStubImagePlugin
+2022-11-13 14:58:13,248 Importing FliImagePlugin
+2022-11-13 14:58:13,248 Importing FpxImagePlugin
+2022-11-13 14:58:13,249 Importing FtexImagePlugin
+2022-11-13 14:58:13,250 Importing GbrImagePlugin
+2022-11-13 14:58:13,250 Importing GifImagePlugin
+2022-11-13 14:58:13,250 Importing GribStubImagePlugin
+2022-11-13 14:58:13,250 Importing Hdf5StubImagePlugin
+2022-11-13 14:58:13,251 Importing IcnsImagePlugin
+2022-11-13 14:58:13,252 Importing IcoImagePlugin
+2022-11-13 14:58:13,252 Importing ImImagePlugin
+2022-11-13 14:58:13,253 Importing ImtImagePlugin
+2022-11-13 14:58:13,253 Importing IptcImagePlugin
+2022-11-13 14:58:13,253 Importing JpegImagePlugin
+2022-11-13 14:58:13,253 Importing Jpeg2KImagePlugin
+2022-11-13 14:58:13,254 Importing McIdasImagePlugin
+2022-11-13 14:58:13,254 Importing MicImagePlugin
+2022-11-13 14:58:13,254 Importing MpegImagePlugin
+2022-11-13 14:58:13,254 Importing MpoImagePlugin
+2022-11-13 14:58:13,255 Importing MspImagePlugin
+2022-11-13 14:58:13,255 Importing PalmImagePlugin
+2022-11-13 14:58:13,256 Importing PcdImagePlugin
+2022-11-13 14:58:13,257 Importing PcxImagePlugin
+2022-11-13 14:58:13,257 Importing PdfImagePlugin
+2022-11-13 14:58:13,262 Importing PixarImagePlugin
+2022-11-13 14:58:13,263 Importing PngImagePlugin
+2022-11-13 14:58:13,263 Importing PpmImagePlugin
+2022-11-13 14:58:13,263 Importing PsdImagePlugin
+2022-11-13 14:58:13,263 Importing SgiImagePlugin
+2022-11-13 14:58:13,264 Importing SpiderImagePlugin
+2022-11-13 14:58:13,264 Importing SunImagePlugin
+2022-11-13 14:58:13,264 Importing TgaImagePlugin
+2022-11-13 14:58:13,265 Importing TiffImagePlugin
+2022-11-13 14:58:13,265 Importing WebPImagePlugin
+2022-11-13 14:58:13,266 Importing WmfImagePlugin
+2022-11-13 14:58:13,266 Importing XbmImagePlugin
+2022-11-13 14:58:13,267 Importing XpmImagePlugin
+2022-11-13 14:58:13,267 Importing XVThumbImagePlugin
+2022-11-13 14:58:58,826 Starting snocountry_scraper script
+2022-11-13 14:58:58,828 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:58:59,045 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:58:59,056 Importing BlpImagePlugin
+2022-11-13 14:58:59,056 Importing BmpImagePlugin
+2022-11-13 14:58:59,056 Importing BufrStubImagePlugin
+2022-11-13 14:58:59,057 Importing CurImagePlugin
+2022-11-13 14:58:59,057 Importing DcxImagePlugin
+2022-11-13 14:58:59,058 Importing DdsImagePlugin
+2022-11-13 14:58:59,058 Importing EpsImagePlugin
+2022-11-13 14:58:59,059 Importing FitsStubImagePlugin
+2022-11-13 14:58:59,059 Importing FliImagePlugin
+2022-11-13 14:58:59,059 Importing FpxImagePlugin
+2022-11-13 14:58:59,061 Importing FtexImagePlugin
+2022-11-13 14:58:59,061 Importing GbrImagePlugin
+2022-11-13 14:58:59,061 Importing GifImagePlugin
+2022-11-13 14:58:59,061 Importing GribStubImagePlugin
+2022-11-13 14:58:59,062 Importing Hdf5StubImagePlugin
+2022-11-13 14:58:59,062 Importing IcnsImagePlugin
+2022-11-13 14:58:59,063 Importing IcoImagePlugin
+2022-11-13 14:58:59,063 Importing ImImagePlugin
+2022-11-13 14:58:59,064 Importing ImtImagePlugin
+2022-11-13 14:58:59,064 Importing IptcImagePlugin
+2022-11-13 14:58:59,065 Importing JpegImagePlugin
+2022-11-13 14:58:59,065 Importing Jpeg2KImagePlugin
+2022-11-13 14:58:59,065 Importing McIdasImagePlugin
+2022-11-13 14:58:59,065 Importing MicImagePlugin
+2022-11-13 14:58:59,066 Importing MpegImagePlugin
+2022-11-13 14:58:59,066 Importing MpoImagePlugin
+2022-11-13 14:58:59,066 Importing MspImagePlugin
+2022-11-13 14:58:59,067 Importing PalmImagePlugin
+2022-11-13 14:58:59,067 Importing PcdImagePlugin
+2022-11-13 14:58:59,068 Importing PcxImagePlugin
+2022-11-13 14:58:59,068 Importing PdfImagePlugin
+2022-11-13 14:58:59,076 Importing PixarImagePlugin
+2022-11-13 14:58:59,076 Importing PngImagePlugin
+2022-11-13 14:58:59,076 Importing PpmImagePlugin
+2022-11-13 14:58:59,076 Importing PsdImagePlugin
+2022-11-13 14:58:59,077 Importing SgiImagePlugin
+2022-11-13 14:58:59,077 Importing SpiderImagePlugin
+2022-11-13 14:58:59,077 Importing SunImagePlugin
+2022-11-13 14:58:59,078 Importing TgaImagePlugin
+2022-11-13 14:58:59,078 Importing TiffImagePlugin
+2022-11-13 14:58:59,078 Importing WebPImagePlugin
+2022-11-13 14:58:59,079 Importing WmfImagePlugin
+2022-11-13 14:58:59,079 Importing XbmImagePlugin
+2022-11-13 14:58:59,081 Importing XpmImagePlugin
+2022-11-13 14:58:59,081 Importing XVThumbImagePlugin
+2022-11-13 14:58:59,082 Couldn't get image for breck
+Traceback (most recent call last):
+  File "/home/taylor/repos/snow-scraper/webcam_scaper.py", line 26, in <module>
+    img = Image.open(requests.get(url + 't', stream = True).raw)
+  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3008, in open
+    raise UnidentifiedImageError(
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7ff1de48c360>
+2022-11-13 14:58:59,085 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:58:59,300 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:58:59,302 Couldn't get image for vail
+Traceback (most recent call last):
+  File "/home/taylor/repos/snow-scraper/webcam_scaper.py", line 26, in <module>
+    img = Image.open(requests.get(url + 't', stream = True).raw)
+  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3008, in open
+    raise UnidentifiedImageError(
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7ff1de4a40e0>
+2022-11-13 14:58:59,303 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:58:59,521 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:58:59,523 Couldn't get image for beaver_creek
+Traceback (most recent call last):
+  File "/home/taylor/repos/snow-scraper/webcam_scaper.py", line 26, in <module>
+    img = Image.open(requests.get(url + 't', stream = True).raw)
+  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3008, in open
+    raise UnidentifiedImageError(
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7ff1de4a40e0>
+2022-11-13 14:58:59,524 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 14:58:59,740 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:58:59,742 Couldn't get image for crested_butte
+Traceback (most recent call last):
+  File "/home/taylor/repos/snow-scraper/webcam_scaper.py", line 26, in <module>
+    img = Image.open(requests.get(url + 't', stream = True).raw)
+  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3008, in open
+    raise UnidentifiedImageError(
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7ff1de4a40e0>
+2022-11-13 14:58:59,744 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-13 14:58:59,967 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
+2022-11-13 14:58:59,969 Couldn't get image for keystone
+Traceback (most recent call last):
+  File "/home/taylor/repos/snow-scraper/webcam_scaper.py", line 26, in <module>
+    img = Image.open(requests.get(url + 't', stream = True).raw)
+  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3008, in open
+    raise UnidentifiedImageError(
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7ff1de4a40e0>
