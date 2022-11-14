@@ -12,6 +12,8 @@ class DB:
                     port='5432'
                 )
         self.cur = self.conn.cursor()
+        self.snocountry_report_table = 'snocountry_reported_snow_fall'
+        self.opensnow_forecast_table = 'opensnow_forecasts'
 
     def get_resorts_key(self, resort_name, resort_state):
         self.cur.execute('SELECT resorts_key FROM resorts_dim WHERE resort_name = %s AND resort_state = %s', (resort_name, resort_state))
@@ -19,6 +21,3 @@ class DB:
         if result:
             return result[0]
         return None
-
-    def snow_fall_entry_exists(date, resorts_key):
-        pass

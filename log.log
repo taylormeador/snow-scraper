@@ -771,3 +771,747 @@ Traceback (most recent call last):
   File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3008, in open
     raise UnidentifiedImageError(
 PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7ff1de4a40e0>
+2022-11-13 15:03:12,995 Starting snocountry_scraper script
+2022-11-13 15:03:12,997 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 15:03:13,210 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpg HTTP/1.1" 200 180922
+2022-11-13 15:03:13,380 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 15:03:13,599 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpg HTTP/1.1" 200 73429
+2022-11-13 15:03:13,664 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 15:03:13,876 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpg HTTP/1.1" 200 245392
+2022-11-13 15:03:14,007 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-13 15:03:14,225 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpg HTTP/1.1" 200 125516
+2022-11-13 15:03:14,310 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-13 15:03:14,527 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpg HTTP/1.1" 200 219750
+2022-11-13 16:50:18,714 Starting snocountry_scraper script
+2022-11-13 16:50:18,723 Getting forecast for arapahoebasin
+2022-11-13 16:50:18,725 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:19,264 https://opensnow.com:443 "GET /location/tarapahoebasin/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:19,313 Unable to get forecast for arapahoebasin
+2022-11-13 16:50:19,313 Getting forecast for aspenhighlands
+2022-11-13 16:50:19,315 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:19,975 https://opensnow.com:443 "GET /location/taspenhighlands/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:20,026 Unable to get forecast for aspenhighlands
+2022-11-13 16:50:20,026 Getting forecast for aspenmountain
+2022-11-13 16:50:20,028 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:20,597 https://opensnow.com:443 "GET /location/taspenmountain/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:20,655 Unable to get forecast for aspenmountain
+2022-11-13 16:50:20,655 Getting forecast for beavercreek
+2022-11-13 16:50:20,657 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:21,246 https://opensnow.com:443 "GET /location/tbeavercreek/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:21,293 Unable to get forecast for beavercreek
+2022-11-13 16:50:21,293 Getting forecast for bluebird
+2022-11-13 16:50:21,295 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:21,847 https://opensnow.com:443 "GET /location/tbluebird/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:21,886 Unable to get forecast for bluebird
+2022-11-13 16:50:21,887 Getting forecast for breckenridge
+2022-11-13 16:50:21,888 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:22,419 https://opensnow.com:443 "GET /location/tbreckenridge/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:22,467 Unable to get forecast for breckenridge
+2022-11-13 16:50:22,468 Getting forecast for buttermilk
+2022-11-13 16:50:22,469 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:22,998 https://opensnow.com:443 "GET /location/tbuttermilk/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:23,040 Unable to get forecast for buttermilk
+2022-11-13 16:50:23,040 Getting forecast for skicooper
+2022-11-13 16:50:23,042 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:23,701 https://opensnow.com:443 "GET /location/tskicooper/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:23,744 Unable to get forecast for skicooper
+2022-11-13 16:50:23,744 Getting forecast for copper
+2022-11-13 16:50:23,746 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:24,377 https://opensnow.com:443 "GET /location/tcopper/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:24,421 Unable to get forecast for copper
+2022-11-13 16:50:24,421 Getting forecast for crestedbutte
+2022-11-13 16:50:24,422 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:25,111 https://opensnow.com:443 "GET /location/tcrestedbutte/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:25,147 Unable to get forecast for crestedbutte
+2022-11-13 16:50:25,147 Getting forecast for echomountain
+2022-11-13 16:50:25,148 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:25,891 https://opensnow.com:443 "GET /location/techomountain/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:25,938 Unable to get forecast for echomountain
+2022-11-13 16:50:25,939 Getting forecast for eldora
+2022-11-13 16:50:25,940 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:26,546 https://opensnow.com:443 "GET /location/teldora/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:26,591 Unable to get forecast for eldora
+2022-11-13 16:50:26,592 Getting forecast for skigranby
+2022-11-13 16:50:26,593 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:27,250 https://opensnow.com:443 "GET /location/tskigranby/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:27,297 Unable to get forecast for skigranby
+2022-11-13 16:50:27,297 Getting forecast for hesperus
+2022-11-13 16:50:27,299 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:27,886 https://opensnow.com:443 "GET /location/thesperus/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:27,969 Unable to get forecast for hesperus
+2022-11-13 16:50:27,969 Getting forecast for irwin
+2022-11-13 16:50:27,972 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:28,606 https://opensnow.com:443 "GET /location/tirwin/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:28,653 Unable to get forecast for irwin
+2022-11-13 16:50:28,653 Getting forecast for keystone
+2022-11-13 16:50:28,654 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:29,261 https://opensnow.com:443 "GET /location/tkeystone/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:29,316 Unable to get forecast for keystone
+2022-11-13 16:50:29,316 Getting forecast for loveland
+2022-11-13 16:50:29,319 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:29,963 https://opensnow.com:443 "GET /location/tloveland/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:30,027 Unable to get forecast for loveland
+2022-11-13 16:50:30,027 Getting forecast for monarch
+2022-11-13 16:50:30,030 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:30,829 https://opensnow.com:443 "GET /location/tmonarch/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:30,939 Unable to get forecast for monarch
+2022-11-13 16:50:30,940 Getting forecast for powderhorn
+2022-11-13 16:50:30,941 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:31,521 https://opensnow.com:443 "GET /location/tpowderhorn/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:31,573 Unable to get forecast for powderhorn
+2022-11-13 16:50:31,573 Getting forecast for purgatory
+2022-11-13 16:50:31,575 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:32,122 https://opensnow.com:443 "GET /location/tpurgatory/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:32,186 Unable to get forecast for purgatory
+2022-11-13 16:50:32,190 Getting forecast for silverton
+2022-11-13 16:50:32,192 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:32,852 https://opensnow.com:443 "GET /location/tsilverton/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:32,937 Unable to get forecast for silverton
+2022-11-13 16:50:32,937 Getting forecast for snowmass
+2022-11-13 16:50:32,939 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:33,618 https://opensnow.com:443 "GET /location/tsnowmass/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:33,695 Unable to get forecast for snowmass
+2022-11-13 16:50:33,696 Getting forecast for steamboat
+2022-11-13 16:50:33,698 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:34,313 https://opensnow.com:443 "GET /location/tsteamboat/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:34,512 Unable to get forecast for steamboat
+2022-11-13 16:50:34,512 Getting forecast for sunlight
+2022-11-13 16:50:34,514 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:35,425 https://opensnow.com:443 "GET /location/tsunlight/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:35,574 Unable to get forecast for sunlight
+2022-11-13 16:50:35,575 Getting forecast for telluride
+2022-11-13 16:50:35,576 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:36,188 https://opensnow.com:443 "GET /location/ttelluride/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:36,268 Unable to get forecast for telluride
+2022-11-13 16:50:36,268 Getting forecast for vail
+2022-11-13 16:50:36,269 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:36,854 https://opensnow.com:443 "GET /location/tvail/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:36,900 Unable to get forecast for vail
+2022-11-13 16:50:36,900 Getting forecast for winterpark
+2022-11-13 16:50:36,901 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:37,631 https://opensnow.com:443 "GET /location/twinterpark/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:37,682 Unable to get forecast for winterpark
+2022-11-13 16:50:37,682 Getting forecast for wolfcreekcolorado
+2022-11-13 16:50:37,684 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:38,316 https://opensnow.com:443 "GET /location/twolfcreekcolorado/forecast HTTP/1.1" 404 None
+2022-11-13 16:50:38,369 Unable to get forecast for wolfcreekcolorado
+2022-11-13 16:50:43,892 Starting snocountry_scraper script
+2022-11-13 16:50:43,893 Getting forecast for arapahoebasin
+2022-11-13 16:50:43,895 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:44,945 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:45,034 Success. Forecast for arapahoebasin = 1
+2022-11-13 16:50:45,034 Getting forecast for aspenhighlands
+2022-11-13 16:50:45,036 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:45,846 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:45,964 Success. Forecast for aspenhighlands = 1
+2022-11-13 16:50:45,972 Getting forecast for aspenmountain
+2022-11-13 16:50:45,975 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:46,874 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:46,974 Success. Forecast for aspenmountain = 1
+2022-11-13 16:50:46,974 Getting forecast for beavercreek
+2022-11-13 16:50:46,976 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:47,886 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:47,982 Success. Forecast for beavercreek = 2
+2022-11-13 16:50:47,982 Getting forecast for bluebird
+2022-11-13 16:50:47,984 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:49,044 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:49,164 Success. Forecast for bluebird = 0
+2022-11-13 16:50:49,164 Getting forecast for breckenridge
+2022-11-13 16:50:49,166 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:50,029 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:50,145 Success. Forecast for breckenridge = 1
+2022-11-13 16:50:50,145 Getting forecast for buttermilk
+2022-11-13 16:50:50,147 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:51,175 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:51,273 Success. Forecast for buttermilk = 1
+2022-11-13 16:50:51,274 Getting forecast for skicooper
+2022-11-13 16:50:51,275 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:52,251 https://opensnow.com:443 "GET /location/skicooper/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:52,355 Success. Forecast for skicooper = 2
+2022-11-13 16:50:52,356 Getting forecast for copper
+2022-11-13 16:50:52,357 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:53,136 https://opensnow.com:443 "GET /location/copper/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:53,227 Success. Forecast for copper = 3
+2022-11-13 16:50:53,227 Getting forecast for crestedbutte
+2022-11-13 16:50:53,229 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:54,073 https://opensnow.com:443 "GET /location/crestedbutte/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:54,219 Success. Forecast for crestedbutte = 0
+2022-11-13 16:50:54,220 Getting forecast for echomountain
+2022-11-13 16:50:54,221 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:55,069 https://opensnow.com:443 "GET /location/echomountain/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:55,165 Success. Forecast for echomountain = 1
+2022-11-13 16:50:55,165 Getting forecast for eldora
+2022-11-13 16:50:55,167 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:56,086 https://opensnow.com:443 "GET /location/eldora/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:56,200 Success. Forecast for eldora = 2
+2022-11-13 16:50:56,200 Getting forecast for skigranby
+2022-11-13 16:50:56,202 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:56,983 https://opensnow.com:443 "GET /location/skigranby/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:57,080 Success. Forecast for skigranby = 2
+2022-11-13 16:50:57,080 Getting forecast for hesperus
+2022-11-13 16:50:57,082 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:57,848 https://opensnow.com:443 "GET /location/hesperus/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:57,970 Success. Forecast for hesperus = 0
+2022-11-13 16:50:57,970 Getting forecast for irwin
+2022-11-13 16:50:57,972 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:58,834 https://opensnow.com:443 "GET /location/irwin/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:58,930 Success. Forecast for irwin = 0
+2022-11-13 16:50:58,930 Getting forecast for keystone
+2022-11-13 16:50:58,932 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:50:59,777 https://opensnow.com:443 "GET /location/keystone/forecast HTTP/1.1" 200 None
+2022-11-13 16:50:59,873 Success. Forecast for keystone = 1
+2022-11-13 16:50:59,874 Getting forecast for loveland
+2022-11-13 16:50:59,875 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:00,700 https://opensnow.com:443 "GET /location/loveland/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:00,803 Success. Forecast for loveland = 1
+2022-11-13 16:51:00,803 Getting forecast for monarch
+2022-11-13 16:51:00,804 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:01,828 https://opensnow.com:443 "GET /location/monarch/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:01,922 Success. Forecast for monarch = 0
+2022-11-13 16:51:01,922 Getting forecast for powderhorn
+2022-11-13 16:51:01,924 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:02,710 https://opensnow.com:443 "GET /location/powderhorn/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:02,833 Success. Forecast for powderhorn = 0
+2022-11-13 16:51:02,833 Getting forecast for purgatory
+2022-11-13 16:51:02,835 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:03,576 https://opensnow.com:443 "GET /location/purgatory/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:03,700 Success. Forecast for purgatory = 0
+2022-11-13 16:51:03,700 Getting forecast for silverton
+2022-11-13 16:51:03,702 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:04,486 https://opensnow.com:443 "GET /location/silverton/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:04,611 Success. Forecast for silverton = 1
+2022-11-13 16:51:04,611 Getting forecast for snowmass
+2022-11-13 16:51:04,613 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:05,457 https://opensnow.com:443 "GET /location/snowmass/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:05,574 Success. Forecast for snowmass = 1
+2022-11-13 16:51:05,574 Getting forecast for steamboat
+2022-11-13 16:51:05,575 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:06,413 https://opensnow.com:443 "GET /location/steamboat/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:06,524 Success. Forecast for steamboat = 1
+2022-11-13 16:51:06,524 Getting forecast for sunlight
+2022-11-13 16:51:06,526 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:07,406 https://opensnow.com:443 "GET /location/sunlight/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:07,527 Success. Forecast for sunlight = 0
+2022-11-13 16:51:07,527 Getting forecast for telluride
+2022-11-13 16:51:07,528 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:08,312 https://opensnow.com:443 "GET /location/telluride/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:08,404 Success. Forecast for telluride = 0
+2022-11-13 16:51:08,405 Getting forecast for vail
+2022-11-13 16:51:08,406 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:09,300 https://opensnow.com:443 "GET /location/vail/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:09,417 Success. Forecast for vail = 2
+2022-11-13 16:51:09,417 Getting forecast for winterpark
+2022-11-13 16:51:09,418 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:10,253 https://opensnow.com:443 "GET /location/winterpark/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:10,334 Success. Forecast for winterpark = 2
+2022-11-13 16:51:10,334 Getting forecast for wolfcreekcolorado
+2022-11-13 16:51:10,335 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:51:11,144 https://opensnow.com:443 "GET /location/wolfcreekcolorado/forecast HTTP/1.1" 200 None
+2022-11-13 16:51:11,227 Success. Forecast for wolfcreekcolorado = 2
+2022-11-13 16:56:22,858 Starting snocountry_scraper script
+2022-11-13 16:56:22,859 Getting forecast for arapahoebasin
+2022-11-13 16:56:22,862 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:56:23,766 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-13 16:56:23,895 Success. Forecast for arapahoebasin = 1
+2022-11-13 16:56:23,895 Getting forecast for aspenhighlands
+2022-11-13 16:56:23,897 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:56:24,702 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
+2022-11-13 16:56:24,832 Success. Forecast for aspenhighlands = 1
+2022-11-13 16:56:24,832 Getting forecast for aspenmountain
+2022-11-13 16:56:24,834 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 16:56:25,682 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
+2022-11-13 16:58:47,972 Starting snocountry_scraper script
+2022-11-13 16:59:18,243 Starting snocountry_scraper script
+2022-11-13 17:00:39,380 Starting snocountry_scraper script
+2022-11-13 17:00:39,380 Getting forecast for arapahoebasin
+2022-11-13 17:00:39,382 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:00:40,601 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-13 17:00:40,787 Success. Forecast for arapahoebasin = 1
+2022-11-13 17:00:40,788 Getting forecast for aspenhighlands
+2022-11-13 17:00:40,789 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:00:42,076 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
+2022-11-13 17:00:42,199 Success. Forecast for aspenhighlands = 1
+2022-11-13 17:00:42,200 Getting forecast for aspenmountain
+2022-11-13 17:00:42,202 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:00:43,156 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
+2022-11-13 17:00:43,241 Success. Forecast for aspenmountain = 1
+2022-11-13 17:00:43,241 Getting forecast for beavercreek
+2022-11-13 17:00:43,243 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:14:36,497 Starting snocountry_scraper script
+2022-11-13 17:15:20,619 Starting snocountry_scraper script
+2022-11-13 17:15:31,607 Starting snocountry_scraper script
+2022-11-13 17:15:43,427 Starting snocountry_scraper script
+2022-11-13 17:15:51,430 Starting snocountry_scraper script
+2022-11-13 17:16:09,062 Starting snocountry_scraper script
+2022-11-13 17:16:50,200 Starting snocountry_scraper script
+2022-11-13 17:16:50,715 Getting forecast for arapahoebasin
+2022-11-13 17:16:50,717 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:16:51,710 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-13 17:16:51,807 Success. Forecast for arapahoebasin = 1
+2022-11-13 17:17:33,000 Starting snocountry_scraper script
+2022-11-13 17:17:33,518 Getting forecast for arapahoebasin
+2022-11-13 17:17:33,520 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:17:34,558 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-13 17:17:34,654 Success. Forecast for arapahoebasin = 1
+2022-11-13 17:17:34,782 Getting forecast for aspenhighlands
+2022-11-13 17:17:34,783 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:17:35,620 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
+2022-11-13 17:17:35,733 Success. Forecast for aspenhighlands = 1
+2022-11-13 17:17:35,794 Getting forecast for aspenmountain
+2022-11-13 17:17:35,796 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:17:36,758 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
+2022-11-13 17:17:36,876 Success. Forecast for aspenmountain = 1
+2022-11-13 17:17:36,936 Getting forecast for beavercreek
+2022-11-13 17:17:36,937 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:17:37,828 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
+2022-11-13 17:17:37,911 Success. Forecast for beavercreek = 2
+2022-11-13 17:17:37,971 Getting forecast for bluebird
+2022-11-13 17:17:37,973 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:17:38,960 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
+2022-11-13 17:17:39,057 Success. Forecast for bluebird = 0
+2022-11-13 17:17:39,121 Getting forecast for breckenridge
+2022-11-13 17:17:39,123 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:17:39,971 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
+2022-11-13 17:17:40,079 Success. Forecast for breckenridge = 1
+2022-11-13 17:17:40,139 Getting forecast for buttermilk
+2022-11-13 17:17:40,141 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:17:41,040 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
+2022-11-13 17:18:30,430 Starting snocountry_scraper script
+2022-11-13 17:18:30,944 Getting forecast for arapahoebasin
+2022-11-13 17:18:30,947 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:18:31,881 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-13 17:18:50,814 Starting snocountry_scraper script
+2022-11-13 17:18:51,324 Getting forecast for arapahoebasin
+2022-11-13 17:18:51,327 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:18:52,341 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-13 17:18:52,465 Success. Forecast for arapahoebasin = 1
+2022-11-13 17:18:52,590 Upserting data 31, Arapahoe Basin, 1
+2022-11-13 17:18:52,590 Getting forecast for aspenhighlands
+2022-11-13 17:18:52,591 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:18:53,432 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
+2022-11-13 17:18:53,524 Success. Forecast for aspenhighlands = 1
+2022-11-13 17:18:53,585 Upserting data 32, Aspen Highlands, 1
+2022-11-13 17:18:53,585 Getting forecast for aspenmountain
+2022-11-13 17:18:53,587 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:18:54,406 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
+2022-11-13 17:18:54,622 Success. Forecast for aspenmountain = 1
+2022-11-13 17:18:54,689 Upserting data 33, Aspen Mountain, 1
+2022-11-13 17:18:54,689 Getting forecast for beavercreek
+2022-11-13 17:18:54,691 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:18:55,802 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
+2022-11-13 17:18:55,890 Success. Forecast for beavercreek = 2
+2022-11-13 17:18:55,951 Upserting data 34, Beaver Creek, 2
+2022-11-13 17:18:55,951 Getting forecast for bluebird
+2022-11-13 17:18:55,952 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:18:56,712 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
+2022-11-13 17:18:56,825 Success. Forecast for bluebird = 0
+2022-11-13 17:18:56,887 Upserting data 35, Bluebird Backcountry, 0
+2022-11-13 17:18:56,887 Getting forecast for breckenridge
+2022-11-13 17:18:56,888 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:18:57,657 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
+2022-11-13 17:18:57,790 Success. Forecast for breckenridge = 1
+2022-11-13 17:18:57,849 Upserting data 36, Breckenridge, 1
+2022-11-13 17:18:57,849 Getting forecast for buttermilk
+2022-11-13 17:18:57,851 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:18:58,789 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
+2022-11-13 17:18:58,909 Success. Forecast for buttermilk = 1
+2022-11-13 17:18:58,969 Upserting data 37, Buttermilk, 1
+2022-11-13 17:18:58,969 Getting forecast for skicooper
+2022-11-13 17:18:58,970 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:18:59,886 https://opensnow.com:443 "GET /location/skicooper/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:00,087 Success. Forecast for skicooper = 2
+2022-11-13 17:19:00,150 Upserting data 38, Cooper, 2
+2022-11-13 17:19:00,150 Getting forecast for copper
+2022-11-13 17:19:00,152 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:01,029 https://opensnow.com:443 "GET /location/copper/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:01,149 Success. Forecast for copper = 3
+2022-11-13 17:19:01,209 Upserting data 39, Copper Mountain, 3
+2022-11-13 17:19:01,210 Getting forecast for crestedbutte
+2022-11-13 17:19:01,211 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:02,281 https://opensnow.com:443 "GET /location/crestedbutte/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:02,387 Success. Forecast for crestedbutte = 0
+2022-11-13 17:19:02,449 Upserting data 40, Crested Butte, 0
+2022-11-13 17:19:02,449 Getting forecast for echomountain
+2022-11-13 17:19:02,452 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:03,293 https://opensnow.com:443 "GET /location/echomountain/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:03,390 Success. Forecast for echomountain = 1
+2022-11-13 17:19:03,448 Upserting data 41, Echo Mountain, 1
+2022-11-13 17:19:03,449 Getting forecast for eldora
+2022-11-13 17:19:03,451 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:04,281 https://opensnow.com:443 "GET /location/eldora/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:04,380 Success. Forecast for eldora = 2
+2022-11-13 17:19:04,441 Upserting data 42, Eldora, 2
+2022-11-13 17:19:04,442 Getting forecast for skigranby
+2022-11-13 17:19:04,443 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:05,267 https://opensnow.com:443 "GET /location/skigranby/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:05,380 Success. Forecast for skigranby = 2
+2022-11-13 17:19:05,443 Upserting data 43, Granby Ranch, 2
+2022-11-13 17:19:05,443 Getting forecast for hesperus
+2022-11-13 17:19:05,446 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:06,307 https://opensnow.com:443 "GET /location/hesperus/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:06,438 Success. Forecast for hesperus = 0
+2022-11-13 17:19:06,496 Upserting data 44, Hesperus Ski Area, 0
+2022-11-13 17:19:06,496 Getting forecast for irwin
+2022-11-13 17:19:06,498 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:07,313 https://opensnow.com:443 "GET /location/irwin/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:07,418 Success. Forecast for irwin = 0
+2022-11-13 17:19:07,478 Upserting data 46, Irwin, 0
+2022-11-13 17:19:07,478 Getting forecast for keystone
+2022-11-13 17:19:07,479 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:08,272 https://opensnow.com:443 "GET /location/keystone/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:08,373 Success. Forecast for keystone = 1
+2022-11-13 17:19:08,434 Upserting data 48, Keystone, 1
+2022-11-13 17:19:08,434 Getting forecast for loveland
+2022-11-13 17:19:08,436 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:09,210 https://opensnow.com:443 "GET /location/loveland/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:09,341 Success. Forecast for loveland = 1
+2022-11-13 17:19:09,401 Upserting data 49, Loveland, 1
+2022-11-13 17:19:09,401 Getting forecast for monarch
+2022-11-13 17:19:09,402 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:10,162 https://opensnow.com:443 "GET /location/monarch/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:10,375 Success. Forecast for monarch = 0
+2022-11-13 17:19:10,433 Upserting data 50, Monarch, 0
+2022-11-13 17:19:10,433 Getting forecast for powderhorn
+2022-11-13 17:19:10,435 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:11,396 https://opensnow.com:443 "GET /location/powderhorn/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:11,564 Success. Forecast for powderhorn = 0
+2022-11-13 17:19:11,622 Upserting data 51, Powderhorn, 0
+2022-11-13 17:19:11,622 Getting forecast for purgatory
+2022-11-13 17:19:11,624 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:12,389 https://opensnow.com:443 "GET /location/purgatory/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:12,489 Success. Forecast for purgatory = 0
+2022-11-13 17:19:12,553 Upserting data 52, Purgatory, 0
+2022-11-13 17:19:12,553 Getting forecast for silverton
+2022-11-13 17:19:12,556 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:13,389 https://opensnow.com:443 "GET /location/silverton/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:13,485 Success. Forecast for silverton = 1
+2022-11-13 17:19:13,545 Upserting data 53, Silverton Mountain, 1
+2022-11-13 17:19:13,545 Getting forecast for snowmass
+2022-11-13 17:19:13,547 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:14,378 https://opensnow.com:443 "GET /location/snowmass/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:14,498 Success. Forecast for snowmass = 2
+2022-11-13 17:19:14,569 Upserting data 54, Snowmass, 2
+2022-11-13 17:19:14,569 Getting forecast for steamboat
+2022-11-13 17:19:14,570 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:15,491 https://opensnow.com:443 "GET /location/steamboat/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:15,615 Success. Forecast for steamboat = 1
+2022-11-13 17:19:15,676 Upserting data 55, Steamboat, 1
+2022-11-13 17:19:15,676 Getting forecast for sunlight
+2022-11-13 17:19:15,677 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:16,555 https://opensnow.com:443 "GET /location/sunlight/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:16,671 Success. Forecast for sunlight = 0
+2022-11-13 17:19:16,731 Upserting data 56, Sunlight, 0
+2022-11-13 17:19:16,731 Getting forecast for telluride
+2022-11-13 17:19:16,732 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:17,887 https://opensnow.com:443 "GET /location/telluride/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:17,989 Success. Forecast for telluride = 0
+2022-11-13 17:19:18,049 Upserting data 57, Telluride, 0
+2022-11-13 17:19:18,049 Getting forecast for vail
+2022-11-13 17:19:18,051 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:18,832 https://opensnow.com:443 "GET /location/vail/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:18,936 Success. Forecast for vail = 2
+2022-11-13 17:19:18,997 Upserting data 58, Vail, 2
+2022-11-13 17:19:18,997 Getting forecast for winterpark
+2022-11-13 17:19:18,998 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:19,915 https://opensnow.com:443 "GET /location/winterpark/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:20,051 Success. Forecast for winterpark = 2
+2022-11-13 17:19:20,122 Upserting data 59, Winter Park, 2
+2022-11-13 17:19:20,122 Getting forecast for wolfcreekcolorado
+2022-11-13 17:19:20,124 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:19:20,923 https://opensnow.com:443 "GET /location/wolfcreekcolorado/forecast HTTP/1.1" 200 None
+2022-11-13 17:19:21,016 Success. Forecast for wolfcreekcolorado = 2
+2022-11-13 17:19:21,076 Upserting data 60, Wolf Creek, 2
+2022-11-13 17:20:06,320 Starting snocountry_scraper script
+2022-11-13 17:20:06,855 Getting forecast for arapahoebasin
+2022-11-13 17:20:06,857 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:20:07,696 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-13 17:20:07,782 Success. Forecast for arapahoebasin = 1
+2022-11-13 17:20:07,912 Upserting data 31, Arapahoe Basin, 1
+2022-11-13 17:21:26,869 Starting snocountry_scraper script
+2022-11-13 17:21:27,394 Getting forecast for arapahoebasin
+2022-11-13 17:21:27,396 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:28,216 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:28,333 Success. Forecast for arapahoebasin = 1
+2022-11-13 17:21:28,459 Upserting data 31, Arapahoe Basin, 1
+2022-11-13 17:21:44,526 Starting snocountry_scraper script
+2022-11-13 17:21:45,070 Getting forecast for arapahoebasin
+2022-11-13 17:21:45,072 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:45,870 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:45,989 Success. Forecast for arapahoebasin = 1
+2022-11-13 17:21:46,108 Upserting data 31, Arapahoe Basin, 1
+2022-11-13 17:21:46,171 Getting forecast for aspenhighlands
+2022-11-13 17:21:46,172 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:46,958 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:47,049 Success. Forecast for aspenhighlands = 1
+2022-11-13 17:21:47,110 Upserting data 32, Aspen Highlands, 1
+2022-11-13 17:21:47,170 Getting forecast for aspenmountain
+2022-11-13 17:21:47,172 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:48,062 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:48,146 Success. Forecast for aspenmountain = 1
+2022-11-13 17:21:48,205 Upserting data 33, Aspen Mountain, 1
+2022-11-13 17:21:48,268 Getting forecast for beavercreek
+2022-11-13 17:21:48,270 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:49,137 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:49,230 Success. Forecast for beavercreek = 2
+2022-11-13 17:21:49,288 Upserting data 34, Beaver Creek, 2
+2022-11-13 17:21:49,353 Getting forecast for bluebird
+2022-11-13 17:21:49,354 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:50,146 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:50,266 Success. Forecast for bluebird = 0
+2022-11-13 17:21:50,327 Upserting data 35, Bluebird Backcountry, 0
+2022-11-13 17:21:50,385 Getting forecast for breckenridge
+2022-11-13 17:21:50,387 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:51,188 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:51,297 Success. Forecast for breckenridge = 1
+2022-11-13 17:21:51,356 Upserting data 36, Breckenridge, 1
+2022-11-13 17:21:51,418 Getting forecast for buttermilk
+2022-11-13 17:21:51,419 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:52,180 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:52,298 Success. Forecast for buttermilk = 1
+2022-11-13 17:21:52,359 Upserting data 37, Buttermilk, 1
+2022-11-13 17:21:52,423 Getting forecast for skicooper
+2022-11-13 17:21:52,425 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:53,374 https://opensnow.com:443 "GET /location/skicooper/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:53,462 Success. Forecast for skicooper = 2
+2022-11-13 17:21:53,522 Upserting data 38, Cooper, 2
+2022-11-13 17:21:53,588 Getting forecast for copper
+2022-11-13 17:21:53,590 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:54,458 https://opensnow.com:443 "GET /location/copper/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:54,556 Success. Forecast for copper = 3
+2022-11-13 17:21:54,619 Upserting data 39, Copper Mountain, 3
+2022-11-13 17:21:54,682 Getting forecast for crestedbutte
+2022-11-13 17:21:54,684 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:55,430 https://opensnow.com:443 "GET /location/crestedbutte/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:55,552 Success. Forecast for crestedbutte = 0
+2022-11-13 17:21:55,612 Upserting data 40, Crested Butte, 0
+2022-11-13 17:21:55,673 Getting forecast for echomountain
+2022-11-13 17:21:55,675 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:56,540 https://opensnow.com:443 "GET /location/echomountain/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:56,631 Success. Forecast for echomountain = 1
+2022-11-13 17:21:56,690 Upserting data 41, Echo Mountain, 1
+2022-11-13 17:21:56,754 Getting forecast for eldora
+2022-11-13 17:21:56,756 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:57,756 https://opensnow.com:443 "GET /location/eldora/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:57,848 Success. Forecast for eldora = 2
+2022-11-13 17:21:57,908 Upserting data 42, Eldora, 2
+2022-11-13 17:21:57,970 Getting forecast for skigranby
+2022-11-13 17:21:57,972 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:21:59,203 https://opensnow.com:443 "GET /location/skigranby/forecast HTTP/1.1" 200 None
+2022-11-13 17:21:59,305 Success. Forecast for skigranby = 2
+2022-11-13 17:21:59,367 Upserting data 43, Granby Ranch, 2
+2022-11-13 17:21:59,426 Getting forecast for hesperus
+2022-11-13 17:21:59,427 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:00,253 https://opensnow.com:443 "GET /location/hesperus/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:00,381 Success. Forecast for hesperus = 0
+2022-11-13 17:22:00,442 Upserting data 44, Hesperus Ski Area, 0
+2022-11-13 17:22:00,506 Getting forecast for irwin
+2022-11-13 17:22:00,508 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:01,403 https://opensnow.com:443 "GET /location/irwin/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:01,505 Success. Forecast for irwin = 0
+2022-11-13 17:22:01,575 Upserting data 46, Irwin, 0
+2022-11-13 17:22:01,636 Getting forecast for keystone
+2022-11-13 17:22:01,638 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:02,666 https://opensnow.com:443 "GET /location/keystone/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:02,776 Success. Forecast for keystone = 1
+2022-11-13 17:22:02,836 Upserting data 48, Keystone, 1
+2022-11-13 17:22:02,900 Getting forecast for loveland
+2022-11-13 17:22:02,901 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:03,700 https://opensnow.com:443 "GET /location/loveland/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:03,803 Success. Forecast for loveland = 1
+2022-11-13 17:22:03,864 Upserting data 49, Loveland, 1
+2022-11-13 17:22:03,927 Getting forecast for monarch
+2022-11-13 17:22:03,929 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:04,698 https://opensnow.com:443 "GET /location/monarch/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:04,802 Success. Forecast for monarch = 0
+2022-11-13 17:22:04,865 Upserting data 50, Monarch, 0
+2022-11-13 17:22:04,924 Getting forecast for powderhorn
+2022-11-13 17:22:04,926 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:05,813 https://opensnow.com:443 "GET /location/powderhorn/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:05,946 Success. Forecast for powderhorn = 0
+2022-11-13 17:22:06,008 Upserting data 51, Powderhorn, 0
+2022-11-13 17:22:06,067 Getting forecast for purgatory
+2022-11-13 17:22:06,068 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:06,973 https://opensnow.com:443 "GET /location/purgatory/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:07,059 Success. Forecast for purgatory = 0
+2022-11-13 17:22:07,119 Upserting data 52, Purgatory, 0
+2022-11-13 17:22:07,177 Getting forecast for silverton
+2022-11-13 17:22:07,180 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:07,991 https://opensnow.com:443 "GET /location/silverton/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:08,091 Success. Forecast for silverton = 1
+2022-11-13 17:22:08,152 Upserting data 53, Silverton Mountain, 1
+2022-11-13 17:22:08,211 Getting forecast for snowmass
+2022-11-13 17:22:08,212 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:09,088 https://opensnow.com:443 "GET /location/snowmass/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:09,212 Success. Forecast for snowmass = 2
+2022-11-13 17:22:09,271 Upserting data 54, Snowmass, 2
+2022-11-13 17:22:09,332 Getting forecast for steamboat
+2022-11-13 17:22:09,334 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:10,247 https://opensnow.com:443 "GET /location/steamboat/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:10,346 Success. Forecast for steamboat = 1
+2022-11-13 17:22:10,406 Upserting data 55, Steamboat, 1
+2022-11-13 17:22:10,481 Getting forecast for sunlight
+2022-11-13 17:22:10,483 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:11,356 https://opensnow.com:443 "GET /location/sunlight/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:11,470 Success. Forecast for sunlight = 0
+2022-11-13 17:22:11,530 Upserting data 56, Sunlight, 0
+2022-11-13 17:22:11,589 Getting forecast for telluride
+2022-11-13 17:22:11,590 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:12,506 https://opensnow.com:443 "GET /location/telluride/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:12,623 Success. Forecast for telluride = 0
+2022-11-13 17:22:12,690 Upserting data 57, Telluride, 0
+2022-11-13 17:22:12,752 Getting forecast for vail
+2022-11-13 17:22:12,753 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:13,499 https://opensnow.com:443 "GET /location/vail/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:13,594 Success. Forecast for vail = 2
+2022-11-13 17:22:13,656 Upserting data 58, Vail, 2
+2022-11-13 17:22:13,719 Getting forecast for winterpark
+2022-11-13 17:22:13,720 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:14,468 https://opensnow.com:443 "GET /location/winterpark/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:14,563 Success. Forecast for winterpark = 2
+2022-11-13 17:22:14,622 Upserting data 59, Winter Park, 2
+2022-11-13 17:22:14,686 Getting forecast for wolfcreekcolorado
+2022-11-13 17:22:14,687 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:15,394 https://opensnow.com:443 "GET /location/wolfcreekcolorado/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:15,514 Success. Forecast for wolfcreekcolorado = 2
+2022-11-13 17:22:15,575 Upserting data 60, Wolf Creek, 2
+2022-11-13 17:22:31,804 Starting snocountry_scraper script
+2022-11-13 17:22:32,324 Getting forecast for arapahoebasin
+2022-11-13 17:22:32,326 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:33,065 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:33,190 Success. Forecast for arapahoebasin = 1
+2022-11-13 17:22:33,314 Upserting data 31, Arapahoe Basin, 1
+2022-11-13 17:22:33,373 Getting forecast for aspenhighlands
+2022-11-13 17:22:33,375 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:34,122 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:34,215 Success. Forecast for aspenhighlands = 1
+2022-11-13 17:22:34,275 Upserting data 32, Aspen Highlands, 1
+2022-11-13 17:22:34,344 Getting forecast for aspenmountain
+2022-11-13 17:22:34,345 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:35,078 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:35,190 Success. Forecast for aspenmountain = 1
+2022-11-13 17:22:35,246 Upserting data 33, Aspen Mountain, 1
+2022-11-13 17:22:35,304 Getting forecast for beavercreek
+2022-11-13 17:22:35,305 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:36,076 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:36,214 Success. Forecast for beavercreek = 2
+2022-11-13 17:22:36,277 Upserting data 34, Beaver Creek, 2
+2022-11-13 17:22:36,341 Getting forecast for bluebird
+2022-11-13 17:22:36,344 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:37,069 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:37,187 Success. Forecast for bluebird = 0
+2022-11-13 17:22:37,248 Upserting data 35, Bluebird Backcountry, 0
+2022-11-13 17:22:37,313 Getting forecast for breckenridge
+2022-11-13 17:22:37,315 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:38,059 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:38,164 Success. Forecast for breckenridge = 1
+2022-11-13 17:22:38,225 Upserting data 36, Breckenridge, 1
+2022-11-13 17:22:38,296 Getting forecast for buttermilk
+2022-11-13 17:22:38,298 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:39,048 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:39,154 Success. Forecast for buttermilk = 1
+2022-11-13 17:22:39,212 Upserting data 37, Buttermilk, 1
+2022-11-13 17:22:39,275 Getting forecast for skicooper
+2022-11-13 17:22:39,276 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:40,045 https://opensnow.com:443 "GET /location/skicooper/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:40,171 Success. Forecast for skicooper = 2
+2022-11-13 17:22:40,230 Upserting data 38, Cooper, 2
+2022-11-13 17:22:40,294 Getting forecast for copper
+2022-11-13 17:22:40,296 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:41,092 https://opensnow.com:443 "GET /location/copper/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:41,210 Success. Forecast for copper = 3
+2022-11-13 17:22:41,272 Upserting data 39, Copper Mountain, 3
+2022-11-13 17:22:41,335 Getting forecast for crestedbutte
+2022-11-13 17:22:41,337 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:42,147 https://opensnow.com:443 "GET /location/crestedbutte/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:42,282 Success. Forecast for crestedbutte = 0
+2022-11-13 17:22:42,343 Upserting data 40, Crested Butte, 0
+2022-11-13 17:22:42,405 Getting forecast for echomountain
+2022-11-13 17:22:42,407 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:43,215 https://opensnow.com:443 "GET /location/echomountain/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:43,304 Success. Forecast for echomountain = 1
+2022-11-13 17:22:43,363 Upserting data 41, Echo Mountain, 1
+2022-11-13 17:22:43,428 Getting forecast for eldora
+2022-11-13 17:22:43,430 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:44,438 https://opensnow.com:443 "GET /location/eldora/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:44,563 Success. Forecast for eldora = 2
+2022-11-13 17:22:44,623 Upserting data 42, Eldora, 2
+2022-11-13 17:22:44,681 Getting forecast for skigranby
+2022-11-13 17:22:44,683 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:45,636 https://opensnow.com:443 "GET /location/skigranby/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:45,754 Success. Forecast for skigranby = 2
+2022-11-13 17:22:45,815 Upserting data 43, Granby Ranch, 2
+2022-11-13 17:22:45,879 Getting forecast for hesperus
+2022-11-13 17:22:45,880 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:46,836 https://opensnow.com:443 "GET /location/hesperus/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:46,986 Success. Forecast for hesperus = 0
+2022-11-13 17:22:47,050 Upserting data 44, Hesperus Ski Area, 0
+2022-11-13 17:22:47,115 Getting forecast for irwin
+2022-11-13 17:22:47,118 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:47,974 https://opensnow.com:443 "GET /location/irwin/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:48,103 Success. Forecast for irwin = 0
+2022-11-13 17:22:48,164 Upserting data 46, Irwin, 0
+2022-11-13 17:22:48,233 Getting forecast for keystone
+2022-11-13 17:22:48,234 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:49,243 https://opensnow.com:443 "GET /location/keystone/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:49,373 Success. Forecast for keystone = 1
+2022-11-13 17:22:49,426 Upserting data 48, Keystone, 1
+2022-11-13 17:22:49,490 Getting forecast for loveland
+2022-11-13 17:22:49,492 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:50,298 https://opensnow.com:443 "GET /location/loveland/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:50,404 Success. Forecast for loveland = 1
+2022-11-13 17:22:50,465 Upserting data 49, Loveland, 1
+2022-11-13 17:22:50,533 Getting forecast for monarch
+2022-11-13 17:22:50,535 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:51,318 https://opensnow.com:443 "GET /location/monarch/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:51,445 Success. Forecast for monarch = 0
+2022-11-13 17:22:51,501 Upserting data 50, Monarch, 0
+2022-11-13 17:22:51,561 Getting forecast for powderhorn
+2022-11-13 17:22:51,563 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:52,335 https://opensnow.com:443 "GET /location/powderhorn/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:52,472 Success. Forecast for powderhorn = 0
+2022-11-13 17:22:52,533 Upserting data 51, Powderhorn, 0
+2022-11-13 17:22:52,591 Getting forecast for purgatory
+2022-11-13 17:22:52,594 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:53,395 https://opensnow.com:443 "GET /location/purgatory/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:53,489 Success. Forecast for purgatory = 0
+2022-11-13 17:22:53,550 Upserting data 52, Purgatory, 0
+2022-11-13 17:22:53,625 Getting forecast for silverton
+2022-11-13 17:22:53,627 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:54,529 https://opensnow.com:443 "GET /location/silverton/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:54,630 Success. Forecast for silverton = 1
+2022-11-13 17:22:54,688 Upserting data 53, Silverton Mountain, 1
+2022-11-13 17:22:54,752 Getting forecast for snowmass
+2022-11-13 17:22:54,754 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:55,472 https://opensnow.com:443 "GET /location/snowmass/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:55,566 Success. Forecast for snowmass = 2
+2022-11-13 17:22:55,632 Upserting data 54, Snowmass, 2
+2022-11-13 17:22:55,698 Getting forecast for steamboat
+2022-11-13 17:22:55,699 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:56,509 https://opensnow.com:443 "GET /location/steamboat/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:56,637 Success. Forecast for steamboat = 1
+2022-11-13 17:22:56,701 Upserting data 55, Steamboat, 1
+2022-11-13 17:22:56,760 Getting forecast for sunlight
+2022-11-13 17:22:56,762 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:57,658 https://opensnow.com:443 "GET /location/sunlight/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:57,750 Success. Forecast for sunlight = 0
+2022-11-13 17:22:57,816 Upserting data 56, Sunlight, 0
+2022-11-13 17:22:57,877 Getting forecast for telluride
+2022-11-13 17:22:57,878 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:58,688 https://opensnow.com:443 "GET /location/telluride/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:58,794 Success. Forecast for telluride = 0
+2022-11-13 17:22:58,852 Upserting data 57, Telluride, 0
+2022-11-13 17:22:58,925 Getting forecast for vail
+2022-11-13 17:22:58,927 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:22:59,832 https://opensnow.com:443 "GET /location/vail/forecast HTTP/1.1" 200 None
+2022-11-13 17:22:59,927 Success. Forecast for vail = 2
+2022-11-13 17:22:59,983 Upserting data 58, Vail, 2
+2022-11-13 17:23:00,051 Getting forecast for winterpark
+2022-11-13 17:23:00,053 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:23:00,813 https://opensnow.com:443 "GET /location/winterpark/forecast HTTP/1.1" 200 None
+2022-11-13 17:23:00,925 Success. Forecast for winterpark = 2
+2022-11-13 17:23:00,987 Upserting data 59, Winter Park, 2
+2022-11-13 17:23:01,049 Getting forecast for wolfcreekcolorado
+2022-11-13 17:23:01,051 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-13 17:23:01,931 https://opensnow.com:443 "GET /location/wolfcreekcolorado/forecast HTTP/1.1" 200 None
+2022-11-13 17:23:02,046 Success. Forecast for wolfcreekcolorado = 2
+2022-11-13 17:23:02,107 Upserting data 60, Wolf Creek, 2

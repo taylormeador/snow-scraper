@@ -1,4 +1,5 @@
 /config.py
 __pycache__/
+.pytest_cache/
 mwaa_public_network.yaml
 tutorial.py

@@ -1,3 +1,3 @@
 # snow-scraper
 
-This project aims to capture snowfall data. Scope undetermined
+This project collects data on snow forecasts and snow fall amounts at Colorado ski resorts
