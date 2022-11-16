@@ -1,1517 +1,381 @@
-DEBUG:root:test
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.snocountry.com:443
-DEBUG:urllib3.connectionpool:https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-INFO:root:snocountry_scraper script starting
-DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): www.snocountry.com:443
-DEBUG:urllib3.connectionpool:https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-11 20:19:36,660 snocountry_scraper script starting
-2022-11-11 20:19:37,178 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-11 20:19:38,651 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-11 20:19:38,721 
-2022-11-11 20:22:47,053 snocountry_scraper script starting
-2022-11-11 20:22:47,564 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-11 20:22:49,118 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-11 20:22:56,420 snocountry_scraper script starting
-2022-11-11 20:22:56,929 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-11 20:22:58,537 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-11 20:22:58,608 failed to collect content
-2022-11-12 07:56:51,411 snocountry_scraper script starting
-2022-11-12 07:56:51,979 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 07:56:53,632 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 07:56:53,699 failed to collect page content. exiting
-2022-11-12 07:57:04,529 snocountry_scraper script starting
-2022-11-12 07:57:05,123 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 07:57:06,564 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 07:58:53,811 Starting snocountry_scraper script
-2022-11-12 07:58:54,566 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 07:58:56,306 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 12:49:40,825 Starting snocountry_scraper script
-2022-11-12 12:49:41,460 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 12:49:43,022 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 12:56:44,293 Starting snocountry_scraper script
-2022-11-12 12:56:44,789 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 12:56:47,153 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 12:57:13,380 Starting snocountry_scraper script
-2022-11-12 12:57:13,848 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 12:57:15,397 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 12:57:32,989 Starting snocountry_scraper script
-2022-11-12 12:57:33,530 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 12:57:35,018 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 12:57:45,488 Starting snocountry_scraper script
-2022-11-12 12:57:46,024 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 12:57:47,510 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 12:58:44,811 Starting snocountry_scraper script
-2022-11-12 12:58:45,514 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 12:58:46,931 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 13:02:56,196 Starting snocountry_scraper script
-2022-11-12 13:02:56,730 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 13:02:58,315 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 13:03:24,341 Starting snocountry_scraper script
-2022-11-12 13:03:24,832 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 13:03:26,199 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 13:03:46,317 Starting snocountry_scraper script
-2022-11-12 13:03:46,804 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 13:03:48,325 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 13:19:23,943 Starting snocountry_scraper script
-2022-11-12 13:19:24,437 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 13:19:26,276 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 13:19:26,537 Upserting data 31, Arapahoe Basin, CO, 0
-2022-11-12 13:20:08,308 Starting snocountry_scraper script
-2022-11-12 13:20:08,960 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 13:20:10,510 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 13:20:10,741 Upserting data 31, Arapahoe Basin, CO, 0
-2022-11-12 13:22:15,802 Starting snocountry_scraper script
-2022-11-12 13:22:16,353 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-12 13:22:17,955 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-12 13:22:18,149 Upserting data 31, Arapahoe Basin, CO, 0
-2022-11-12 13:22:18,301 Upserting data 32, Aspen Highlands, CO, 0
-2022-11-12 13:22:18,416 Upserting data 33, Aspen Mountain, CO, 0
-2022-11-12 13:22:18,536 Upserting data 34, Beaver Creek, CO, 0
-2022-11-12 13:22:18,658 Upserting data 35, Bluebird Backcountry, CO, 0
-2022-11-12 13:22:18,775 Upserting data 36, Breckenridge, CO, 0
-2022-11-12 13:22:18,906 Upserting data 37, Buttermilk, CO, 0
-2022-11-12 13:22:19,033 Upserting data 38, Cooper, CO, 0
-2022-11-12 13:22:19,154 Upserting data 39, Copper Mountain, CO, 0
-2022-11-12 13:22:19,272 Upserting data 40, Crested Butte, CO, 0
-2022-11-12 13:22:19,393 Upserting data 41, Echo Mountain, CO, 0
-2022-11-12 13:22:19,523 Upserting data 42, Eldora, CO, 0
-2022-11-12 13:22:19,644 Upserting data 43, Granby Ranch, CO, 0
-2022-11-12 13:22:19,767 Upserting data 44, Hesperus Ski Area, CO, 0
-2022-11-12 13:22:19,891 Upserting data 45, Howelsen Hill, CO, 0
-2022-11-12 13:22:20,008 Upserting data 46, Irwin, CO, 0
-2022-11-12 13:22:20,124 Upserting data 47, Kendall Mountain, CO, 0
-2022-11-12 13:22:20,248 Upserting data 48, Keystone, CO, 0
-2022-11-12 13:22:20,375 Upserting data 49, Loveland, CO, 0
-2022-11-12 13:22:20,497 Upserting data 50, Monarch, CO, 0
-2022-11-12 13:22:20,616 Upserting data 51, Powderhorn, CO, 0
-2022-11-12 13:22:20,732 Upserting data 52, Purgatory, CO, 0
-2022-11-12 13:22:20,853 Upserting data 53, Silverton Mountain, CO, 0
-2022-11-12 13:22:20,988 Upserting data 54, Snowmass, CO, 0
-2022-11-12 13:22:21,111 Upserting data 55, Steamboat, CO, 0
-2022-11-12 13:22:21,231 Upserting data 56, Sunlight, CO, 0
-2022-11-12 13:22:21,355 Upserting data 57, Telluride, CO, 0
-2022-11-12 13:22:21,475 Upserting data 58, Vail, CO, 0
-2022-11-12 13:22:21,593 Upserting data 59, Winter Park, CO, 0
-2022-11-12 13:22:21,710 Upserting data 60, Wolf Creek, CO, 0
-2022-11-13 08:20:30,567 Starting snocountry_scraper script
-2022-11-13 08:20:31,325 Starting new HTTPS connection (1): www.snocountry.com:443
-2022-11-13 08:20:32,911 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
-2022-11-13 08:20:33,117 Upserting data 31, Arapahoe Basin, CO, 0
-2022-11-13 08:20:33,263 Upserting data 32, Aspen Highlands, CO, 0
-2022-11-13 08:20:33,382 Upserting data 33, Aspen Mountain, CO, 0
-2022-11-13 08:20:33,508 Upserting data 34, Beaver Creek, CO, 0
-2022-11-13 08:20:33,630 Upserting data 35, Bluebird Backcountry, CO, 0
-2022-11-13 08:20:33,752 Upserting data 36, Breckenridge, CO, 0
-2022-11-13 08:20:33,869 Upserting data 37, Buttermilk, CO, 0
-2022-11-13 08:20:33,999 Upserting data 38, Cooper, CO, 0
-2022-11-13 08:20:34,119 Upserting data 39, Copper Mountain, CO, 0
-2022-11-13 08:20:34,243 Upserting data 40, Crested Butte, CO, 0
-2022-11-13 08:20:34,367 Upserting data 41, Echo Mountain, CO, 0
-2022-11-13 08:20:34,497 Upserting data 42, Eldora, CO, 0
-2022-11-13 08:20:34,619 Upserting data 43, Granby Ranch, CO, 0
-2022-11-13 08:20:34,739 Upserting data 44, Hesperus Ski Area, CO, 0
-2022-11-13 08:20:34,864 Upserting data 45, Howelsen Hill, CO, 0
-2022-11-13 08:20:34,993 Upserting data 46, Irwin, CO, 0
-2022-11-13 08:20:35,114 Upserting data 47, Kendall Mountain, CO, 0
-2022-11-13 08:20:35,241 Upserting data 48, Keystone, CO, 0
-2022-11-13 08:20:35,373 Upserting data 49, Loveland, CO, 0
-2022-11-13 08:20:35,496 Upserting data 50, Monarch, CO, 0
-2022-11-13 08:20:35,648 Upserting data 51, Powderhorn, CO, 0
-2022-11-13 08:20:35,794 Upserting data 52, Purgatory, CO, 0
-2022-11-13 08:20:35,939 Upserting data 53, Silverton Mountain, CO, 0
-2022-11-13 08:20:36,063 Upserting data 54, Snowmass, CO, 0
-2022-11-13 08:20:36,184 Upserting data 55, Steamboat, CO, 0
-2022-11-13 08:20:36,341 Upserting data 56, Sunlight, CO, 0
-2022-11-13 08:20:36,487 Upserting data 57, Telluride, CO, 0
-2022-11-13 08:20:36,607 Upserting data 58, Vail, CO, 0
-2022-11-13 08:20:36,726 Upserting data 59, Winter Park, CO, 0
-2022-11-13 08:20:36,857 Upserting data 60, Wolf Creek, CO, 0
-2022-11-13 14:53:14,870 Starting snocountry_scraper script
-2022-11-13 14:53:14,872 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:53:15,086 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:53:15,097 Importing BlpImagePlugin
-2022-11-13 14:53:15,098 Importing BmpImagePlugin
-2022-11-13 14:53:15,098 Importing BufrStubImagePlugin
-2022-11-13 14:53:15,098 Importing CurImagePlugin
-2022-11-13 14:53:15,098 Importing DcxImagePlugin
-2022-11-13 14:53:15,099 Importing DdsImagePlugin
-2022-11-13 14:53:15,099 Importing EpsImagePlugin
-2022-11-13 14:53:15,100 Importing FitsStubImagePlugin
-2022-11-13 14:53:15,100 Importing FliImagePlugin
-2022-11-13 14:53:15,101 Importing FpxImagePlugin
-2022-11-13 14:53:15,102 Importing FtexImagePlugin
-2022-11-13 14:53:15,102 Importing GbrImagePlugin
-2022-11-13 14:53:15,102 Importing GifImagePlugin
-2022-11-13 14:53:15,103 Importing GribStubImagePlugin
-2022-11-13 14:53:15,103 Importing Hdf5StubImagePlugin
-2022-11-13 14:53:15,103 Importing IcnsImagePlugin
-2022-11-13 14:53:15,104 Importing IcoImagePlugin
-2022-11-13 14:53:15,104 Importing ImImagePlugin
-2022-11-13 14:53:15,105 Importing ImtImagePlugin
-2022-11-13 14:53:15,106 Importing IptcImagePlugin
-2022-11-13 14:53:15,106 Importing JpegImagePlugin
-2022-11-13 14:53:15,106 Importing Jpeg2KImagePlugin
-2022-11-13 14:53:15,106 Importing McIdasImagePlugin
-2022-11-13 14:53:15,106 Importing MicImagePlugin
-2022-11-13 14:53:15,107 Importing MpegImagePlugin
-2022-11-13 14:53:15,107 Importing MpoImagePlugin
-2022-11-13 14:53:15,107 Importing MspImagePlugin
-2022-11-13 14:53:15,108 Importing PalmImagePlugin
-2022-11-13 14:53:15,109 Importing PcdImagePlugin
-2022-11-13 14:53:15,109 Importing PcxImagePlugin
-2022-11-13 14:53:15,109 Importing PdfImagePlugin
-2022-11-13 14:53:15,115 Importing PixarImagePlugin
-2022-11-13 14:53:15,115 Importing PngImagePlugin
-2022-11-13 14:53:15,115 Importing PpmImagePlugin
-2022-11-13 14:53:15,115 Importing PsdImagePlugin
-2022-11-13 14:53:15,116 Importing SgiImagePlugin
-2022-11-13 14:53:15,116 Importing SpiderImagePlugin
-2022-11-13 14:53:15,116 Importing SunImagePlugin
-2022-11-13 14:53:15,117 Importing TgaImagePlugin
-2022-11-13 14:53:15,117 Importing TiffImagePlugin
-2022-11-13 14:53:15,117 Importing WebPImagePlugin
-2022-11-13 14:53:15,118 Importing WmfImagePlugin
-2022-11-13 14:53:15,118 Importing XbmImagePlugin
-2022-11-13 14:53:15,119 Importing XpmImagePlugin
-2022-11-13 14:53:15,119 Importing XVThumbImagePlugin
-2022-11-13 14:53:15,123 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:53:15,370 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:53:15,374 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:53:15,601 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:53:15,605 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:53:15,822 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:53:15,826 Starting new HTTPS connection (1): cache.snow.com:443
-2022-11-13 14:53:16,059 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:54:07,783 Starting snocountry_scraper script
-2022-11-13 14:54:07,786 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:54:08,018 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:54:08,029 Importing BlpImagePlugin
-2022-11-13 14:54:08,029 Importing BmpImagePlugin
-2022-11-13 14:54:08,029 Importing BufrStubImagePlugin
-2022-11-13 14:54:08,030 Importing CurImagePlugin
-2022-11-13 14:54:08,030 Importing DcxImagePlugin
-2022-11-13 14:54:08,030 Importing DdsImagePlugin
-2022-11-13 14:54:08,031 Importing EpsImagePlugin
-2022-11-13 14:54:08,032 Importing FitsStubImagePlugin
-2022-11-13 14:54:08,032 Importing FliImagePlugin
-2022-11-13 14:54:08,032 Importing FpxImagePlugin
-2022-11-13 14:54:08,034 Importing FtexImagePlugin
-2022-11-13 14:54:08,034 Importing GbrImagePlugin
-2022-11-13 14:54:08,034 Importing GifImagePlugin
-2022-11-13 14:54:08,034 Importing GribStubImagePlugin
-2022-11-13 14:54:08,035 Importing Hdf5StubImagePlugin
-2022-11-13 14:54:08,035 Importing IcnsImagePlugin
-2022-11-13 14:54:08,036 Importing IcoImagePlugin
-2022-11-13 14:54:08,036 Importing ImImagePlugin
-2022-11-13 14:54:08,037 Importing ImtImagePlugin
-2022-11-13 14:54:08,037 Importing IptcImagePlugin
-2022-11-13 14:54:08,038 Importing JpegImagePlugin
-2022-11-13 14:54:08,038 Importing Jpeg2KImagePlugin
-2022-11-13 14:54:08,038 Importing McIdasImagePlugin
-2022-11-13 14:54:08,038 Importing MicImagePlugin
-2022-11-13 14:54:08,039 Importing MpegImagePlugin
-2022-11-13 14:54:08,039 Importing MpoImagePlugin
-2022-11-13 14:54:08,039 Importing MspImagePlugin
-2022-11-13 14:54:08,040 Importing PalmImagePlugin
-2022-11-13 14:54:08,041 Importing PcdImagePlugin
-2022-11-13 14:54:08,041 Importing PcxImagePlugin
-2022-11-13 14:54:08,041 Importing PdfImagePlugin
-2022-11-13 14:54:08,047 Importing PixarImagePlugin
-2022-11-13 14:54:08,047 Importing PngImagePlugin
-2022-11-13 14:54:08,047 Importing PpmImagePlugin
-2022-11-13 14:54:08,048 Importing PsdImagePlugin
-2022-11-13 14:54:08,048 Importing SgiImagePlugin
-2022-11-13 14:54:08,048 Importing SpiderImagePlugin
-2022-11-13 14:54:08,049 Importing SunImagePlugin
-2022-11-13 14:54:08,049 Importing TgaImagePlugin
-2022-11-13 14:54:08,049 Importing TiffImagePlugin
-2022-11-13 14:54:08,049 Importing WebPImagePlugin
-2022-11-13 14:54:08,050 Importing WmfImagePlugin
-2022-11-13 14:54:08,051 Importing XbmImagePlugin
-2022-11-13 14:54:08,052 Importing XpmImagePlugin
-2022-11-13 14:54:08,053 Importing XVThumbImagePlugin
-2022-11-13 14:54:08,057 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:54:08,291 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:54:08,295 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:54:08,521 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:54:08,527 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:54:08,762 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:54:08,766 Starting new HTTPS connection (1): cache.snow.com:443
-2022-11-13 14:54:09,001 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:54:33,527 Starting snocountry_scraper script
-2022-11-13 14:54:33,530 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:54:33,747 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:54:33,758 Importing BlpImagePlugin
-2022-11-13 14:54:33,758 Importing BmpImagePlugin
-2022-11-13 14:54:33,758 Importing BufrStubImagePlugin
-2022-11-13 14:54:33,759 Importing CurImagePlugin
-2022-11-13 14:54:33,759 Importing DcxImagePlugin
-2022-11-13 14:54:33,759 Importing DdsImagePlugin
-2022-11-13 14:54:33,760 Importing EpsImagePlugin
-2022-11-13 14:54:33,761 Importing FitsStubImagePlugin
-2022-11-13 14:54:33,761 Importing FliImagePlugin
-2022-11-13 14:54:33,761 Importing FpxImagePlugin
-2022-11-13 14:54:33,763 Importing FtexImagePlugin
-2022-11-13 14:54:33,763 Importing GbrImagePlugin
-2022-11-13 14:54:33,763 Importing GifImagePlugin
-2022-11-13 14:54:33,763 Importing GribStubImagePlugin
-2022-11-13 14:54:33,764 Importing Hdf5StubImagePlugin
-2022-11-13 14:54:33,764 Importing IcnsImagePlugin
-2022-11-13 14:54:33,765 Importing IcoImagePlugin
-2022-11-13 14:54:33,765 Importing ImImagePlugin
-2022-11-13 14:54:33,766 Importing ImtImagePlugin
-2022-11-13 14:54:33,766 Importing IptcImagePlugin
-2022-11-13 14:54:33,767 Importing JpegImagePlugin
-2022-11-13 14:54:33,767 Importing Jpeg2KImagePlugin
-2022-11-13 14:54:33,767 Importing McIdasImagePlugin
-2022-11-13 14:54:33,767 Importing MicImagePlugin
-2022-11-13 14:54:33,768 Importing MpegImagePlugin
-2022-11-13 14:54:33,768 Importing MpoImagePlugin
-2022-11-13 14:54:33,768 Importing MspImagePlugin
-2022-11-13 14:54:33,769 Importing PalmImagePlugin
-2022-11-13 14:54:33,770 Importing PcdImagePlugin
-2022-11-13 14:54:33,770 Importing PcxImagePlugin
-2022-11-13 14:54:33,770 Importing PdfImagePlugin
-2022-11-13 14:54:33,776 Importing PixarImagePlugin
-2022-11-13 14:54:33,776 Importing PngImagePlugin
-2022-11-13 14:54:33,776 Importing PpmImagePlugin
-2022-11-13 14:54:33,776 Importing PsdImagePlugin
-2022-11-13 14:54:33,777 Importing SgiImagePlugin
-2022-11-13 14:54:33,777 Importing SpiderImagePlugin
-2022-11-13 14:54:33,778 Importing SunImagePlugin
-2022-11-13 14:54:33,778 Importing TgaImagePlugin
-2022-11-13 14:54:33,778 Importing TiffImagePlugin
-2022-11-13 14:54:33,778 Importing WebPImagePlugin
-2022-11-13 14:54:33,779 Importing WmfImagePlugin
-2022-11-13 14:54:33,779 Importing XbmImagePlugin
-2022-11-13 14:54:33,781 Importing XpmImagePlugin
-2022-11-13 14:54:33,782 Importing XVThumbImagePlugin
-2022-11-13 14:54:33,785 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:54:34,000 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:54:34,004 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:54:34,234 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:54:34,237 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:54:34,458 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:54:34,462 Starting new HTTPS connection (1): cache.snow.com:443
-2022-11-13 14:54:34,677 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:55:08,065 Starting snocountry_scraper script
-2022-11-13 14:55:08,068 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:55:08,287 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:55:08,297 Importing BlpImagePlugin
-2022-11-13 14:55:08,298 Importing BmpImagePlugin
-2022-11-13 14:55:08,298 Importing BufrStubImagePlugin
-2022-11-13 14:55:08,298 Importing CurImagePlugin
-2022-11-13 14:55:08,299 Importing DcxImagePlugin
-2022-11-13 14:55:08,299 Importing DdsImagePlugin
-2022-11-13 14:55:08,300 Importing EpsImagePlugin
-2022-11-13 14:55:08,300 Importing FitsStubImagePlugin
-2022-11-13 14:55:08,301 Importing FliImagePlugin
-2022-11-13 14:55:08,301 Importing FpxImagePlugin
-2022-11-13 14:55:08,302 Importing FtexImagePlugin
-2022-11-13 14:55:08,303 Importing GbrImagePlugin
-2022-11-13 14:55:08,303 Importing GifImagePlugin
-2022-11-13 14:55:08,303 Importing GribStubImagePlugin
-2022-11-13 14:55:08,304 Importing Hdf5StubImagePlugin
-2022-11-13 14:55:08,304 Importing IcnsImagePlugin
-2022-11-13 14:55:08,305 Importing IcoImagePlugin
-2022-11-13 14:55:08,306 Importing ImImagePlugin
-2022-11-13 14:55:08,306 Importing ImtImagePlugin
-2022-11-13 14:55:08,307 Importing IptcImagePlugin
-2022-11-13 14:55:08,307 Importing JpegImagePlugin
-2022-11-13 14:55:08,307 Importing Jpeg2KImagePlugin
-2022-11-13 14:55:08,307 Importing McIdasImagePlugin
-2022-11-13 14:55:08,307 Importing MicImagePlugin
-2022-11-13 14:55:08,308 Importing MpegImagePlugin
-2022-11-13 14:55:08,308 Importing MpoImagePlugin
-2022-11-13 14:55:08,308 Importing MspImagePlugin
-2022-11-13 14:55:08,309 Importing PalmImagePlugin
-2022-11-13 14:55:08,310 Importing PcdImagePlugin
-2022-11-13 14:55:08,310 Importing PcxImagePlugin
-2022-11-13 14:55:08,310 Importing PdfImagePlugin
-2022-11-13 14:55:08,316 Importing PixarImagePlugin
-2022-11-13 14:55:08,316 Importing PngImagePlugin
-2022-11-13 14:55:08,316 Importing PpmImagePlugin
-2022-11-13 14:55:08,316 Importing PsdImagePlugin
-2022-11-13 14:55:08,317 Importing SgiImagePlugin
-2022-11-13 14:55:08,317 Importing SpiderImagePlugin
-2022-11-13 14:55:08,317 Importing SunImagePlugin
-2022-11-13 14:55:08,318 Importing TgaImagePlugin
-2022-11-13 14:55:08,318 Importing TiffImagePlugin
-2022-11-13 14:55:08,318 Importing WebPImagePlugin
-2022-11-13 14:55:08,319 Importing WmfImagePlugin
-2022-11-13 14:55:08,319 Importing XbmImagePlugin
-2022-11-13 14:55:08,320 Importing XpmImagePlugin
-2022-11-13 14:55:08,320 Importing XVThumbImagePlugin
-2022-11-13 14:55:17,410 Starting snocountry_scraper script
-2022-11-13 14:55:17,412 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:55:17,637 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:55:17,648 Importing BlpImagePlugin
-2022-11-13 14:55:17,649 Importing BmpImagePlugin
-2022-11-13 14:55:17,649 Importing BufrStubImagePlugin
-2022-11-13 14:55:17,649 Importing CurImagePlugin
-2022-11-13 14:55:17,649 Importing DcxImagePlugin
-2022-11-13 14:55:17,650 Importing DdsImagePlugin
-2022-11-13 14:55:17,650 Importing EpsImagePlugin
-2022-11-13 14:55:17,651 Importing FitsStubImagePlugin
-2022-11-13 14:55:17,651 Importing FliImagePlugin
-2022-11-13 14:55:17,652 Importing FpxImagePlugin
-2022-11-13 14:55:17,653 Importing FtexImagePlugin
-2022-11-13 14:55:17,653 Importing GbrImagePlugin
-2022-11-13 14:55:17,654 Importing GifImagePlugin
-2022-11-13 14:55:17,654 Importing GribStubImagePlugin
-2022-11-13 14:55:17,654 Importing Hdf5StubImagePlugin
-2022-11-13 14:55:17,654 Importing IcnsImagePlugin
-2022-11-13 14:55:17,656 Importing IcoImagePlugin
-2022-11-13 14:55:17,656 Importing ImImagePlugin
-2022-11-13 14:55:17,657 Importing ImtImagePlugin
-2022-11-13 14:55:17,657 Importing IptcImagePlugin
-2022-11-13 14:55:17,658 Importing JpegImagePlugin
-2022-11-13 14:55:17,658 Importing Jpeg2KImagePlugin
-2022-11-13 14:55:17,658 Importing McIdasImagePlugin
-2022-11-13 14:55:17,658 Importing MicImagePlugin
-2022-11-13 14:55:17,659 Importing MpegImagePlugin
-2022-11-13 14:55:17,659 Importing MpoImagePlugin
-2022-11-13 14:55:17,659 Importing MspImagePlugin
-2022-11-13 14:55:17,660 Importing PalmImagePlugin
-2022-11-13 14:55:17,661 Importing PcdImagePlugin
-2022-11-13 14:55:17,661 Importing PcxImagePlugin
-2022-11-13 14:55:17,661 Importing PdfImagePlugin
-2022-11-13 14:55:17,668 Importing PixarImagePlugin
-2022-11-13 14:55:17,668 Importing PngImagePlugin
-2022-11-13 14:55:17,668 Importing PpmImagePlugin
-2022-11-13 14:55:17,668 Importing PsdImagePlugin
-2022-11-13 14:55:17,669 Importing SgiImagePlugin
-2022-11-13 14:55:17,669 Importing SpiderImagePlugin
-2022-11-13 14:55:17,670 Importing SunImagePlugin
-2022-11-13 14:55:17,670 Importing TgaImagePlugin
-2022-11-13 14:55:17,670 Importing TiffImagePlugin
-2022-11-13 14:55:17,670 Importing WebPImagePlugin
-2022-11-13 14:55:17,671 Importing WmfImagePlugin
-2022-11-13 14:55:17,672 Importing XbmImagePlugin
-2022-11-13 14:55:17,673 Importing XpmImagePlugin
-2022-11-13 14:55:17,673 Importing XVThumbImagePlugin
-2022-11-13 14:55:17,674 Couldn't get image for breck:
-2022-11-13 14:55:17,676 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:55:17,893 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:55:17,895 Couldn't get image for vail:
-2022-11-13 14:55:17,897 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:55:18,120 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:55:18,122 Couldn't get image for beaver_creek:
-2022-11-13 14:55:18,124 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:55:18,345 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:55:18,346 Couldn't get image for crested_butte:
-2022-11-13 14:55:18,348 Starting new HTTPS connection (1): cache.snow.com:443
-2022-11-13 14:55:18,565 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:55:18,567 Couldn't get image for keystone:
-2022-11-13 14:56:40,638 Starting snocountry_scraper script
-2022-11-13 14:56:40,641 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:56:40,890 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:56:40,901 Importing BlpImagePlugin
-2022-11-13 14:56:40,901 Importing BmpImagePlugin
-2022-11-13 14:56:40,901 Importing BufrStubImagePlugin
-2022-11-13 14:56:40,902 Importing CurImagePlugin
-2022-11-13 14:56:40,902 Importing DcxImagePlugin
-2022-11-13 14:56:40,902 Importing DdsImagePlugin
-2022-11-13 14:56:40,903 Importing EpsImagePlugin
-2022-11-13 14:56:40,904 Importing FitsStubImagePlugin
-2022-11-13 14:56:40,904 Importing FliImagePlugin
-2022-11-13 14:56:40,904 Importing FpxImagePlugin
-2022-11-13 14:56:40,906 Importing FtexImagePlugin
-2022-11-13 14:56:40,906 Importing GbrImagePlugin
-2022-11-13 14:56:40,906 Importing GifImagePlugin
-2022-11-13 14:56:40,906 Importing GribStubImagePlugin
-2022-11-13 14:56:40,907 Importing Hdf5StubImagePlugin
-2022-11-13 14:56:40,907 Importing IcnsImagePlugin
-2022-11-13 14:56:40,908 Importing IcoImagePlugin
-2022-11-13 14:56:40,908 Importing ImImagePlugin
-2022-11-13 14:56:40,909 Importing ImtImagePlugin
-2022-11-13 14:56:40,909 Importing IptcImagePlugin
-2022-11-13 14:56:40,910 Importing JpegImagePlugin
-2022-11-13 14:56:40,910 Importing Jpeg2KImagePlugin
-2022-11-13 14:56:40,910 Importing McIdasImagePlugin
-2022-11-13 14:56:40,910 Importing MicImagePlugin
-2022-11-13 14:56:40,911 Importing MpegImagePlugin
-2022-11-13 14:56:40,911 Importing MpoImagePlugin
-2022-11-13 14:56:40,911 Importing MspImagePlugin
-2022-11-13 14:56:40,912 Importing PalmImagePlugin
-2022-11-13 14:56:40,913 Importing PcdImagePlugin
-2022-11-13 14:56:40,913 Importing PcxImagePlugin
-2022-11-13 14:56:40,913 Importing PdfImagePlugin
-2022-11-13 14:56:40,921 Importing PixarImagePlugin
-2022-11-13 14:56:40,921 Importing PngImagePlugin
-2022-11-13 14:56:40,921 Importing PpmImagePlugin
-2022-11-13 14:56:40,921 Importing PsdImagePlugin
-2022-11-13 14:56:40,922 Importing SgiImagePlugin
-2022-11-13 14:56:40,922 Importing SpiderImagePlugin
-2022-11-13 14:56:40,922 Importing SunImagePlugin
-2022-11-13 14:56:40,923 Importing TgaImagePlugin
-2022-11-13 14:56:40,923 Importing TiffImagePlugin
-2022-11-13 14:56:40,923 Importing WebPImagePlugin
-2022-11-13 14:56:40,924 Importing WmfImagePlugin
-2022-11-13 14:56:40,924 Importing XbmImagePlugin
-2022-11-13 14:56:40,925 Importing XpmImagePlugin
-2022-11-13 14:56:40,926 Importing XVThumbImagePlugin
-2022-11-13 14:56:40,929 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:56:41,187 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:56:41,191 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:56:41,434 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:56:41,438 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:56:41,682 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:56:41,686 Starting new HTTPS connection (1): cache.snow.com:443
-2022-11-13 14:56:41,905 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:19,497 Starting snocountry_scraper script
-2022-11-13 14:57:19,499 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:19,707 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:19,718 Importing BlpImagePlugin
-2022-11-13 14:57:19,719 Importing BmpImagePlugin
-2022-11-13 14:57:19,719 Importing BufrStubImagePlugin
-2022-11-13 14:57:19,719 Importing CurImagePlugin
-2022-11-13 14:57:19,719 Importing DcxImagePlugin
-2022-11-13 14:57:19,720 Importing DdsImagePlugin
-2022-11-13 14:57:19,720 Importing EpsImagePlugin
-2022-11-13 14:57:19,721 Importing FitsStubImagePlugin
-2022-11-13 14:57:19,721 Importing FliImagePlugin
-2022-11-13 14:57:19,722 Importing FpxImagePlugin
-2022-11-13 14:57:19,723 Importing FtexImagePlugin
-2022-11-13 14:57:19,723 Importing GbrImagePlugin
-2022-11-13 14:57:19,723 Importing GifImagePlugin
-2022-11-13 14:57:19,724 Importing GribStubImagePlugin
-2022-11-13 14:57:19,724 Importing Hdf5StubImagePlugin
-2022-11-13 14:57:19,724 Importing IcnsImagePlugin
-2022-11-13 14:57:19,725 Importing IcoImagePlugin
-2022-11-13 14:57:19,726 Importing ImImagePlugin
-2022-11-13 14:57:19,726 Importing ImtImagePlugin
-2022-11-13 14:57:19,727 Importing IptcImagePlugin
-2022-11-13 14:57:19,727 Importing JpegImagePlugin
-2022-11-13 14:57:19,727 Importing Jpeg2KImagePlugin
-2022-11-13 14:57:19,727 Importing McIdasImagePlugin
-2022-11-13 14:57:19,727 Importing MicImagePlugin
-2022-11-13 14:57:19,728 Importing MpegImagePlugin
-2022-11-13 14:57:19,728 Importing MpoImagePlugin
-2022-11-13 14:57:19,728 Importing MspImagePlugin
-2022-11-13 14:57:19,729 Importing PalmImagePlugin
-2022-11-13 14:57:19,730 Importing PcdImagePlugin
-2022-11-13 14:57:19,730 Importing PcxImagePlugin
-2022-11-13 14:57:19,730 Importing PdfImagePlugin
-2022-11-13 14:57:19,736 Importing PixarImagePlugin
-2022-11-13 14:57:19,736 Importing PngImagePlugin
-2022-11-13 14:57:19,736 Importing PpmImagePlugin
-2022-11-13 14:57:19,736 Importing PsdImagePlugin
-2022-11-13 14:57:19,737 Importing SgiImagePlugin
-2022-11-13 14:57:19,737 Importing SpiderImagePlugin
-2022-11-13 14:57:19,738 Importing SunImagePlugin
-2022-11-13 14:57:19,738 Importing TgaImagePlugin
-2022-11-13 14:57:19,738 Importing TiffImagePlugin
-2022-11-13 14:57:19,738 Importing WebPImagePlugin
-2022-11-13 14:57:19,739 Importing WmfImagePlugin
-2022-11-13 14:57:19,739 Importing XbmImagePlugin
-2022-11-13 14:57:19,740 Importing XpmImagePlugin
-2022-11-13 14:57:19,741 Importing XVThumbImagePlugin
-2022-11-13 14:57:19,745 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:19,965 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:19,968 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:20,179 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:20,183 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:20,401 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:20,405 Starting new HTTPS connection (1): cache.snow.com:443
-2022-11-13 14:57:20,638 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:42,265 Starting snocountry_scraper script
-2022-11-13 14:57:42,267 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:42,500 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:42,510 Importing BlpImagePlugin
-2022-11-13 14:57:42,511 Importing BmpImagePlugin
-2022-11-13 14:57:42,511 Importing BufrStubImagePlugin
-2022-11-13 14:57:42,511 Importing CurImagePlugin
-2022-11-13 14:57:42,511 Importing DcxImagePlugin
-2022-11-13 14:57:42,512 Importing DdsImagePlugin
-2022-11-13 14:57:42,512 Importing EpsImagePlugin
-2022-11-13 14:57:42,513 Importing FitsStubImagePlugin
-2022-11-13 14:57:42,513 Importing FliImagePlugin
-2022-11-13 14:57:42,514 Importing FpxImagePlugin
-2022-11-13 14:57:42,515 Importing FtexImagePlugin
-2022-11-13 14:57:42,515 Importing GbrImagePlugin
-2022-11-13 14:57:42,515 Importing GifImagePlugin
-2022-11-13 14:57:42,515 Importing GribStubImagePlugin
-2022-11-13 14:57:42,516 Importing Hdf5StubImagePlugin
-2022-11-13 14:57:42,516 Importing IcnsImagePlugin
-2022-11-13 14:57:42,517 Importing IcoImagePlugin
-2022-11-13 14:57:42,517 Importing ImImagePlugin
-2022-11-13 14:57:42,518 Importing ImtImagePlugin
-2022-11-13 14:57:42,519 Importing IptcImagePlugin
-2022-11-13 14:57:42,519 Importing JpegImagePlugin
-2022-11-13 14:57:42,519 Importing Jpeg2KImagePlugin
-2022-11-13 14:57:42,519 Importing McIdasImagePlugin
-2022-11-13 14:57:42,519 Importing MicImagePlugin
-2022-11-13 14:57:42,520 Importing MpegImagePlugin
-2022-11-13 14:57:42,520 Importing MpoImagePlugin
-2022-11-13 14:57:42,520 Importing MspImagePlugin
-2022-11-13 14:57:42,521 Importing PalmImagePlugin
-2022-11-13 14:57:42,522 Importing PcdImagePlugin
-2022-11-13 14:57:42,522 Importing PcxImagePlugin
-2022-11-13 14:57:42,522 Importing PdfImagePlugin
-2022-11-13 14:57:42,528 Importing PixarImagePlugin
-2022-11-13 14:57:42,528 Importing PngImagePlugin
-2022-11-13 14:57:42,528 Importing PpmImagePlugin
-2022-11-13 14:57:42,528 Importing PsdImagePlugin
-2022-11-13 14:57:42,529 Importing SgiImagePlugin
-2022-11-13 14:57:42,529 Importing SpiderImagePlugin
-2022-11-13 14:57:42,529 Importing SunImagePlugin
-2022-11-13 14:57:42,530 Importing TgaImagePlugin
-2022-11-13 14:57:42,530 Importing TiffImagePlugin
-2022-11-13 14:57:42,530 Importing WebPImagePlugin
-2022-11-13 14:57:42,531 Importing WmfImagePlugin
-2022-11-13 14:57:42,531 Importing XbmImagePlugin
-2022-11-13 14:57:42,533 Importing XpmImagePlugin
-2022-11-13 14:57:42,533 Importing XVThumbImagePlugin
-2022-11-13 14:57:42,538 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:42,756 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:42,760 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:42,975 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:42,978 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:43,202 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:43,205 Starting new HTTPS connection (1): cache.snow.com:443
-2022-11-13 14:57:43,428 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:51,679 Starting snocountry_scraper script
-2022-11-13 14:57:51,682 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:51,895 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:51,906 Importing BlpImagePlugin
-2022-11-13 14:57:51,906 Importing BmpImagePlugin
-2022-11-13 14:57:51,906 Importing BufrStubImagePlugin
-2022-11-13 14:57:51,906 Importing CurImagePlugin
-2022-11-13 14:57:51,907 Importing DcxImagePlugin
-2022-11-13 14:57:51,907 Importing DdsImagePlugin
-2022-11-13 14:57:51,908 Importing EpsImagePlugin
-2022-11-13 14:57:51,908 Importing FitsStubImagePlugin
-2022-11-13 14:57:51,909 Importing FliImagePlugin
-2022-11-13 14:57:51,909 Importing FpxImagePlugin
-2022-11-13 14:57:51,910 Importing FtexImagePlugin
-2022-11-13 14:57:51,910 Importing GbrImagePlugin
-2022-11-13 14:57:51,911 Importing GifImagePlugin
-2022-11-13 14:57:51,911 Importing GribStubImagePlugin
-2022-11-13 14:57:51,911 Importing Hdf5StubImagePlugin
-2022-11-13 14:57:51,911 Importing IcnsImagePlugin
-2022-11-13 14:57:51,912 Importing IcoImagePlugin
-2022-11-13 14:57:51,913 Importing ImImagePlugin
-2022-11-13 14:57:51,913 Importing ImtImagePlugin
-2022-11-13 14:57:51,914 Importing IptcImagePlugin
-2022-11-13 14:57:51,914 Importing JpegImagePlugin
-2022-11-13 14:57:51,914 Importing Jpeg2KImagePlugin
-2022-11-13 14:57:51,914 Importing McIdasImagePlugin
-2022-11-13 14:57:51,914 Importing MicImagePlugin
-2022-11-13 14:57:51,915 Importing MpegImagePlugin
-2022-11-13 14:57:51,915 Importing MpoImagePlugin
-2022-11-13 14:57:51,915 Importing MspImagePlugin
-2022-11-13 14:57:51,916 Importing PalmImagePlugin
-2022-11-13 14:57:51,917 Importing PcdImagePlugin
-2022-11-13 14:57:51,917 Importing PcxImagePlugin
-2022-11-13 14:57:51,917 Importing PdfImagePlugin
-2022-11-13 14:57:51,923 Importing PixarImagePlugin
-2022-11-13 14:57:51,923 Importing PngImagePlugin
-2022-11-13 14:57:51,923 Importing PpmImagePlugin
-2022-11-13 14:57:51,923 Importing PsdImagePlugin
-2022-11-13 14:57:51,924 Importing SgiImagePlugin
-2022-11-13 14:57:51,924 Importing SpiderImagePlugin
-2022-11-13 14:57:51,924 Importing SunImagePlugin
-2022-11-13 14:57:51,925 Importing TgaImagePlugin
-2022-11-13 14:57:51,925 Importing TiffImagePlugin
-2022-11-13 14:57:51,925 Importing WebPImagePlugin
-2022-11-13 14:57:51,926 Importing WmfImagePlugin
-2022-11-13 14:57:51,926 Importing XbmImagePlugin
-2022-11-13 14:57:51,927 Importing XpmImagePlugin
-2022-11-13 14:57:51,928 Importing XVThumbImagePlugin
-2022-11-13 14:57:51,929 Couldn't get image for breck:
-2022-11-13 14:57:51,930 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:52,149 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:52,151 Couldn't get image for vail:
-2022-11-13 14:57:52,152 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:52,365 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:52,366 Couldn't get image for beaver_creek:
-2022-11-13 14:57:52,368 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:57:52,580 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:52,582 Couldn't get image for crested_butte:
-2022-11-13 14:57:52,583 Starting new HTTPS connection (1): cache.snow.com:443
-2022-11-13 14:57:52,811 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:57:52,813 Couldn't get image for keystone:
-2022-11-13 14:58:12,981 Starting snocountry_scraper script
-2022-11-13 14:58:12,983 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:58:13,234 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:58:13,244 Importing BlpImagePlugin
-2022-11-13 14:58:13,245 Importing BmpImagePlugin
-2022-11-13 14:58:13,245 Importing BufrStubImagePlugin
-2022-11-13 14:58:13,245 Importing CurImagePlugin
-2022-11-13 14:58:13,246 Importing DcxImagePlugin
-2022-11-13 14:58:13,246 Importing DdsImagePlugin
-2022-11-13 14:58:13,247 Importing EpsImagePlugin
-2022-11-13 14:58:13,247 Importing FitsStubImagePlugin
-2022-11-13 14:58:13,248 Importing FliImagePlugin
-2022-11-13 14:58:13,248 Importing FpxImagePlugin
-2022-11-13 14:58:13,249 Importing FtexImagePlugin
-2022-11-13 14:58:13,250 Importing GbrImagePlugin
-2022-11-13 14:58:13,250 Importing GifImagePlugin
-2022-11-13 14:58:13,250 Importing GribStubImagePlugin
-2022-11-13 14:58:13,250 Importing Hdf5StubImagePlugin
-2022-11-13 14:58:13,251 Importing IcnsImagePlugin
-2022-11-13 14:58:13,252 Importing IcoImagePlugin
-2022-11-13 14:58:13,252 Importing ImImagePlugin
-2022-11-13 14:58:13,253 Importing ImtImagePlugin
-2022-11-13 14:58:13,253 Importing IptcImagePlugin
-2022-11-13 14:58:13,253 Importing JpegImagePlugin
-2022-11-13 14:58:13,253 Importing Jpeg2KImagePlugin
-2022-11-13 14:58:13,254 Importing McIdasImagePlugin
-2022-11-13 14:58:13,254 Importing MicImagePlugin
-2022-11-13 14:58:13,254 Importing MpegImagePlugin
-2022-11-13 14:58:13,254 Importing MpoImagePlugin
-2022-11-13 14:58:13,255 Importing MspImagePlugin
-2022-11-13 14:58:13,255 Importing PalmImagePlugin
-2022-11-13 14:58:13,256 Importing PcdImagePlugin
-2022-11-13 14:58:13,257 Importing PcxImagePlugin
-2022-11-13 14:58:13,257 Importing PdfImagePlugin
-2022-11-13 14:58:13,262 Importing PixarImagePlugin
-2022-11-13 14:58:13,263 Importing PngImagePlugin
-2022-11-13 14:58:13,263 Importing PpmImagePlugin
-2022-11-13 14:58:13,263 Importing PsdImagePlugin
-2022-11-13 14:58:13,263 Importing SgiImagePlugin
-2022-11-13 14:58:13,264 Importing SpiderImagePlugin
-2022-11-13 14:58:13,264 Importing SunImagePlugin
-2022-11-13 14:58:13,264 Importing TgaImagePlugin
-2022-11-13 14:58:13,265 Importing TiffImagePlugin
-2022-11-13 14:58:13,265 Importing WebPImagePlugin
-2022-11-13 14:58:13,266 Importing WmfImagePlugin
-2022-11-13 14:58:13,266 Importing XbmImagePlugin
-2022-11-13 14:58:13,267 Importing XpmImagePlugin
-2022-11-13 14:58:13,267 Importing XVThumbImagePlugin
-2022-11-13 14:58:58,826 Starting snocountry_scraper script
-2022-11-13 14:58:58,828 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:58:59,045 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:58:59,056 Importing BlpImagePlugin
-2022-11-13 14:58:59,056 Importing BmpImagePlugin
-2022-11-13 14:58:59,056 Importing BufrStubImagePlugin
-2022-11-13 14:58:59,057 Importing CurImagePlugin
-2022-11-13 14:58:59,057 Importing DcxImagePlugin
-2022-11-13 14:58:59,058 Importing DdsImagePlugin
-2022-11-13 14:58:59,058 Importing EpsImagePlugin
-2022-11-13 14:58:59,059 Importing FitsStubImagePlugin
-2022-11-13 14:58:59,059 Importing FliImagePlugin
-2022-11-13 14:58:59,059 Importing FpxImagePlugin
-2022-11-13 14:58:59,061 Importing FtexImagePlugin
-2022-11-13 14:58:59,061 Importing GbrImagePlugin
-2022-11-13 14:58:59,061 Importing GifImagePlugin
-2022-11-13 14:58:59,061 Importing GribStubImagePlugin
-2022-11-13 14:58:59,062 Importing Hdf5StubImagePlugin
-2022-11-13 14:58:59,062 Importing IcnsImagePlugin
-2022-11-13 14:58:59,063 Importing IcoImagePlugin
-2022-11-13 14:58:59,063 Importing ImImagePlugin
-2022-11-13 14:58:59,064 Importing ImtImagePlugin
-2022-11-13 14:58:59,064 Importing IptcImagePlugin
-2022-11-13 14:58:59,065 Importing JpegImagePlugin
-2022-11-13 14:58:59,065 Importing Jpeg2KImagePlugin
-2022-11-13 14:58:59,065 Importing McIdasImagePlugin
-2022-11-13 14:58:59,065 Importing MicImagePlugin
-2022-11-13 14:58:59,066 Importing MpegImagePlugin
-2022-11-13 14:58:59,066 Importing MpoImagePlugin
-2022-11-13 14:58:59,066 Importing MspImagePlugin
-2022-11-13 14:58:59,067 Importing PalmImagePlugin
-2022-11-13 14:58:59,067 Importing PcdImagePlugin
-2022-11-13 14:58:59,068 Importing PcxImagePlugin
-2022-11-13 14:58:59,068 Importing PdfImagePlugin
-2022-11-13 14:58:59,076 Importing PixarImagePlugin
-2022-11-13 14:58:59,076 Importing PngImagePlugin
-2022-11-13 14:58:59,076 Importing PpmImagePlugin
-2022-11-13 14:58:59,076 Importing PsdImagePlugin
-2022-11-13 14:58:59,077 Importing SgiImagePlugin
-2022-11-13 14:58:59,077 Importing SpiderImagePlugin
-2022-11-13 14:58:59,077 Importing SunImagePlugin
-2022-11-13 14:58:59,078 Importing TgaImagePlugin
-2022-11-13 14:58:59,078 Importing TiffImagePlugin
-2022-11-13 14:58:59,078 Importing WebPImagePlugin
-2022-11-13 14:58:59,079 Importing WmfImagePlugin
-2022-11-13 14:58:59,079 Importing XbmImagePlugin
-2022-11-13 14:58:59,081 Importing XpmImagePlugin
-2022-11-13 14:58:59,081 Importing XVThumbImagePlugin
-2022-11-13 14:58:59,082 Couldn't get image for breck
-Traceback (most recent call last):
-  File "/home/taylor/repos/snow-scraper/webcam_scaper.py", line 26, in <module>
-    img = Image.open(requests.get(url + 't', stream = True).raw)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3008, in open
-    raise UnidentifiedImageError(
-PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7ff1de48c360>
-2022-11-13 14:58:59,085 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:58:59,300 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:58:59,302 Couldn't get image for vail
-Traceback (most recent call last):
-  File "/home/taylor/repos/snow-scraper/webcam_scaper.py", line 26, in <module>
-    img = Image.open(requests.get(url + 't', stream = True).raw)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3008, in open
-    raise UnidentifiedImageError(
-PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7ff1de4a40e0>
-2022-11-13 14:58:59,303 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:58:59,521 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:58:59,523 Couldn't get image for beaver_creek
-Traceback (most recent call last):
-  File "/home/taylor/repos/snow-scraper/webcam_scaper.py", line 26, in <module>
-    img = Image.open(requests.get(url + 't', stream = True).raw)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3008, in open
-    raise UnidentifiedImageError(
-PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7ff1de4a40e0>
-2022-11-13 14:58:59,524 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 14:58:59,740 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:58:59,742 Couldn't get image for crested_butte
-Traceback (most recent call last):
-  File "/home/taylor/repos/snow-scraper/webcam_scaper.py", line 26, in <module>
-    img = Image.open(requests.get(url + 't', stream = True).raw)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3008, in open
-    raise UnidentifiedImageError(
-PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7ff1de4a40e0>
-2022-11-13 14:58:59,744 Starting new HTTPS connection (1): cache.snow.com:443
-2022-11-13 14:58:59,967 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpgt HTTP/1.1" 404 1245
-2022-11-13 14:58:59,969 Couldn't get image for keystone
-Traceback (most recent call last):
-  File "/home/taylor/repos/snow-scraper/webcam_scaper.py", line 26, in <module>
-    img = Image.open(requests.get(url + 't', stream = True).raw)
-  File "/usr/lib/python3/dist-packages/PIL/Image.py", line 3008, in open
-    raise UnidentifiedImageError(
-PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x7ff1de4a40e0>
-2022-11-13 15:03:12,995 Starting snocountry_scraper script
-2022-11-13 15:03:12,997 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 15:03:13,210 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpg HTTP/1.1" 200 180922
-2022-11-13 15:03:13,380 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 15:03:13,599 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpg HTTP/1.1" 200 73429
-2022-11-13 15:03:13,664 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 15:03:13,876 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpg HTTP/1.1" 200 245392
-2022-11-13 15:03:14,007 Starting new HTTPS connection (1): common.snow.com:443
-2022-11-13 15:03:14,225 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpg HTTP/1.1" 200 125516
-2022-11-13 15:03:14,310 Starting new HTTPS connection (1): cache.snow.com:443
-2022-11-13 15:03:14,527 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpg HTTP/1.1" 200 219750
-2022-11-13 16:50:18,714 Starting snocountry_scraper script
-2022-11-13 16:50:18,723 Getting forecast for arapahoebasin
-2022-11-13 16:50:18,725 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:19,264 https://opensnow.com:443 "GET /location/tarapahoebasin/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:19,313 Unable to get forecast for arapahoebasin
-2022-11-13 16:50:19,313 Getting forecast for aspenhighlands
-2022-11-13 16:50:19,315 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:19,975 https://opensnow.com:443 "GET /location/taspenhighlands/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:20,026 Unable to get forecast for aspenhighlands
-2022-11-13 16:50:20,026 Getting forecast for aspenmountain
-2022-11-13 16:50:20,028 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:20,597 https://opensnow.com:443 "GET /location/taspenmountain/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:20,655 Unable to get forecast for aspenmountain
-2022-11-13 16:50:20,655 Getting forecast for beavercreek
-2022-11-13 16:50:20,657 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:21,246 https://opensnow.com:443 "GET /location/tbeavercreek/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:21,293 Unable to get forecast for beavercreek
-2022-11-13 16:50:21,293 Getting forecast for bluebird
-2022-11-13 16:50:21,295 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:21,847 https://opensnow.com:443 "GET /location/tbluebird/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:21,886 Unable to get forecast for bluebird
-2022-11-13 16:50:21,887 Getting forecast for breckenridge
-2022-11-13 16:50:21,888 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:22,419 https://opensnow.com:443 "GET /location/tbreckenridge/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:22,467 Unable to get forecast for breckenridge
-2022-11-13 16:50:22,468 Getting forecast for buttermilk
-2022-11-13 16:50:22,469 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:22,998 https://opensnow.com:443 "GET /location/tbuttermilk/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:23,040 Unable to get forecast for buttermilk
-2022-11-13 16:50:23,040 Getting forecast for skicooper
-2022-11-13 16:50:23,042 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:23,701 https://opensnow.com:443 "GET /location/tskicooper/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:23,744 Unable to get forecast for skicooper
-2022-11-13 16:50:23,744 Getting forecast for copper
-2022-11-13 16:50:23,746 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:24,377 https://opensnow.com:443 "GET /location/tcopper/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:24,421 Unable to get forecast for copper
-2022-11-13 16:50:24,421 Getting forecast for crestedbutte
-2022-11-13 16:50:24,422 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:25,111 https://opensnow.com:443 "GET /location/tcrestedbutte/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:25,147 Unable to get forecast for crestedbutte
-2022-11-13 16:50:25,147 Getting forecast for echomountain
-2022-11-13 16:50:25,148 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:25,891 https://opensnow.com:443 "GET /location/techomountain/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:25,938 Unable to get forecast for echomountain
-2022-11-13 16:50:25,939 Getting forecast for eldora
-2022-11-13 16:50:25,940 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:26,546 https://opensnow.com:443 "GET /location/teldora/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:26,591 Unable to get forecast for eldora
-2022-11-13 16:50:26,592 Getting forecast for skigranby
-2022-11-13 16:50:26,593 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:27,250 https://opensnow.com:443 "GET /location/tskigranby/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:27,297 Unable to get forecast for skigranby
-2022-11-13 16:50:27,297 Getting forecast for hesperus
-2022-11-13 16:50:27,299 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:27,886 https://opensnow.com:443 "GET /location/thesperus/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:27,969 Unable to get forecast for hesperus
-2022-11-13 16:50:27,969 Getting forecast for irwin
-2022-11-13 16:50:27,972 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:28,606 https://opensnow.com:443 "GET /location/tirwin/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:28,653 Unable to get forecast for irwin
-2022-11-13 16:50:28,653 Getting forecast for keystone
-2022-11-13 16:50:28,654 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:29,261 https://opensnow.com:443 "GET /location/tkeystone/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:29,316 Unable to get forecast for keystone
-2022-11-13 16:50:29,316 Getting forecast for loveland
-2022-11-13 16:50:29,319 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:29,963 https://opensnow.com:443 "GET /location/tloveland/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:30,027 Unable to get forecast for loveland
-2022-11-13 16:50:30,027 Getting forecast for monarch
-2022-11-13 16:50:30,030 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:30,829 https://opensnow.com:443 "GET /location/tmonarch/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:30,939 Unable to get forecast for monarch
-2022-11-13 16:50:30,940 Getting forecast for powderhorn
-2022-11-13 16:50:30,941 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:31,521 https://opensnow.com:443 "GET /location/tpowderhorn/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:31,573 Unable to get forecast for powderhorn
-2022-11-13 16:50:31,573 Getting forecast for purgatory
-2022-11-13 16:50:31,575 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:32,122 https://opensnow.com:443 "GET /location/tpurgatory/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:32,186 Unable to get forecast for purgatory
-2022-11-13 16:50:32,190 Getting forecast for silverton
-2022-11-13 16:50:32,192 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:32,852 https://opensnow.com:443 "GET /location/tsilverton/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:32,937 Unable to get forecast for silverton
-2022-11-13 16:50:32,937 Getting forecast for snowmass
-2022-11-13 16:50:32,939 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:33,618 https://opensnow.com:443 "GET /location/tsnowmass/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:33,695 Unable to get forecast for snowmass
-2022-11-13 16:50:33,696 Getting forecast for steamboat
-2022-11-13 16:50:33,698 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:34,313 https://opensnow.com:443 "GET /location/tsteamboat/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:34,512 Unable to get forecast for steamboat
-2022-11-13 16:50:34,512 Getting forecast for sunlight
-2022-11-13 16:50:34,514 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:35,425 https://opensnow.com:443 "GET /location/tsunlight/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:35,574 Unable to get forecast for sunlight
-2022-11-13 16:50:35,575 Getting forecast for telluride
-2022-11-13 16:50:35,576 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:36,188 https://opensnow.com:443 "GET /location/ttelluride/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:36,268 Unable to get forecast for telluride
-2022-11-13 16:50:36,268 Getting forecast for vail
-2022-11-13 16:50:36,269 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:36,854 https://opensnow.com:443 "GET /location/tvail/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:36,900 Unable to get forecast for vail
-2022-11-13 16:50:36,900 Getting forecast for winterpark
-2022-11-13 16:50:36,901 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:37,631 https://opensnow.com:443 "GET /location/twinterpark/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:37,682 Unable to get forecast for winterpark
-2022-11-13 16:50:37,682 Getting forecast for wolfcreekcolorado
-2022-11-13 16:50:37,684 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:38,316 https://opensnow.com:443 "GET /location/twolfcreekcolorado/forecast HTTP/1.1" 404 None
-2022-11-13 16:50:38,369 Unable to get forecast for wolfcreekcolorado
-2022-11-13 16:50:43,892 Starting snocountry_scraper script
-2022-11-13 16:50:43,893 Getting forecast for arapahoebasin
-2022-11-13 16:50:43,895 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:44,945 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:45,034 Success. Forecast for arapahoebasin = 1
-2022-11-13 16:50:45,034 Getting forecast for aspenhighlands
-2022-11-13 16:50:45,036 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:45,846 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:45,964 Success. Forecast for aspenhighlands = 1
-2022-11-13 16:50:45,972 Getting forecast for aspenmountain
-2022-11-13 16:50:45,975 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:46,874 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:46,974 Success. Forecast for aspenmountain = 1
-2022-11-13 16:50:46,974 Getting forecast for beavercreek
-2022-11-13 16:50:46,976 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:47,886 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:47,982 Success. Forecast for beavercreek = 2
-2022-11-13 16:50:47,982 Getting forecast for bluebird
-2022-11-13 16:50:47,984 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:49,044 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:49,164 Success. Forecast for bluebird = 0
-2022-11-13 16:50:49,164 Getting forecast for breckenridge
-2022-11-13 16:50:49,166 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:50,029 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:50,145 Success. Forecast for breckenridge = 1
-2022-11-13 16:50:50,145 Getting forecast for buttermilk
-2022-11-13 16:50:50,147 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:51,175 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:51,273 Success. Forecast for buttermilk = 1
-2022-11-13 16:50:51,274 Getting forecast for skicooper
-2022-11-13 16:50:51,275 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:52,251 https://opensnow.com:443 "GET /location/skicooper/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:52,355 Success. Forecast for skicooper = 2
-2022-11-13 16:50:52,356 Getting forecast for copper
-2022-11-13 16:50:52,357 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:53,136 https://opensnow.com:443 "GET /location/copper/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:53,227 Success. Forecast for copper = 3
-2022-11-13 16:50:53,227 Getting forecast for crestedbutte
-2022-11-13 16:50:53,229 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:54,073 https://opensnow.com:443 "GET /location/crestedbutte/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:54,219 Success. Forecast for crestedbutte = 0
-2022-11-13 16:50:54,220 Getting forecast for echomountain
-2022-11-13 16:50:54,221 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:55,069 https://opensnow.com:443 "GET /location/echomountain/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:55,165 Success. Forecast for echomountain = 1
-2022-11-13 16:50:55,165 Getting forecast for eldora
-2022-11-13 16:50:55,167 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:56,086 https://opensnow.com:443 "GET /location/eldora/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:56,200 Success. Forecast for eldora = 2
-2022-11-13 16:50:56,200 Getting forecast for skigranby
-2022-11-13 16:50:56,202 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:56,983 https://opensnow.com:443 "GET /location/skigranby/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:57,080 Success. Forecast for skigranby = 2
-2022-11-13 16:50:57,080 Getting forecast for hesperus
-2022-11-13 16:50:57,082 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:57,848 https://opensnow.com:443 "GET /location/hesperus/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:57,970 Success. Forecast for hesperus = 0
-2022-11-13 16:50:57,970 Getting forecast for irwin
-2022-11-13 16:50:57,972 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:58,834 https://opensnow.com:443 "GET /location/irwin/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:58,930 Success. Forecast for irwin = 0
-2022-11-13 16:50:58,930 Getting forecast for keystone
-2022-11-13 16:50:58,932 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:50:59,777 https://opensnow.com:443 "GET /location/keystone/forecast HTTP/1.1" 200 None
-2022-11-13 16:50:59,873 Success. Forecast for keystone = 1
-2022-11-13 16:50:59,874 Getting forecast for loveland
-2022-11-13 16:50:59,875 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:00,700 https://opensnow.com:443 "GET /location/loveland/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:00,803 Success. Forecast for loveland = 1
-2022-11-13 16:51:00,803 Getting forecast for monarch
-2022-11-13 16:51:00,804 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:01,828 https://opensnow.com:443 "GET /location/monarch/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:01,922 Success. Forecast for monarch = 0
-2022-11-13 16:51:01,922 Getting forecast for powderhorn
-2022-11-13 16:51:01,924 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:02,710 https://opensnow.com:443 "GET /location/powderhorn/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:02,833 Success. Forecast for powderhorn = 0
-2022-11-13 16:51:02,833 Getting forecast for purgatory
-2022-11-13 16:51:02,835 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:03,576 https://opensnow.com:443 "GET /location/purgatory/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:03,700 Success. Forecast for purgatory = 0
-2022-11-13 16:51:03,700 Getting forecast for silverton
-2022-11-13 16:51:03,702 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:04,486 https://opensnow.com:443 "GET /location/silverton/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:04,611 Success. Forecast for silverton = 1
-2022-11-13 16:51:04,611 Getting forecast for snowmass
-2022-11-13 16:51:04,613 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:05,457 https://opensnow.com:443 "GET /location/snowmass/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:05,574 Success. Forecast for snowmass = 1
-2022-11-13 16:51:05,574 Getting forecast for steamboat
-2022-11-13 16:51:05,575 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:06,413 https://opensnow.com:443 "GET /location/steamboat/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:06,524 Success. Forecast for steamboat = 1
-2022-11-13 16:51:06,524 Getting forecast for sunlight
-2022-11-13 16:51:06,526 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:07,406 https://opensnow.com:443 "GET /location/sunlight/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:07,527 Success. Forecast for sunlight = 0
-2022-11-13 16:51:07,527 Getting forecast for telluride
-2022-11-13 16:51:07,528 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:08,312 https://opensnow.com:443 "GET /location/telluride/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:08,404 Success. Forecast for telluride = 0
-2022-11-13 16:51:08,405 Getting forecast for vail
-2022-11-13 16:51:08,406 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:09,300 https://opensnow.com:443 "GET /location/vail/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:09,417 Success. Forecast for vail = 2
-2022-11-13 16:51:09,417 Getting forecast for winterpark
-2022-11-13 16:51:09,418 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:10,253 https://opensnow.com:443 "GET /location/winterpark/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:10,334 Success. Forecast for winterpark = 2
-2022-11-13 16:51:10,334 Getting forecast for wolfcreekcolorado
-2022-11-13 16:51:10,335 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:51:11,144 https://opensnow.com:443 "GET /location/wolfcreekcolorado/forecast HTTP/1.1" 200 None
-2022-11-13 16:51:11,227 Success. Forecast for wolfcreekcolorado = 2
-2022-11-13 16:56:22,858 Starting snocountry_scraper script
-2022-11-13 16:56:22,859 Getting forecast for arapahoebasin
-2022-11-13 16:56:22,862 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:56:23,766 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
-2022-11-13 16:56:23,895 Success. Forecast for arapahoebasin = 1
-2022-11-13 16:56:23,895 Getting forecast for aspenhighlands
-2022-11-13 16:56:23,897 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:56:24,702 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
-2022-11-13 16:56:24,832 Success. Forecast for aspenhighlands = 1
-2022-11-13 16:56:24,832 Getting forecast for aspenmountain
-2022-11-13 16:56:24,834 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 16:56:25,682 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
-2022-11-13 16:58:47,972 Starting snocountry_scraper script
-2022-11-13 16:59:18,243 Starting snocountry_scraper script
-2022-11-13 17:00:39,380 Starting snocountry_scraper script
-2022-11-13 17:00:39,380 Getting forecast for arapahoebasin
-2022-11-13 17:00:39,382 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:00:40,601 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
-2022-11-13 17:00:40,787 Success. Forecast for arapahoebasin = 1
-2022-11-13 17:00:40,788 Getting forecast for aspenhighlands
-2022-11-13 17:00:40,789 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:00:42,076 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
-2022-11-13 17:00:42,199 Success. Forecast for aspenhighlands = 1
-2022-11-13 17:00:42,200 Getting forecast for aspenmountain
-2022-11-13 17:00:42,202 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:00:43,156 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
-2022-11-13 17:00:43,241 Success. Forecast for aspenmountain = 1
-2022-11-13 17:00:43,241 Getting forecast for beavercreek
-2022-11-13 17:00:43,243 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:14:36,497 Starting snocountry_scraper script
-2022-11-13 17:15:20,619 Starting snocountry_scraper script
-2022-11-13 17:15:31,607 Starting snocountry_scraper script
-2022-11-13 17:15:43,427 Starting snocountry_scraper script
-2022-11-13 17:15:51,430 Starting snocountry_scraper script
-2022-11-13 17:16:09,062 Starting snocountry_scraper script
-2022-11-13 17:16:50,200 Starting snocountry_scraper script
-2022-11-13 17:16:50,715 Getting forecast for arapahoebasin
-2022-11-13 17:16:50,717 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:16:51,710 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
-2022-11-13 17:16:51,807 Success. Forecast for arapahoebasin = 1
-2022-11-13 17:17:33,000 Starting snocountry_scraper script
-2022-11-13 17:17:33,518 Getting forecast for arapahoebasin
-2022-11-13 17:17:33,520 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:17:34,558 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
-2022-11-13 17:17:34,654 Success. Forecast for arapahoebasin = 1
-2022-11-13 17:17:34,782 Getting forecast for aspenhighlands
-2022-11-13 17:17:34,783 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:17:35,620 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
-2022-11-13 17:17:35,733 Success. Forecast for aspenhighlands = 1
-2022-11-13 17:17:35,794 Getting forecast for aspenmountain
-2022-11-13 17:17:35,796 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:17:36,758 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
-2022-11-13 17:17:36,876 Success. Forecast for aspenmountain = 1
-2022-11-13 17:17:36,936 Getting forecast for beavercreek
-2022-11-13 17:17:36,937 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:17:37,828 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
-2022-11-13 17:17:37,911 Success. Forecast for beavercreek = 2
-2022-11-13 17:17:37,971 Getting forecast for bluebird
-2022-11-13 17:17:37,973 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:17:38,960 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
-2022-11-13 17:17:39,057 Success. Forecast for bluebird = 0
-2022-11-13 17:17:39,121 Getting forecast for breckenridge
-2022-11-13 17:17:39,123 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:17:39,971 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
-2022-11-13 17:17:40,079 Success. Forecast for breckenridge = 1
-2022-11-13 17:17:40,139 Getting forecast for buttermilk
-2022-11-13 17:17:40,141 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:17:41,040 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
-2022-11-13 17:18:30,430 Starting snocountry_scraper script
-2022-11-13 17:18:30,944 Getting forecast for arapahoebasin
-2022-11-13 17:18:30,947 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:18:31,881 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
-2022-11-13 17:18:50,814 Starting snocountry_scraper script
-2022-11-13 17:18:51,324 Getting forecast for arapahoebasin
-2022-11-13 17:18:51,327 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:18:52,341 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
-2022-11-13 17:18:52,465 Success. Forecast for arapahoebasin = 1
-2022-11-13 17:18:52,590 Upserting data 31, Arapahoe Basin, 1
-2022-11-13 17:18:52,590 Getting forecast for aspenhighlands
-2022-11-13 17:18:52,591 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:18:53,432 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
-2022-11-13 17:18:53,524 Success. Forecast for aspenhighlands = 1
-2022-11-13 17:18:53,585 Upserting data 32, Aspen Highlands, 1
-2022-11-13 17:18:53,585 Getting forecast for aspenmountain
-2022-11-13 17:18:53,587 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:18:54,406 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
-2022-11-13 17:18:54,622 Success. Forecast for aspenmountain = 1
-2022-11-13 17:18:54,689 Upserting data 33, Aspen Mountain, 1
-2022-11-13 17:18:54,689 Getting forecast for beavercreek
-2022-11-13 17:18:54,691 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:18:55,802 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
-2022-11-13 17:18:55,890 Success. Forecast for beavercreek = 2
-2022-11-13 17:18:55,951 Upserting data 34, Beaver Creek, 2
-2022-11-13 17:18:55,951 Getting forecast for bluebird
-2022-11-13 17:18:55,952 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:18:56,712 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
-2022-11-13 17:18:56,825 Success. Forecast for bluebird = 0
-2022-11-13 17:18:56,887 Upserting data 35, Bluebird Backcountry, 0
-2022-11-13 17:18:56,887 Getting forecast for breckenridge
-2022-11-13 17:18:56,888 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:18:57,657 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
-2022-11-13 17:18:57,790 Success. Forecast for breckenridge = 1
-2022-11-13 17:18:57,849 Upserting data 36, Breckenridge, 1
-2022-11-13 17:18:57,849 Getting forecast for buttermilk
-2022-11-13 17:18:57,851 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:18:58,789 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
-2022-11-13 17:18:58,909 Success. Forecast for buttermilk = 1
-2022-11-13 17:18:58,969 Upserting data 37, Buttermilk, 1
-2022-11-13 17:18:58,969 Getting forecast for skicooper
-2022-11-13 17:18:58,970 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:18:59,886 https://opensnow.com:443 "GET /location/skicooper/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:00,087 Success. Forecast for skicooper = 2
-2022-11-13 17:19:00,150 Upserting data 38, Cooper, 2
-2022-11-13 17:19:00,150 Getting forecast for copper
-2022-11-13 17:19:00,152 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:01,029 https://opensnow.com:443 "GET /location/copper/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:01,149 Success. Forecast for copper = 3
-2022-11-13 17:19:01,209 Upserting data 39, Copper Mountain, 3
-2022-11-13 17:19:01,210 Getting forecast for crestedbutte
-2022-11-13 17:19:01,211 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:02,281 https://opensnow.com:443 "GET /location/crestedbutte/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:02,387 Success. Forecast for crestedbutte = 0
-2022-11-13 17:19:02,449 Upserting data 40, Crested Butte, 0
-2022-11-13 17:19:02,449 Getting forecast for echomountain
-2022-11-13 17:19:02,452 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:03,293 https://opensnow.com:443 "GET /location/echomountain/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:03,390 Success. Forecast for echomountain = 1
-2022-11-13 17:19:03,448 Upserting data 41, Echo Mountain, 1
-2022-11-13 17:19:03,449 Getting forecast for eldora
-2022-11-13 17:19:03,451 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:04,281 https://opensnow.com:443 "GET /location/eldora/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:04,380 Success. Forecast for eldora = 2
-2022-11-13 17:19:04,441 Upserting data 42, Eldora, 2
-2022-11-13 17:19:04,442 Getting forecast for skigranby
-2022-11-13 17:19:04,443 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:05,267 https://opensnow.com:443 "GET /location/skigranby/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:05,380 Success. Forecast for skigranby = 2
-2022-11-13 17:19:05,443 Upserting data 43, Granby Ranch, 2
-2022-11-13 17:19:05,443 Getting forecast for hesperus
-2022-11-13 17:19:05,446 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:06,307 https://opensnow.com:443 "GET /location/hesperus/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:06,438 Success. Forecast for hesperus = 0
-2022-11-13 17:19:06,496 Upserting data 44, Hesperus Ski Area, 0
-2022-11-13 17:19:06,496 Getting forecast for irwin
-2022-11-13 17:19:06,498 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:07,313 https://opensnow.com:443 "GET /location/irwin/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:07,418 Success. Forecast for irwin = 0
-2022-11-13 17:19:07,478 Upserting data 46, Irwin, 0
-2022-11-13 17:19:07,478 Getting forecast for keystone
-2022-11-13 17:19:07,479 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:08,272 https://opensnow.com:443 "GET /location/keystone/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:08,373 Success. Forecast for keystone = 1
-2022-11-13 17:19:08,434 Upserting data 48, Keystone, 1
-2022-11-13 17:19:08,434 Getting forecast for loveland
-2022-11-13 17:19:08,436 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:09,210 https://opensnow.com:443 "GET /location/loveland/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:09,341 Success. Forecast for loveland = 1
-2022-11-13 17:19:09,401 Upserting data 49, Loveland, 1
-2022-11-13 17:19:09,401 Getting forecast for monarch
-2022-11-13 17:19:09,402 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:10,162 https://opensnow.com:443 "GET /location/monarch/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:10,375 Success. Forecast for monarch = 0
-2022-11-13 17:19:10,433 Upserting data 50, Monarch, 0
-2022-11-13 17:19:10,433 Getting forecast for powderhorn
-2022-11-13 17:19:10,435 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:11,396 https://opensnow.com:443 "GET /location/powderhorn/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:11,564 Success. Forecast for powderhorn = 0
-2022-11-13 17:19:11,622 Upserting data 51, Powderhorn, 0
-2022-11-13 17:19:11,622 Getting forecast for purgatory
-2022-11-13 17:19:11,624 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:12,389 https://opensnow.com:443 "GET /location/purgatory/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:12,489 Success. Forecast for purgatory = 0
-2022-11-13 17:19:12,553 Upserting data 52, Purgatory, 0
-2022-11-13 17:19:12,553 Getting forecast for silverton
-2022-11-13 17:19:12,556 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:13,389 https://opensnow.com:443 "GET /location/silverton/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:13,485 Success. Forecast for silverton = 1
-2022-11-13 17:19:13,545 Upserting data 53, Silverton Mountain, 1
-2022-11-13 17:19:13,545 Getting forecast for snowmass
-2022-11-13 17:19:13,547 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:14,378 https://opensnow.com:443 "GET /location/snowmass/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:14,498 Success. Forecast for snowmass = 2
-2022-11-13 17:19:14,569 Upserting data 54, Snowmass, 2
-2022-11-13 17:19:14,569 Getting forecast for steamboat
-2022-11-13 17:19:14,570 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:15,491 https://opensnow.com:443 "GET /location/steamboat/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:15,615 Success. Forecast for steamboat = 1
-2022-11-13 17:19:15,676 Upserting data 55, Steamboat, 1
-2022-11-13 17:19:15,676 Getting forecast for sunlight
-2022-11-13 17:19:15,677 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:16,555 https://opensnow.com:443 "GET /location/sunlight/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:16,671 Success. Forecast for sunlight = 0
-2022-11-13 17:19:16,731 Upserting data 56, Sunlight, 0
-2022-11-13 17:19:16,731 Getting forecast for telluride
-2022-11-13 17:19:16,732 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:17,887 https://opensnow.com:443 "GET /location/telluride/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:17,989 Success. Forecast for telluride = 0
-2022-11-13 17:19:18,049 Upserting data 57, Telluride, 0
-2022-11-13 17:19:18,049 Getting forecast for vail
-2022-11-13 17:19:18,051 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:18,832 https://opensnow.com:443 "GET /location/vail/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:18,936 Success. Forecast for vail = 2
-2022-11-13 17:19:18,997 Upserting data 58, Vail, 2
-2022-11-13 17:19:18,997 Getting forecast for winterpark
-2022-11-13 17:19:18,998 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:19,915 https://opensnow.com:443 "GET /location/winterpark/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:20,051 Success. Forecast for winterpark = 2
-2022-11-13 17:19:20,122 Upserting data 59, Winter Park, 2
-2022-11-13 17:19:20,122 Getting forecast for wolfcreekcolorado
-2022-11-13 17:19:20,124 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:19:20,923 https://opensnow.com:443 "GET /location/wolfcreekcolorado/forecast HTTP/1.1" 200 None
-2022-11-13 17:19:21,016 Success. Forecast for wolfcreekcolorado = 2
-2022-11-13 17:19:21,076 Upserting data 60, Wolf Creek, 2
-2022-11-13 17:20:06,320 Starting snocountry_scraper script
-2022-11-13 17:20:06,855 Getting forecast for arapahoebasin
-2022-11-13 17:20:06,857 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:20:07,696 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
-2022-11-13 17:20:07,782 Success. Forecast for arapahoebasin = 1
-2022-11-13 17:20:07,912 Upserting data 31, Arapahoe Basin, 1
-2022-11-13 17:21:26,869 Starting snocountry_scraper script
-2022-11-13 17:21:27,394 Getting forecast for arapahoebasin
-2022-11-13 17:21:27,396 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:28,216 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:28,333 Success. Forecast for arapahoebasin = 1
-2022-11-13 17:21:28,459 Upserting data 31, Arapahoe Basin, 1
-2022-11-13 17:21:44,526 Starting snocountry_scraper script
-2022-11-13 17:21:45,070 Getting forecast for arapahoebasin
-2022-11-13 17:21:45,072 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:45,870 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:45,989 Success. Forecast for arapahoebasin = 1
-2022-11-13 17:21:46,108 Upserting data 31, Arapahoe Basin, 1
-2022-11-13 17:21:46,171 Getting forecast for aspenhighlands
-2022-11-13 17:21:46,172 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:46,958 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:47,049 Success. Forecast for aspenhighlands = 1
-2022-11-13 17:21:47,110 Upserting data 32, Aspen Highlands, 1
-2022-11-13 17:21:47,170 Getting forecast for aspenmountain
-2022-11-13 17:21:47,172 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:48,062 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:48,146 Success. Forecast for aspenmountain = 1
-2022-11-13 17:21:48,205 Upserting data 33, Aspen Mountain, 1
-2022-11-13 17:21:48,268 Getting forecast for beavercreek
-2022-11-13 17:21:48,270 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:49,137 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:49,230 Success. Forecast for beavercreek = 2
-2022-11-13 17:21:49,288 Upserting data 34, Beaver Creek, 2
-2022-11-13 17:21:49,353 Getting forecast for bluebird
-2022-11-13 17:21:49,354 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:50,146 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:50,266 Success. Forecast for bluebird = 0
-2022-11-13 17:21:50,327 Upserting data 35, Bluebird Backcountry, 0
-2022-11-13 17:21:50,385 Getting forecast for breckenridge
-2022-11-13 17:21:50,387 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:51,188 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:51,297 Success. Forecast for breckenridge = 1
-2022-11-13 17:21:51,356 Upserting data 36, Breckenridge, 1
-2022-11-13 17:21:51,418 Getting forecast for buttermilk
-2022-11-13 17:21:51,419 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:52,180 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:52,298 Success. Forecast for buttermilk = 1
-2022-11-13 17:21:52,359 Upserting data 37, Buttermilk, 1
-2022-11-13 17:21:52,423 Getting forecast for skicooper
-2022-11-13 17:21:52,425 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:53,374 https://opensnow.com:443 "GET /location/skicooper/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:53,462 Success. Forecast for skicooper = 2
-2022-11-13 17:21:53,522 Upserting data 38, Cooper, 2
-2022-11-13 17:21:53,588 Getting forecast for copper
-2022-11-13 17:21:53,590 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:54,458 https://opensnow.com:443 "GET /location/copper/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:54,556 Success. Forecast for copper = 3
-2022-11-13 17:21:54,619 Upserting data 39, Copper Mountain, 3
-2022-11-13 17:21:54,682 Getting forecast for crestedbutte
-2022-11-13 17:21:54,684 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:55,430 https://opensnow.com:443 "GET /location/crestedbutte/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:55,552 Success. Forecast for crestedbutte = 0
-2022-11-13 17:21:55,612 Upserting data 40, Crested Butte, 0
-2022-11-13 17:21:55,673 Getting forecast for echomountain
-2022-11-13 17:21:55,675 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:56,540 https://opensnow.com:443 "GET /location/echomountain/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:56,631 Success. Forecast for echomountain = 1
-2022-11-13 17:21:56,690 Upserting data 41, Echo Mountain, 1
-2022-11-13 17:21:56,754 Getting forecast for eldora
-2022-11-13 17:21:56,756 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:57,756 https://opensnow.com:443 "GET /location/eldora/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:57,848 Success. Forecast for eldora = 2
-2022-11-13 17:21:57,908 Upserting data 42, Eldora, 2
-2022-11-13 17:21:57,970 Getting forecast for skigranby
-2022-11-13 17:21:57,972 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:21:59,203 https://opensnow.com:443 "GET /location/skigranby/forecast HTTP/1.1" 200 None
-2022-11-13 17:21:59,305 Success. Forecast for skigranby = 2
-2022-11-13 17:21:59,367 Upserting data 43, Granby Ranch, 2
-2022-11-13 17:21:59,426 Getting forecast for hesperus
-2022-11-13 17:21:59,427 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:00,253 https://opensnow.com:443 "GET /location/hesperus/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:00,381 Success. Forecast for hesperus = 0
-2022-11-13 17:22:00,442 Upserting data 44, Hesperus Ski Area, 0
-2022-11-13 17:22:00,506 Getting forecast for irwin
-2022-11-13 17:22:00,508 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:01,403 https://opensnow.com:443 "GET /location/irwin/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:01,505 Success. Forecast for irwin = 0
-2022-11-13 17:22:01,575 Upserting data 46, Irwin, 0
-2022-11-13 17:22:01,636 Getting forecast for keystone
-2022-11-13 17:22:01,638 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:02,666 https://opensnow.com:443 "GET /location/keystone/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:02,776 Success. Forecast for keystone = 1
-2022-11-13 17:22:02,836 Upserting data 48, Keystone, 1
-2022-11-13 17:22:02,900 Getting forecast for loveland
-2022-11-13 17:22:02,901 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:03,700 https://opensnow.com:443 "GET /location/loveland/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:03,803 Success. Forecast for loveland = 1
-2022-11-13 17:22:03,864 Upserting data 49, Loveland, 1
-2022-11-13 17:22:03,927 Getting forecast for monarch
-2022-11-13 17:22:03,929 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:04,698 https://opensnow.com:443 "GET /location/monarch/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:04,802 Success. Forecast for monarch = 0
-2022-11-13 17:22:04,865 Upserting data 50, Monarch, 0
-2022-11-13 17:22:04,924 Getting forecast for powderhorn
-2022-11-13 17:22:04,926 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:05,813 https://opensnow.com:443 "GET /location/powderhorn/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:05,946 Success. Forecast for powderhorn = 0
-2022-11-13 17:22:06,008 Upserting data 51, Powderhorn, 0
-2022-11-13 17:22:06,067 Getting forecast for purgatory
-2022-11-13 17:22:06,068 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:06,973 https://opensnow.com:443 "GET /location/purgatory/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:07,059 Success. Forecast for purgatory = 0
-2022-11-13 17:22:07,119 Upserting data 52, Purgatory, 0
-2022-11-13 17:22:07,177 Getting forecast for silverton
-2022-11-13 17:22:07,180 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:07,991 https://opensnow.com:443 "GET /location/silverton/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:08,091 Success. Forecast for silverton = 1
-2022-11-13 17:22:08,152 Upserting data 53, Silverton Mountain, 1
-2022-11-13 17:22:08,211 Getting forecast for snowmass
-2022-11-13 17:22:08,212 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:09,088 https://opensnow.com:443 "GET /location/snowmass/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:09,212 Success. Forecast for snowmass = 2
-2022-11-13 17:22:09,271 Upserting data 54, Snowmass, 2
-2022-11-13 17:22:09,332 Getting forecast for steamboat
-2022-11-13 17:22:09,334 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:10,247 https://opensnow.com:443 "GET /location/steamboat/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:10,346 Success. Forecast for steamboat = 1
-2022-11-13 17:22:10,406 Upserting data 55, Steamboat, 1
-2022-11-13 17:22:10,481 Getting forecast for sunlight
-2022-11-13 17:22:10,483 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:11,356 https://opensnow.com:443 "GET /location/sunlight/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:11,470 Success. Forecast for sunlight = 0
-2022-11-13 17:22:11,530 Upserting data 56, Sunlight, 0
-2022-11-13 17:22:11,589 Getting forecast for telluride
-2022-11-13 17:22:11,590 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:12,506 https://opensnow.com:443 "GET /location/telluride/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:12,623 Success. Forecast for telluride = 0
-2022-11-13 17:22:12,690 Upserting data 57, Telluride, 0
-2022-11-13 17:22:12,752 Getting forecast for vail
-2022-11-13 17:22:12,753 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:13,499 https://opensnow.com:443 "GET /location/vail/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:13,594 Success. Forecast for vail = 2
-2022-11-13 17:22:13,656 Upserting data 58, Vail, 2
-2022-11-13 17:22:13,719 Getting forecast for winterpark
-2022-11-13 17:22:13,720 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:14,468 https://opensnow.com:443 "GET /location/winterpark/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:14,563 Success. Forecast for winterpark = 2
-2022-11-13 17:22:14,622 Upserting data 59, Winter Park, 2
-2022-11-13 17:22:14,686 Getting forecast for wolfcreekcolorado
-2022-11-13 17:22:14,687 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:15,394 https://opensnow.com:443 "GET /location/wolfcreekcolorado/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:15,514 Success. Forecast for wolfcreekcolorado = 2
-2022-11-13 17:22:15,575 Upserting data 60, Wolf Creek, 2
-2022-11-13 17:22:31,804 Starting snocountry_scraper script
-2022-11-13 17:22:32,324 Getting forecast for arapahoebasin
-2022-11-13 17:22:32,326 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:33,065 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:33,190 Success. Forecast for arapahoebasin = 1
-2022-11-13 17:22:33,314 Upserting data 31, Arapahoe Basin, 1
-2022-11-13 17:22:33,373 Getting forecast for aspenhighlands
-2022-11-13 17:22:33,375 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:34,122 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:34,215 Success. Forecast for aspenhighlands = 1
-2022-11-13 17:22:34,275 Upserting data 32, Aspen Highlands, 1
-2022-11-13 17:22:34,344 Getting forecast for aspenmountain
-2022-11-13 17:22:34,345 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:35,078 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:35,190 Success. Forecast for aspenmountain = 1
-2022-11-13 17:22:35,246 Upserting data 33, Aspen Mountain, 1
-2022-11-13 17:22:35,304 Getting forecast for beavercreek
-2022-11-13 17:22:35,305 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:36,076 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:36,214 Success. Forecast for beavercreek = 2
-2022-11-13 17:22:36,277 Upserting data 34, Beaver Creek, 2
-2022-11-13 17:22:36,341 Getting forecast for bluebird
-2022-11-13 17:22:36,344 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:37,069 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:37,187 Success. Forecast for bluebird = 0
-2022-11-13 17:22:37,248 Upserting data 35, Bluebird Backcountry, 0
-2022-11-13 17:22:37,313 Getting forecast for breckenridge
-2022-11-13 17:22:37,315 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:38,059 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:38,164 Success. Forecast for breckenridge = 1
-2022-11-13 17:22:38,225 Upserting data 36, Breckenridge, 1
-2022-11-13 17:22:38,296 Getting forecast for buttermilk
-2022-11-13 17:22:38,298 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:39,048 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:39,154 Success. Forecast for buttermilk = 1
-2022-11-13 17:22:39,212 Upserting data 37, Buttermilk, 1
-2022-11-13 17:22:39,275 Getting forecast for skicooper
-2022-11-13 17:22:39,276 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:40,045 https://opensnow.com:443 "GET /location/skicooper/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:40,171 Success. Forecast for skicooper = 2
-2022-11-13 17:22:40,230 Upserting data 38, Cooper, 2
-2022-11-13 17:22:40,294 Getting forecast for copper
-2022-11-13 17:22:40,296 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:41,092 https://opensnow.com:443 "GET /location/copper/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:41,210 Success. Forecast for copper = 3
-2022-11-13 17:22:41,272 Upserting data 39, Copper Mountain, 3
-2022-11-13 17:22:41,335 Getting forecast for crestedbutte
-2022-11-13 17:22:41,337 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:42,147 https://opensnow.com:443 "GET /location/crestedbutte/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:42,282 Success. Forecast for crestedbutte = 0
-2022-11-13 17:22:42,343 Upserting data 40, Crested Butte, 0
-2022-11-13 17:22:42,405 Getting forecast for echomountain
-2022-11-13 17:22:42,407 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:43,215 https://opensnow.com:443 "GET /location/echomountain/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:43,304 Success. Forecast for echomountain = 1
-2022-11-13 17:22:43,363 Upserting data 41, Echo Mountain, 1
-2022-11-13 17:22:43,428 Getting forecast for eldora
-2022-11-13 17:22:43,430 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:44,438 https://opensnow.com:443 "GET /location/eldora/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:44,563 Success. Forecast for eldora = 2
-2022-11-13 17:22:44,623 Upserting data 42, Eldora, 2
-2022-11-13 17:22:44,681 Getting forecast for skigranby
-2022-11-13 17:22:44,683 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:45,636 https://opensnow.com:443 "GET /location/skigranby/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:45,754 Success. Forecast for skigranby = 2
-2022-11-13 17:22:45,815 Upserting data 43, Granby Ranch, 2
-2022-11-13 17:22:45,879 Getting forecast for hesperus
-2022-11-13 17:22:45,880 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:46,836 https://opensnow.com:443 "GET /location/hesperus/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:46,986 Success. Forecast for hesperus = 0
-2022-11-13 17:22:47,050 Upserting data 44, Hesperus Ski Area, 0
-2022-11-13 17:22:47,115 Getting forecast for irwin
-2022-11-13 17:22:47,118 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:47,974 https://opensnow.com:443 "GET /location/irwin/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:48,103 Success. Forecast for irwin = 0
-2022-11-13 17:22:48,164 Upserting data 46, Irwin, 0
-2022-11-13 17:22:48,233 Getting forecast for keystone
-2022-11-13 17:22:48,234 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:49,243 https://opensnow.com:443 "GET /location/keystone/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:49,373 Success. Forecast for keystone = 1
-2022-11-13 17:22:49,426 Upserting data 48, Keystone, 1
-2022-11-13 17:22:49,490 Getting forecast for loveland
-2022-11-13 17:22:49,492 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:50,298 https://opensnow.com:443 "GET /location/loveland/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:50,404 Success. Forecast for loveland = 1
-2022-11-13 17:22:50,465 Upserting data 49, Loveland, 1
-2022-11-13 17:22:50,533 Getting forecast for monarch
-2022-11-13 17:22:50,535 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:51,318 https://opensnow.com:443 "GET /location/monarch/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:51,445 Success. Forecast for monarch = 0
-2022-11-13 17:22:51,501 Upserting data 50, Monarch, 0
-2022-11-13 17:22:51,561 Getting forecast for powderhorn
-2022-11-13 17:22:51,563 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:52,335 https://opensnow.com:443 "GET /location/powderhorn/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:52,472 Success. Forecast for powderhorn = 0
-2022-11-13 17:22:52,533 Upserting data 51, Powderhorn, 0
-2022-11-13 17:22:52,591 Getting forecast for purgatory
-2022-11-13 17:22:52,594 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:53,395 https://opensnow.com:443 "GET /location/purgatory/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:53,489 Success. Forecast for purgatory = 0
-2022-11-13 17:22:53,550 Upserting data 52, Purgatory, 0
-2022-11-13 17:22:53,625 Getting forecast for silverton
-2022-11-13 17:22:53,627 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:54,529 https://opensnow.com:443 "GET /location/silverton/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:54,630 Success. Forecast for silverton = 1
-2022-11-13 17:22:54,688 Upserting data 53, Silverton Mountain, 1
-2022-11-13 17:22:54,752 Getting forecast for snowmass
-2022-11-13 17:22:54,754 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:55,472 https://opensnow.com:443 "GET /location/snowmass/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:55,566 Success. Forecast for snowmass = 2
-2022-11-13 17:22:55,632 Upserting data 54, Snowmass, 2
-2022-11-13 17:22:55,698 Getting forecast for steamboat
-2022-11-13 17:22:55,699 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:56,509 https://opensnow.com:443 "GET /location/steamboat/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:56,637 Success. Forecast for steamboat = 1
-2022-11-13 17:22:56,701 Upserting data 55, Steamboat, 1
-2022-11-13 17:22:56,760 Getting forecast for sunlight
-2022-11-13 17:22:56,762 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:57,658 https://opensnow.com:443 "GET /location/sunlight/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:57,750 Success. Forecast for sunlight = 0
-2022-11-13 17:22:57,816 Upserting data 56, Sunlight, 0
-2022-11-13 17:22:57,877 Getting forecast for telluride
-2022-11-13 17:22:57,878 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:58,688 https://opensnow.com:443 "GET /location/telluride/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:58,794 Success. Forecast for telluride = 0
-2022-11-13 17:22:58,852 Upserting data 57, Telluride, 0
-2022-11-13 17:22:58,925 Getting forecast for vail
-2022-11-13 17:22:58,927 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:22:59,832 https://opensnow.com:443 "GET /location/vail/forecast HTTP/1.1" 200 None
-2022-11-13 17:22:59,927 Success. Forecast for vail = 2
-2022-11-13 17:22:59,983 Upserting data 58, Vail, 2
-2022-11-13 17:23:00,051 Getting forecast for winterpark
-2022-11-13 17:23:00,053 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:23:00,813 https://opensnow.com:443 "GET /location/winterpark/forecast HTTP/1.1" 200 None
-2022-11-13 17:23:00,925 Success. Forecast for winterpark = 2
-2022-11-13 17:23:00,987 Upserting data 59, Winter Park, 2
-2022-11-13 17:23:01,049 Getting forecast for wolfcreekcolorado
-2022-11-13 17:23:01,051 Starting new HTTPS connection (1): opensnow.com:443
-2022-11-13 17:23:01,931 https://opensnow.com:443 "GET /location/wolfcreekcolorado/forecast HTTP/1.1" 200 None
-2022-11-13 17:23:02,046 Success. Forecast for wolfcreekcolorado = 2
-2022-11-13 17:23:02,107 Upserting data 60, Wolf Creek, 2
+2022-11-14 06:25:56,444 Starting snocountry_scraper script
+2022-11-14 06:25:57,481 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-14 06:25:59,066 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-14 06:25:59,289 Upserting snow report data 31, Arapahoe Basin, CO, 1
+2022-11-14 06:25:59,410 Upserting snow report data 32, Aspen Highlands, CO, 0
+2022-11-14 06:25:59,531 Upserting snow report data 33, Aspen Mountain, CO, 0
+2022-11-14 06:25:59,648 Upserting snow report data 34, Beaver Creek, CO, 0
+2022-11-14 06:25:59,778 Upserting snow report data 35, Bluebird Backcountry, CO, 0
+2022-11-14 06:25:59,903 Upserting snow report data 36, Breckenridge, CO, 6
+2022-11-14 06:26:00,023 Upserting snow report data 37, Buttermilk, CO, 0
+2022-11-14 06:26:00,179 Upserting snow report data 38, Cooper, CO, 0
+2022-11-14 06:26:00,299 Upserting snow report data 39, Copper Mountain, CO, 4
+2022-11-14 06:26:00,419 Upserting snow report data 40, Crested Butte, CO, 0
+2022-11-14 06:26:00,538 Upserting snow report data 41, Echo Mountain, CO, 0
+2022-11-14 06:26:00,656 Upserting snow report data 42, Eldora, CO, 0
+2022-11-14 06:26:00,776 Upserting snow report data 43, Granby Ranch, CO, 0
+2022-11-14 06:26:00,889 Upserting snow report data 44, Hesperus Ski Area, CO, 0
+2022-11-14 06:26:01,008 Upserting snow report data 45, Howelsen Hill, CO, 0
+2022-11-14 06:26:01,133 Upserting snow report data 46, Irwin, CO, 0
+2022-11-14 06:26:01,258 Upserting snow report data 47, Kendall Mountain, CO, 0
+2022-11-14 06:26:01,388 Upserting snow report data 48, Keystone, CO, 0
+2022-11-14 06:26:01,508 Upserting snow report data 49, Loveland, CO, 2
+2022-11-14 06:26:01,625 Upserting snow report data 50, Monarch, CO, 0
+2022-11-14 06:26:01,758 Upserting snow report data 51, Powderhorn, CO, 0
+2022-11-14 06:26:01,884 Upserting snow report data 52, Purgatory, CO, 0
+2022-11-14 06:26:02,007 Upserting snow report data 53, Silverton Mountain, CO, 0
+2022-11-14 06:26:02,126 Upserting snow report data 54, Snowmass, CO, 0
+2022-11-14 06:26:02,247 Upserting snow report data 55, Steamboat, CO, 0
+2022-11-14 06:26:02,368 Upserting snow report data 56, Sunlight, CO, 0
+2022-11-14 06:26:02,487 Upserting snow report data 57, Telluride, CO, 0
+2022-11-14 06:26:02,613 Upserting snow report data 58, Vail, CO, 2
+2022-11-14 06:26:02,739 Upserting snow report data 59, Winter Park, CO, 2
+2022-11-14 06:26:02,857 Upserting snow report data 60, Wolf Creek, CO, 0
+2022-11-14 06:26:30,662 Starting snocountry_scraper script
+2022-11-14 06:27:35,042 Starting snocountry_scraper script
+2022-11-14 06:27:35,042 Getting snow stake image for breck
+2022-11-14 06:27:35,045 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-14 06:27:35,554 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpg HTTP/1.1" 200 177884
+2022-11-14 06:27:43,622 Getting snow stake image for vail
+2022-11-14 06:27:43,623 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-14 06:27:43,827 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpg HTTP/1.1" 200 76568
+2022-11-14 06:27:43,871 Getting snow stake image for beaver_creek
+2022-11-14 06:27:43,873 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-14 06:27:44,081 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpg HTTP/1.1" 200 248380
+2022-11-14 06:27:44,175 Getting snow stake image for crested_butte
+2022-11-14 06:27:44,177 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-14 06:27:44,397 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpg HTTP/1.1" 200 148233
+2022-11-14 06:27:44,479 Getting snow stake image for keystone
+2022-11-14 06:27:44,481 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-14 06:27:44,749 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpg HTTP/1.1" 200 205587
+2022-11-14 06:29:43,319 Starting snocountry_scraper script
+2022-11-14 06:29:43,825 Getting forecast for arapahoebasin
+2022-11-14 06:29:43,827 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:44,459 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:44,557 Success. Forecast for arapahoebasin = 1
+2022-11-14 06:29:44,692 Upserting forecast data 31, Arapahoe Basin, 1
+2022-11-14 06:29:44,748 Getting forecast for aspenhighlands
+2022-11-14 06:29:44,750 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:45,443 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:45,532 Success. Forecast for aspenhighlands = 1
+2022-11-14 06:29:45,592 Upserting forecast data 32, Aspen Highlands, 1
+2022-11-14 06:29:45,657 Getting forecast for aspenmountain
+2022-11-14 06:29:45,658 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:46,359 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:46,451 Success. Forecast for aspenmountain = 1
+2022-11-14 06:29:46,510 Upserting forecast data 33, Aspen Mountain, 1
+2022-11-14 06:29:46,574 Getting forecast for beavercreek
+2022-11-14 06:29:46,576 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:47,283 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:47,387 Success. Forecast for beavercreek = 2
+2022-11-14 06:29:47,450 Upserting forecast data 34, Beaver Creek, 2
+2022-11-14 06:29:47,507 Getting forecast for bluebird
+2022-11-14 06:29:47,509 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:48,255 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:48,367 Success. Forecast for bluebird = 2
+2022-11-14 06:29:48,425 Upserting forecast data 35, Bluebird Backcountry, 2
+2022-11-14 06:29:48,488 Getting forecast for breckenridge
+2022-11-14 06:29:48,490 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:49,285 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:49,388 Success. Forecast for breckenridge = 2
+2022-11-14 06:29:49,449 Upserting forecast data 36, Breckenridge, 2
+2022-11-14 06:29:49,512 Getting forecast for buttermilk
+2022-11-14 06:29:49,514 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:50,235 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:50,328 Success. Forecast for buttermilk = 1
+2022-11-14 06:29:50,387 Upserting forecast data 37, Buttermilk, 1
+2022-11-14 06:29:50,454 Getting forecast for skicooper
+2022-11-14 06:29:50,456 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:51,274 https://opensnow.com:443 "GET /location/skicooper/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:51,416 Success. Forecast for skicooper = 1
+2022-11-14 06:29:51,475 Upserting forecast data 38, Cooper, 1
+2022-11-14 06:29:51,539 Getting forecast for copper
+2022-11-14 06:29:51,540 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:52,985 https://opensnow.com:443 "GET /location/copper/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:53,110 Success. Forecast for copper = 2
+2022-11-14 06:29:53,169 Upserting forecast data 39, Copper Mountain, 2
+2022-11-14 06:29:53,229 Getting forecast for crestedbutte
+2022-11-14 06:29:53,231 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:54,052 https://opensnow.com:443 "GET /location/crestedbutte/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:54,164 Success. Forecast for crestedbutte = 0
+2022-11-14 06:29:54,222 Upserting forecast data 40, Crested Butte, 0
+2022-11-14 06:29:54,288 Getting forecast for echomountain
+2022-11-14 06:29:54,290 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:55,061 https://opensnow.com:443 "GET /location/echomountain/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:55,149 Success. Forecast for echomountain = 3
+2022-11-14 06:29:55,213 Upserting forecast data 41, Echo Mountain, 3
+2022-11-14 06:29:55,273 Getting forecast for eldora
+2022-11-14 06:29:55,275 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:55,996 https://opensnow.com:443 "GET /location/eldora/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:56,092 Success. Forecast for eldora = 5
+2022-11-14 06:29:56,156 Upserting forecast data 42, Eldora, 5
+2022-11-14 06:29:56,216 Getting forecast for skigranby
+2022-11-14 06:29:56,218 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:56,916 https://opensnow.com:443 "GET /location/skigranby/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:57,002 Success. Forecast for skigranby = 3
+2022-11-14 06:29:57,065 Upserting forecast data 43, Granby Ranch, 3
+2022-11-14 06:29:57,129 Getting forecast for hesperus
+2022-11-14 06:29:57,131 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:57,843 https://opensnow.com:443 "GET /location/hesperus/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:57,924 Success. Forecast for hesperus = 0
+2022-11-14 06:29:57,984 Upserting forecast data 44, Hesperus Ski Area, 0
+2022-11-14 06:29:58,050 Getting forecast for irwin
+2022-11-14 06:29:58,052 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:58,752 https://opensnow.com:443 "GET /location/irwin/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:58,837 Success. Forecast for irwin = 0
+2022-11-14 06:29:58,896 Upserting forecast data 46, Irwin, 0
+2022-11-14 06:29:58,961 Getting forecast for keystone
+2022-11-14 06:29:58,962 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:29:59,665 https://opensnow.com:443 "GET /location/keystone/forecast HTTP/1.1" 200 None
+2022-11-14 06:29:59,782 Success. Forecast for keystone = 1
+2022-11-14 06:29:59,842 Upserting forecast data 48, Keystone, 1
+2022-11-14 06:29:59,905 Getting forecast for loveland
+2022-11-14 06:29:59,907 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:00,637 https://opensnow.com:443 "GET /location/loveland/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:00,829 Success. Forecast for loveland = 2
+2022-11-14 06:30:01,045 Upserting forecast data 49, Loveland, 2
+2022-11-14 06:30:01,109 Getting forecast for monarch
+2022-11-14 06:30:01,110 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:02,461 https://opensnow.com:443 "GET /location/monarch/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:02,617 Success. Forecast for monarch = 0
+2022-11-14 06:30:02,696 Upserting forecast data 50, Monarch, 0
+2022-11-14 06:30:02,760 Getting forecast for powderhorn
+2022-11-14 06:30:02,762 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:03,565 https://opensnow.com:443 "GET /location/powderhorn/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:03,682 Success. Forecast for powderhorn = 0
+2022-11-14 06:30:03,743 Upserting forecast data 51, Powderhorn, 0
+2022-11-14 06:30:03,804 Getting forecast for purgatory
+2022-11-14 06:30:03,806 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:04,647 https://opensnow.com:443 "GET /location/purgatory/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:04,746 Success. Forecast for purgatory = 0
+2022-11-14 06:30:04,803 Upserting forecast data 52, Purgatory, 0
+2022-11-14 06:30:04,863 Getting forecast for silverton
+2022-11-14 06:30:04,865 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:05,658 https://opensnow.com:443 "GET /location/silverton/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:05,780 Success. Forecast for silverton = 0
+2022-11-14 06:30:05,842 Upserting forecast data 53, Silverton Mountain, 0
+2022-11-14 06:30:05,907 Getting forecast for snowmass
+2022-11-14 06:30:05,908 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:06,658 https://opensnow.com:443 "GET /location/snowmass/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:06,777 Success. Forecast for snowmass = 1
+2022-11-14 06:30:06,849 Upserting forecast data 54, Snowmass, 1
+2022-11-14 06:30:06,908 Getting forecast for steamboat
+2022-11-14 06:30:06,910 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:07,635 https://opensnow.com:443 "GET /location/steamboat/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:07,723 Success. Forecast for steamboat = 4
+2022-11-14 06:30:07,791 Upserting forecast data 55, Steamboat, 4
+2022-11-14 06:30:07,850 Getting forecast for sunlight
+2022-11-14 06:30:07,852 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:08,594 https://opensnow.com:443 "GET /location/sunlight/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:08,692 Success. Forecast for sunlight = 0
+2022-11-14 06:30:08,752 Upserting forecast data 56, Sunlight, 0
+2022-11-14 06:30:08,815 Getting forecast for telluride
+2022-11-14 06:30:08,817 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:09,539 https://opensnow.com:443 "GET /location/telluride/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:09,666 Success. Forecast for telluride = 0
+2022-11-14 06:30:09,726 Upserting forecast data 57, Telluride, 0
+2022-11-14 06:30:09,789 Getting forecast for vail
+2022-11-14 06:30:09,790 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:10,460 https://opensnow.com:443 "GET /location/vail/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:10,578 Success. Forecast for vail = 4
+2022-11-14 06:30:10,643 Upserting forecast data 58, Vail, 4
+2022-11-14 06:30:10,701 Getting forecast for winterpark
+2022-11-14 06:30:10,702 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:11,370 https://opensnow.com:443 "GET /location/winterpark/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:11,493 Success. Forecast for winterpark = 5
+2022-11-14 06:30:11,553 Upserting forecast data 59, Winter Park, 5
+2022-11-14 06:30:11,623 Getting forecast for wolfcreekcolorado
+2022-11-14 06:30:11,625 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-14 06:30:12,370 https://opensnow.com:443 "GET /location/wolfcreekcolorado/forecast HTTP/1.1" 200 None
+2022-11-14 06:30:12,482 Success. Forecast for wolfcreekcolorado = 1
+2022-11-14 06:30:12,543 Upserting forecast data 60, Wolf Creek, 1
+2022-11-15 12:40:32,367 Starting snocountry_scraper script
+2022-11-15 12:40:32,387 Getting snow stake image for breck
+2022-11-15 12:40:33,044 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-15 12:40:33,895 https://common.snow.com:443 "GET /Mtncams/BreckSnowStake.am.jpg HTTP/1.1" 200 184258
+2022-11-15 12:40:34,355 Getting snow stake image for vail
+2022-11-15 12:40:34,356 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-15 12:40:34,602 https://common.snow.com:443 "GET /Mtncams/VailSnowStake.am.jpg HTTP/1.1" 200 79544
+2022-11-15 12:40:34,654 Getting snow stake image for beaver_creek
+2022-11-15 12:40:34,656 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-15 12:40:34,898 https://common.snow.com:443 "GET /Mtncams/BCSnowStake.am.jpg HTTP/1.1" 200 242286
+2022-11-15 12:40:35,004 Getting snow stake image for crested_butte
+2022-11-15 12:40:35,006 Starting new HTTPS connection (1): common.snow.com:443
+2022-11-15 12:40:35,238 https://common.snow.com:443 "GET /Mtncams/CBSnowStake.am.jpg HTTP/1.1" 200 149332
+2022-11-15 12:40:35,326 Getting snow stake image for keystone
+2022-11-15 12:40:35,327 Starting new HTTPS connection (1): cache.snow.com:443
+2022-11-15 12:40:35,622 https://cache.snow.com:443 "GET /Mtncams/KeySnowStake.jpg HTTP/1.1" 200 233197
+2022-11-15 12:40:37,922 Starting snocountry_scraper script
+2022-11-15 12:40:38,561 Getting forecast for arapahoebasin
+2022-11-15 12:40:38,563 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:39,383 https://opensnow.com:443 "GET /location/arapahoebasin/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:39,515 Success. Forecast for arapahoebasin = 3
+2022-11-15 12:40:39,668 Upserting forecast data 31, Arapahoe Basin, 3
+2022-11-15 12:40:39,736 Getting forecast for aspenhighlands
+2022-11-15 12:40:39,738 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:40,603 https://opensnow.com:443 "GET /location/aspenhighlands/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:40,699 Success. Forecast for aspenhighlands = 0
+2022-11-15 12:40:40,759 Upserting forecast data 32, Aspen Highlands, 0
+2022-11-15 12:40:40,824 Getting forecast for aspenmountain
+2022-11-15 12:40:40,826 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:41,698 https://opensnow.com:443 "GET /location/aspenmountain/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:41,790 Success. Forecast for aspenmountain = 0
+2022-11-15 12:40:41,878 Upserting forecast data 33, Aspen Mountain, 0
+2022-11-15 12:40:41,952 Getting forecast for beavercreek
+2022-11-15 12:40:41,954 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:42,881 https://opensnow.com:443 "GET /location/beavercreek/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:42,998 Success. Forecast for beavercreek = 3
+2022-11-15 12:40:43,056 Upserting forecast data 34, Beaver Creek, 3
+2022-11-15 12:40:43,118 Getting forecast for bluebird
+2022-11-15 12:40:43,119 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:43,928 https://opensnow.com:443 "GET /location/bluebird/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:44,024 Success. Forecast for bluebird = 4
+2022-11-15 12:40:44,092 Upserting forecast data 35, Bluebird Backcountry, 4
+2022-11-15 12:40:44,152 Getting forecast for breckenridge
+2022-11-15 12:40:44,154 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:44,952 https://opensnow.com:443 "GET /location/breckenridge/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:45,060 Success. Forecast for breckenridge = 1
+2022-11-15 12:40:45,122 Upserting forecast data 36, Breckenridge, 1
+2022-11-15 12:40:45,181 Getting forecast for buttermilk
+2022-11-15 12:40:45,182 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:46,035 https://opensnow.com:443 "GET /location/buttermilk/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:46,174 Success. Forecast for buttermilk = 0
+2022-11-15 12:40:46,231 Upserting forecast data 37, Buttermilk, 0
+2022-11-15 12:40:46,302 Getting forecast for skicooper
+2022-11-15 12:40:46,303 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:47,160 https://opensnow.com:443 "GET /location/skicooper/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:47,258 Success. Forecast for skicooper = 1
+2022-11-15 12:40:47,314 Upserting forecast data 38, Cooper, 1
+2022-11-15 12:40:47,373 Getting forecast for copper
+2022-11-15 12:40:47,375 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:48,092 https://opensnow.com:443 "GET /location/copper/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:48,198 Success. Forecast for copper = 3
+2022-11-15 12:40:48,264 Upserting forecast data 39, Copper Mountain, 3
+2022-11-15 12:40:48,337 Getting forecast for crestedbutte
+2022-11-15 12:40:48,339 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:49,093 https://opensnow.com:443 "GET /location/crestedbutte/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:49,186 Success. Forecast for crestedbutte = 0
+2022-11-15 12:40:49,249 Upserting forecast data 40, Crested Butte, 0
+2022-11-15 12:40:49,317 Getting forecast for echomountain
+2022-11-15 12:40:49,319 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:50,226 https://opensnow.com:443 "GET /location/echomountain/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:50,330 Success. Forecast for echomountain = 2
+2022-11-15 12:40:50,392 Upserting forecast data 41, Echo Mountain, 2
+2022-11-15 12:40:50,457 Getting forecast for eldora
+2022-11-15 12:40:50,459 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:51,291 https://opensnow.com:443 "GET /location/eldora/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:51,397 Success. Forecast for eldora = 6
+2022-11-15 12:40:51,467 Upserting forecast data 42, Eldora, 6
+2022-11-15 12:40:51,547 Getting forecast for skigranby
+2022-11-15 12:40:51,549 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:52,621 https://opensnow.com:443 "GET /location/skigranby/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:52,730 Success. Forecast for skigranby = 5
+2022-11-15 12:40:52,805 Upserting forecast data 43, Granby Ranch, 5
+2022-11-15 12:40:52,883 Getting forecast for hesperus
+2022-11-15 12:40:52,885 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:53,656 https://opensnow.com:443 "GET /location/hesperus/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:53,780 Success. Forecast for hesperus = 0
+2022-11-15 12:40:53,842 Upserting forecast data 44, Hesperus Ski Area, 0
+2022-11-15 12:40:53,905 Getting forecast for irwin
+2022-11-15 12:40:53,907 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:54,819 https://opensnow.com:443 "GET /location/irwin/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:54,953 Success. Forecast for irwin = 0
+2022-11-15 12:40:55,012 Upserting forecast data 46, Irwin, 0
+2022-11-15 12:40:55,079 Getting forecast for keystone
+2022-11-15 12:40:55,080 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:55,890 https://opensnow.com:443 "GET /location/keystone/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:55,989 Success. Forecast for keystone = 2
+2022-11-15 12:40:56,045 Upserting forecast data 48, Keystone, 2
+2022-11-15 12:40:56,116 Getting forecast for loveland
+2022-11-15 12:40:56,118 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:56,955 https://opensnow.com:443 "GET /location/loveland/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:57,089 Success. Forecast for loveland = 4
+2022-11-15 12:40:57,165 Upserting forecast data 49, Loveland, 4
+2022-11-15 12:40:57,228 Getting forecast for monarch
+2022-11-15 12:40:57,230 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:58,009 https://opensnow.com:443 "GET /location/monarch/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:58,096 Success. Forecast for monarch = 0
+2022-11-15 12:40:58,158 Upserting forecast data 50, Monarch, 0
+2022-11-15 12:40:58,218 Getting forecast for powderhorn
+2022-11-15 12:40:58,220 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:40:59,121 https://opensnow.com:443 "GET /location/powderhorn/forecast HTTP/1.1" 200 None
+2022-11-15 12:40:59,269 Success. Forecast for powderhorn = 0
+2022-11-15 12:40:59,324 Upserting forecast data 51, Powderhorn, 0
+2022-11-15 12:40:59,390 Getting forecast for purgatory
+2022-11-15 12:40:59,392 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:41:00,257 https://opensnow.com:443 "GET /location/purgatory/forecast HTTP/1.1" 200 None
+2022-11-15 12:41:00,352 Success. Forecast for purgatory = 0
+2022-11-15 12:41:00,421 Upserting forecast data 52, Purgatory, 0
+2022-11-15 12:41:00,484 Getting forecast for silverton
+2022-11-15 12:41:00,485 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:41:01,468 https://opensnow.com:443 "GET /location/silverton/forecast HTTP/1.1" 200 None
+2022-11-15 12:41:01,583 Success. Forecast for silverton = 0
+2022-11-15 12:41:01,671 Upserting forecast data 53, Silverton Mountain, 0
+2022-11-15 12:41:01,762 Getting forecast for snowmass
+2022-11-15 12:41:01,764 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:41:02,705 https://opensnow.com:443 "GET /location/snowmass/forecast HTTP/1.1" 200 None
+2022-11-15 12:41:02,809 Success. Forecast for snowmass = 1
+2022-11-15 12:41:02,867 Upserting forecast data 54, Snowmass, 1
+2022-11-15 12:41:02,935 Getting forecast for steamboat
+2022-11-15 12:41:02,937 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:41:03,830 https://opensnow.com:443 "GET /location/steamboat/forecast HTTP/1.1" 200 None
+2022-11-15 12:41:03,917 Success. Forecast for steamboat = 6
+2022-11-15 12:41:03,993 Upserting forecast data 55, Steamboat, 6
+2022-11-15 12:41:04,061 Getting forecast for sunlight
+2022-11-15 12:41:04,063 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:41:05,146 https://opensnow.com:443 "GET /location/sunlight/forecast HTTP/1.1" 200 None
+2022-11-15 12:41:05,237 Success. Forecast for sunlight = 0
+2022-11-15 12:41:05,302 Upserting forecast data 56, Sunlight, 0
+2022-11-15 12:41:05,365 Getting forecast for telluride
+2022-11-15 12:41:05,367 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:41:06,153 https://opensnow.com:443 "GET /location/telluride/forecast HTTP/1.1" 200 None
+2022-11-15 12:41:06,246 Success. Forecast for telluride = 0
+2022-11-15 12:41:06,314 Upserting forecast data 57, Telluride, 0
+2022-11-15 12:41:06,381 Getting forecast for vail
+2022-11-15 12:41:06,384 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:41:07,236 https://opensnow.com:443 "GET /location/vail/forecast HTTP/1.1" 200 None
+2022-11-15 12:41:07,339 Success. Forecast for vail = 4
+2022-11-15 12:41:07,426 Upserting forecast data 58, Vail, 4
+2022-11-15 12:41:07,503 Getting forecast for winterpark
+2022-11-15 12:41:07,504 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:41:08,441 https://opensnow.com:443 "GET /location/winterpark/forecast HTTP/1.1" 200 None
+2022-11-15 12:41:08,536 Success. Forecast for winterpark = 7
+2022-11-15 12:41:08,622 Upserting forecast data 59, Winter Park, 7
+2022-11-15 12:41:08,685 Getting forecast for wolfcreekcolorado
+2022-11-15 12:41:08,687 Starting new HTTPS connection (1): opensnow.com:443
+2022-11-15 12:41:09,491 https://opensnow.com:443 "GET /location/wolfcreekcolorado/forecast HTTP/1.1" 200 None
+2022-11-15 12:41:09,590 Success. Forecast for wolfcreekcolorado = 0
+2022-11-15 12:41:09,652 Upserting forecast data 60, Wolf Creek, 0
+2022-11-15 12:41:17,997 Starting snocountry_scraper script
+2022-11-15 12:41:18,582 Starting new HTTPS connection (1): www.snocountry.com:443
+2022-11-15 12:41:20,265 https://www.snocountry.com:443 "GET /snow-reports/us/colorado HTTP/1.1" 200 None
+2022-11-15 12:41:20,458 Upserting snow report data 31, Arapahoe Basin, CO, 0
+2022-11-15 12:41:20,583 Upserting snow report data 32, Aspen Highlands, CO, 0
+2022-11-15 12:41:20,705 Upserting snow report data 33, Aspen Mountain, CO, 0
+2022-11-15 12:41:20,848 Upserting snow report data 34, Beaver Creek, CO, 0
+2022-11-15 12:41:20,976 Upserting snow report data 35, Bluebird Backcountry, CO, 0
+2022-11-15 12:41:21,099 Upserting snow report data 36, Breckenridge, CO, 6
+2022-11-15 12:41:21,226 Upserting snow report data 37, Buttermilk, CO, 0
+2022-11-15 12:41:21,346 Upserting snow report data 38, Cooper, CO, 0
+2022-11-15 12:41:21,468 Upserting snow report data 39, Copper Mountain, CO, 2
+2022-11-15 12:41:21,592 Upserting snow report data 40, Crested Butte, CO, 0
+2022-11-15 12:41:21,717 Upserting snow report data 41, Echo Mountain, CO, 0
+2022-11-15 12:41:21,845 Upserting snow report data 42, Eldora, CO, 1
+2022-11-15 12:41:21,962 Upserting snow report data 43, Granby Ranch, CO, 0
+2022-11-15 12:41:22,104 Upserting snow report data 44, Hesperus Ski Area, CO, 0
+2022-11-15 12:41:22,227 Upserting snow report data 45, Howelsen Hill, CO, 0
+2022-11-15 12:41:22,348 Upserting snow report data 46, Irwin, CO, 0
+2022-11-15 12:41:22,466 Upserting snow report data 47, Kendall Mountain, CO, 0
+2022-11-15 12:41:22,615 Upserting snow report data 48, Keystone, CO, 4
+2022-11-15 12:41:22,746 Upserting snow report data 49, Loveland, CO, 1
+2022-11-15 12:41:22,889 Upserting snow report data 50, Monarch, CO, 0
+2022-11-15 12:41:23,064 Upserting snow report data 51, Powderhorn, CO, 0
+2022-11-15 12:41:23,194 Upserting snow report data 52, Purgatory, CO, 0
+2022-11-15 12:41:23,323 Upserting snow report data 53, Silverton Mountain, CO, 0
+2022-11-15 12:41:23,456 Upserting snow report data 54, Snowmass, CO, 0
+2022-11-15 12:41:23,581 Upserting snow report data 55, Steamboat, CO, 0
+2022-11-15 12:41:23,707 Upserting snow report data 56, Sunlight, CO, 0
+2022-11-15 12:41:23,847 Upserting snow report data 57, Telluride, CO, 0
+2022-11-15 12:41:23,988 Upserting snow report data 58, Vail, CO, 9
+2022-11-15 12:41:24,113 Upserting snow report data 59, Winter Park, CO, 3
+2022-11-15 12:41:24,239 Upserting snow report data 60, Wolf Creek, CO, 2

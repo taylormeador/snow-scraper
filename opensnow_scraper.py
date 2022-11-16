@@ -52,7 +52,6 @@ locations = {'arapahoebasin': 'Arapahoe Basin',
     'winterpark': 'Winter Park', 
     'wolfcreekcolorado': 'Wolf Creek'}
 
-
 def driver():
     for location, resort_name in locations.items():
         forecast_amount = get_five_day_forecasted_amount(location)
@@ -70,4 +69,4 @@ def driver():
     db.conn.commit()
 
 if __name__ == '__main__':
-    driver()
+    driver() # I hardly know 'er

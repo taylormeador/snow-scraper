@@ -6,7 +6,7 @@ import logging
 
 # logger setup
 logging.basicConfig(filename='log.log', encoding='utf-8', level=logging.DEBUG, format='%(asctime)s %(message)s')
-logging.info('Starting snocountry_scraper script')
+logging.info('Starting webcam_scraper script')
 
 # urls hosting images of snowstakes
 breck_url = 'https://common.snow.com/Mtncams/BreckSnowStake.am.jpg'
@@ -19,9 +19,9 @@ keystone_url = 'https://cache.snow.com/Mtncams/KeySnowStake.jpg'
 snow_stake_urls = [breck_url, vail_url, beaver_creek_url, crested_butte_url, keystone_url]
 file_names = ['breck', 'vail', 'beaver_creek', 'crested_butte', 'keystone']
 for i in range(len(snow_stake_urls)):
-    logging.info('Getting snow stake image for ' + file_name)
     url = snow_stake_urls[i]
     file_name = file_names[i]
+    logging.info('Getting snow stake image for ' + file_name)
     now = f'{datetime.now():%Y-%m-%d_%H-%M-%S%z}'
     try:
         img = Image.open(requests.get(url, stream=True).raw)
