@@ -55,18 +55,19 @@ locations = {'arapahoebasin': 'Arapahoe Basin',
 def driver():
     for location, resort_name in locations.items():
         forecast_amount = get_five_day_forecasted_amount(location)
-        resorts_key = db.get_resorts_key(resort_name, 'CO')
-        if resorts_key and forecast_amount is not None:
-            logging.info('Upserting forecast data %d, %s, %d', resorts_key, resort_name, forecast_amount)
-            db.cur.execute("""
-            INSERT INTO opensnow_forecasts (date, resorts_key, amount_inches) 
-            VALUES (%s, %s, %s) 
-            ON CONFLICT (date, resorts_key) 
-            DO UPDATE SET amount_inches = EXCLUDED.amount_inches;
-            """, (date, resorts_key, forecast_amount))
-        else:
-            logging.warning('Failed to find resorts_key for %s, %s', resort_name)
-    db.conn.commit()
+        print(forecast_amount)
+        # resorts_key = db.get_resorts_key(resort_name, 'CO')
+        # if resorts_key and forecast_amount is not None:
+        #     logging.info('Upserting forecast data %d, %s, %d', resorts_key, resort_name, forecast_amount)
+        #     db.cur.execute("""
+        #     INSERT INTO opensnow_forecasts (date, resorts_key, amount_inches) 
+        #     VALUES (%s, %s, %s) 
+        #     ON CONFLICT (date, resorts_key) 
+        #     DO UPDATE SET amount_inches = EXCLUDED.amount_inches;
+        #     """, (date, resorts_key, forecast_amount))
+        # else:
+        #     logging.warning('Failed to find resorts_key for %s, %s', resort_name)
+    # db.conn.commit()
 
 if __name__ == '__main__':
     driver() # I hardly know 'er
