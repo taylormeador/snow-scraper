@@ -4,3 +4,4 @@ This project collects data on snow forecasts and snow fall amounts at Colorado s
 
 The scripts at the top level directory are a product of development/testing ideas, while the code that is actually deployed lives in /lambda
 
+![alt text](https://github.com/taylormeador/snow-scraper/blob/main/snow-cloud.drawio.png)
