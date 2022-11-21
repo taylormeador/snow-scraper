@@ -2,4 +2,5 @@
 
 This project collects data on snow forecasts and snow fall amounts at Colorado ski resorts. 
 
-The scripts here are developed/tested locally before being deployed, with some modifications that allow them to run on AWS Lambda.
+The scripts at the top level directory are a product of development/testing ideas, while the code that is actually deployed lives in /lambda
+
